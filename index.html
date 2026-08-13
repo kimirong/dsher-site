@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dsher — 玩转 DeepSeek Harness 的人</title>
+  <meta name="description" content="dsher 是一个围绕 DeepSeek Harness (dsh) 的社区落地页。一切皆插件，人人都能成为 dsher。非官方站点。" />
+  <meta name="theme-color" content="#05070d" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow--a"></div>
+    <div class="bg-glow bg-glow--b"></div>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">&gt;_</span>
+        <span class="brand-name">dsher</span>
+      </a>
+      <nav class="nav-links" aria-label="main">
+        <a href="#about" data-i18n="nav.about">关于</a>
+        <a href="#features" data-i18n="nav.features">特性</a>
+        <a href="#quickstart" data-i18n="nav.quickstart">快速上手</a>
+        <a href="#community" data-i18n="nav.community">社区</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="切换语言">
+          <span class="lang-current">中文</span>
+          <span class="lang-arrow" aria-hidden="true">⇄</span>
+          <span class="lang-next">EN</span>
+        </button>
+        <a class="btn btn--ghost btn--sm" href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener">
+          <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-inner">
+        <span class="badge"><span class="dot" aria-hidden="true"></span><span data-i18n="hero.badge">DeepSeek Harness 社区站 · 非官方</span></span>
+        <h1 class="hero-title">
+          <span class="hero-word" aria-hidden="true">$ </span>dsher
+        </h1>
+        <p class="hero-tagline" data-i18n="hero.tagline">玩转 dsh 的人，都叫 <em>dsher</em>。</p>
+        <p class="hero-sub" data-i18n="hero.sub">dsh（DeepSeek Harness）是 DeepSeek AI 开源的 agent 运行框架——<strong>一切皆插件</strong>。今天它正式亮相，而这里，是 dshers 的聚集地。</p>
+        <div class="hero-cta">
+          <a class="btn btn--primary" href="#quickstart" data-i18n="hero.ctaStart">快速上手</a>
+          <a class="btn btn--ghost" href="#about" data-i18n="hero.ctaAbout">先看看是什么 →</a>
+        </div>
+      </div>
+
+      <!-- terminal -->
+      <div class="terminal" role="img" aria-label="dsh 终端会话演示">
+        <div class="terminal-bar">
+          <span class="traffic" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="terminal-title">dsher@dsh: ~</span>
+          <span class="terminal-dot" aria-hidden="true"></span>
+        </div>
+        <pre class="terminal-body" id="terminal-body"><code><span class="t-line"><span class="t-prompt">$ </span><span class="t-cmd" data-i18n="term.cmd1">npx @deepseek-ai/dsh web</span></span>
+<span class="t-line t-dim" data-i18n="term.line1">▶ DeepSeek Harness 已就绪</span>
+<span class="t-line t-dim" data-i18n="term.line2">  Web UI → http://127.0.0.1:3080</span>
+<span class="t-line t-dim" data-i18n="term.line3">  一切皆插件 · powered by Cordis</span>
+<span class="t-line"><span class="t-prompt">$ </span><span class="t-cmd" data-i18n="term.cmd2">echo "hello, dsher"</span></span>
+<span class="t-line t-out" data-i18n="term.out">hello, dsher 🚀</span>
+<span class="t-line"><span class="t-prompt t-cursor">$ </span><span class="t-cursor-block" aria-hidden="true"></span></span></code></pre>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="section-inner">
+        <p class="eyebrow" data-i18n="about.eyebrow">What is dsh</p>
+        <h2 class="section-title" data-i18n="about.title">什么是 dsh？</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p data-i18n="about.p1">dsh 是 <strong>DeepSeek Harness</strong> 的缩写——DeepSeek AI 开源的 agent harness（智能体运行框架）。它采用「<strong>一切皆插件</strong>」的架构，构建在 Cordis 之上：会话、工具、模型接入、Web UI……整个运行时都由可插拔的组件组装而成。</p>
+            <p data-i18n="about.p2">目前 dsh 处于<em>开发者预览</em>阶段，迭代非常快，官方明确提示会有破坏性变更——但这正是玩它的乐趣所在。</p>
+          </div>
+          <div class="about-why">
+            <h3 data-i18n="about.whyTitle">为什么叫 dsher？</h3>
+            <p data-i18n="about.whyP1"><code>dsh</code> + <code>er</code> —— 就像 hacker 之于 hack，<strong>dsher</strong> 就是「玩 dsh 的人」：写插件的人、调 agent 的人、把想法装进 harness 的人。</p>
+            <p data-i18n="about.whyP2">注册这个域名，是想给这群人一个落脚点。不用申请，不用审核——<em>跑起来的那一刻，你就是 dsher。</em></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="section section--alt" id="features">
+      <div class="section-inner">
+        <p class="eyebrow" data-i18n="features.eyebrow">Why dsh</p>
+        <h2 class="section-title" data-i18n="features.title">为什么值得玩</h2>
+        <div class="features-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🧩</div>
+            <h3 data-i18n="features.f1.title">一切皆插件</h3>
+            <p data-i18n="features.f1.desc">基于 Cordis 的插件化架构，从 agent 循环到 UI 全部可组装、可替换、可自修改。</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🖥️</div>
+            <h3 data-i18n="features.f2.title">多形态入口</h3>
+            <p data-i18n="features.f2.desc">Web UI、CLI、ACP 自动化服务器、JSON-RPC 服务端——同一个 harness，多种玩法。</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🧠</div>
+            <h3 data-i18n="features.f3.title">LLM 能力层</h3>
+            <p data-i18n="features.f3.desc">Service Definition / Consumer 的能力抽象 + DeepSeek 官方 providers，模型接入干净利落。</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🛠️</div>
+            <h3 data-i18n="features.f4.title">工具全家桶</h3>
+            <p data-i18n="features.f4.desc">bash/shell、子进程、文件系统与策略、LSP、Web 搜索抓取、技能（skills）开箱即用。</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">👥</div>
+            <h3 data-i18n="features.f5.title">多智能体协作</h3>
+            <p data-i18n="features.f5.desc">subagents 委托、workflow 编排、todo 与计划模式，把复杂任务拆给一群 agent。</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">📜</div>
+            <h3 data-i18n="features.f6.title">会话持久化</h3>
+            <p data-i18n="features.f6.desc">模型可见的一切都可从会话日志重建——断点续跑、回溯、复现，全程可审计。</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🔒</div>
+            <h3 data-i18n="features.f7.title">安全与审批</h3>
+            <p data-i18n="features.f7.desc">交互式审批、权限控制、文件系统策略与沙箱，让 agent 放开手脚又不失控。</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">♻️</div>
+            <h3 data-i18n="features.f8.title">自我进化</h3>
+            <p data-i18n="features.f8.desc">agent 能检查并挂载自己的插件——它不只是跑在 harness 里，它就是你写的 harness。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ QUICKSTART ============ -->
+    <section class="section" id="quickstart">
+      <div class="section-inner">
+        <p class="eyebrow" data-i18n="quickstart.eyebrow">Get started</p>
+        <h2 class="section-title" data-i18n="quickstart.title">一分钟成为 dsher</h2>
+        <div class="qs-tabs" role="tablist" aria-label="quickstart">
+          <button class="qs-tab is-active" id="tab-npm" role="tab" aria-selected="true" data-i18n="quickstart.tabNpm">npm 安装</button>
+          <button class="qs-tab" id="tab-src" role="tab" aria-selected="false" data-i18n="quickstart.tabSrc">源码运行</button>
+        </div>
+        <div class="code-card is-active" id="panel-npm" role="tabpanel">
+          <div class="code-head"><span data-i18n="quickstart.need">需要：Node.js</span><button class="copy-btn" type="button" data-copy="#code-npm"><span class="copy-label" data-i18n="quickstart.copy">复制</span></button></div>
+          <pre id="code-npm"><code><span class="t-prompt">$ </span>npx @deepseek-ai/dsh web
+<span class="t-dim"># 默认打开 http://127.0.0.1:3080 的 Web UI 🎉</span></code></pre>
+        </div>
+        <div class="code-card" id="panel-src" role="tabpanel" hidden>
+          <div class="code-head"><span data-i18n="quickstart.needSrc">需要：Node.js + pnpm</span><button class="copy-btn" type="button" data-copy="#code-src"><span class="copy-label" data-i18n="quickstart.copy">复制</span></button></div>
+          <pre id="code-src"><code><span class="t-prompt">$ </span>git clone https://github.com/deepseek-ai/deepseek-harness.git
+<span class="t-prompt">$ </span>cd deepseek-harness
+<span class="t-prompt">$ </span>pnpm install
+<span class="t-prompt">$ </span>pnpm run build
+<span class="t-prompt">$ </span>pnpm dsh web</code></pre>
+        </div>
+        <p class="qs-hint" data-i18n="quickstart.hint">更多玩法见官方文档：<a href="https://github.com/deepseek-ai/deepseek-harness#readme" target="_blank" rel="noopener">github.com/deepseek-ai/deepseek-harness</a></p>
+      </div>
+    </section>
+
+    <!-- ============ COMMUNITY ============ -->
+    <section class="section section--alt" id="community">
+      <div class="section-inner">
+        <p class="eyebrow" data-i18n="community.eyebrow">Join us</p>
+        <h2 class="section-title" data-i18n="community.title">找到组织</h2>
+        <div class="community-grid">
+          <a class="c-card" href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener">
+            <span class="c-card-icon" aria-hidden="true">⌥</span>
+            <span class="c-card-name" data-i18n="community.c1.name">GitHub 仓库</span>
+            <span class="c-card-desc" data-i18n="community.c1.desc">源码、Issue、里程碑，star 一下不亏</span>
+          </a>
+          <a class="c-card" href="https://github.com/deepseek-ai/deepseek-harness/discussions" target="_blank" rel="noopener">
+            <span class="c-card-icon" aria-hidden="true">💬</span>
+            <span class="c-card-name" data-i18n="community.c2.name">GitHub Discussions</span>
+            <span class="c-card-desc" data-i18n="community.c2.desc">反馈、提问、晒作品</span>
+          </a>
+          <a class="c-card" href="https://discord.gg/Ycq5dCaS4" target="_blank" rel="noopener">
+            <span class="c-card-icon" aria-hidden="true">✳</span>
+            <span class="c-card-name" data-i18n="community.c3.name">Discord</span>
+            <span class="c-card-desc" data-i18n="community.c3.desc">和全球 dshers 实时聊</span>
+          </a>
+          <a class="c-card" href="https://github.com/topics/dsh-plugin" target="_blank" rel="noopener">
+            <span class="c-card-icon" aria-hidden="true">🧩</span>
+            <span class="c-card-name" data-i18n="community.c4.name">dsh-plugin 生态</span>
+            <span class="c-card-desc" data-i18n="community.c4.desc">给插件仓库打上这个 topic</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-brand">dsher<span class="footer-dot" aria-hidden="true">.</span>cn</p>
+      <p class="footer-disclaimer" data-i18n="footer.disclaimer">本站是 dsher 社区的非官方页面，与 DeepSeek AI 无隶属关系。DeepSeek Harness (dsh) 是 DeepSeek AI 的 MIT 开源项目；文中商标归各自所有者所有。</p>
+      <p class="footer-meta">© <span id="year">2025</span> dsher.cn · <span data-i18n="footer.built">用 ❤ 和 dsh 搭的</span></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
