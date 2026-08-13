@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="340" viewBox="0 0 1200 340"
+     role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">dsher.cn</title>
+  <desc id="heroDesc">dsher.cn —— 玩转 DeepSeek Harness (dsh) 的社区落地页：纯静态、中英双语、深色科技风。右侧是取自页面的终端窗口元素。</desc>
+
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0.9">
+      <stop offset="0" stop-color="#4d8dff"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4d8dff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#4d8dff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#648cff" stroke-opacity="0.06"/>
+    </pattern>
+    <clipPath id="round">
+      <rect width="1200" height="340" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="340" fill="#05070d"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <circle cx="250" cy="-40" r="430" fill="url(#glow)"/>
+    <circle cx="1120" cy="370" r="320" fill="url(#glow)" opacity="0.55"/>
+  </g>
+
+  <!-- ===== left: title block ===== -->
+  <g id="title-block" transform="translate(56 0)">
+    <text x="0" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="19" letter-spacing="4" fill="#22d3ee">DSHER.CN · 社区落地页 · 非官方</text>
+
+    <text x="0" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans SC', sans-serif"
+          font-weight="800" font-size="76">
+      <tspan fill="#5c6b8a" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="44">$ </tspan>
+      <tspan fill="url(#grad)">dsher.cn</tspan>
+    </text>
+
+    <text x="0" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans SC', sans-serif"
+          font-size="26" font-weight="600" fill="#e7eefb">玩转 dsh 的人，都叫 <tspan fill="#22d3ee">dsher</tspan>。</text>
+
+    <text x="0" y="252" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Noto Sans SC', sans-serif"
+          font-size="20" fill="#93a1bf">围绕 DeepSeek Harness (dsh) 的社区落地页。</text>
+
+    <text x="0" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="19" fill="#5c6b8a">static · i18n zh/en · no build · Cloudflare Pages</text>
+  </g>
+
+  <!-- ===== right: terminal motif from the site ===== -->
+  <g id="terminal" transform="translate(700 36)">
+    <rect width="444" height="260" rx="16" fill="#070b13"
+          stroke="#7ab4ff" stroke-opacity="0.32"/>
+    <rect width="444" height="42" rx="16" fill="#0c1322"/>
+    <rect y="21" width="444" height="21" fill="#0c1322"/>
+    <line x1="0" y1="42" x2="444" y2="42" stroke="#7aa0ff" stroke-opacity="0.14"/>
+
+    <circle cx="22" cy="21" r="6" fill="#ff5f57"/>
+    <circle cx="44" cy="21" r="6" fill="#febc2e"/>
+    <circle cx="66" cy="21" r="6" fill="#28c840"/>
+    <text x="92" y="27" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+          font-size="15" fill="#5c6b8a">dsher@dsh: ~</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="18">
+      <text x="24" y="88"><tspan fill="#22d3ee">$ </tspan><tspan fill="#e7eefb">npx @deepseek-ai/dsh web</tspan></text>
+      <text x="24" y="122" fill="#5c6b8a">▶ DeepSeek Harness 已就绪</text>
+      <text x="24" y="148" fill="#5c6b8a">  Web UI → http://127.0.0.1:3080</text>
+      <text x="24" y="174"><tspan fill="#22d3ee">$ </tspan><tspan fill="#e7eefb">echo "hello, dsher"</tspan></text>
+      <text x="24" y="200" fill="#7ee7b8">hello, dsher</text>
+      <text x="24" y="240" fill="#22d3ee">$</text>
+    </g>
+    <rect x="40" y="224" width="11" height="22" rx="2" fill="#22d3ee"/>
+  </g>
+</svg>
