@@ -45,16 +45,21 @@ python3 -m http.server 8080
 
 ```
 dsher-site/
-├── index.html     # 页面结构（中英双语 data-i18n 属性）
-├── plugins.html   # 插件市场页（搜索 / 筛选 / 一键复制安装命令）
+├── index.html     # 页面结构（中英双语 data-i18n 属性）+ SEO（OG/canonical/JSON-LD）
+├── plugins.html   # 插件市场页（搜索 / 筛选 / 一键复制安装命令）+ SEO + ItemList 结构化数据
 ├── styles.css     # 深色科技风样式
 ├── plugins.css    # 插件市场样式
 ├── app.js         # 中英切换 / 复制按钮 / tab / 插件市场渲染
 ├── favicon.svg    # 站点图标
 ├── plugins.json   # 插件市场数据（97 个插件，见下方刷新方法）
+├── robots.txt     # 搜索引擎抓取规则 + sitemap 声明
+├── sitemap.xml    # 站点地图（首页 / 插件市场）
 ├── scripts/
 │   └── update-plugins.py  # 一键刷新社区插件数据（GitHub API）
-└── assets/readme/ # README 视觉素材（hero.svg / preview.png）
+├── assets/
+│   ├── og-image.png      # 社交分享图（1200×630）
+│   ├── og.svg            # OG 图的 SVG 源文件
+│   └── readme/           # README 视觉素材（hero.svg / preview.png）
 ```
 
 ## 插件市场
