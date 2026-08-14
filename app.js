@@ -18,6 +18,7 @@
     "hero.tagline":    { zh: "玩转 dsh 的人，都叫 <em>dsher</em>。", en: "People who play with dsh are called <em>dshers</em>." },
     "hero.sub":        { zh: "dsh（DeepSeek Harness）是 DeepSeek AI 开源的 agent 运行框架——<strong>一切皆插件</strong>。今天它正式亮相，而这里，是 dshers 的聚集地。", en: "dsh (DeepSeek Harness) is DeepSeek AI's open-source agent harness — <strong>everything is a plugin</strong>. It just launched today, and this is where the dshers gather." },
     "hero.ctaStart":   { zh: "快速上手",        en: "Get started" },
+    "hero.ctaPlugins": { zh: "插件市场",        en: "Plugin Marketplace" },
     "hero.ctaAbout":   { zh: "先看看是什么 →",  en: "What is dsh? →" },
     "term.cmd1":       { zh: "npx @deepseek-ai/dsh web", en: "npx @deepseek-ai/dsh web" },
     "term.line1":      { zh: "▶ DeepSeek Harness 已就绪", en: "▶ DeepSeek Harness is ready" },
