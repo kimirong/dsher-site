@@ -48,14 +48,16 @@ dsher-site/
 ├── index.html     # 页面结构（中英双语 data-i18n 属性）+ SEO（OG/canonical/JSON-LD）
 ├── plugins.html   # 插件市场页（搜索 / 筛选 / 一键复制安装命令）+ SEO + ItemList 结构化数据
 ├── styles.css     # 深色科技风样式
-├── plugins.css    # 插件市场样式
+├── plugins.css    # 插件市场样式（含插件详情页样式）
 ├── app.js         # 中英切换 / 复制按钮 / tab / 插件市场渲染
 ├── favicon.svg    # 站点图标
 ├── plugins.json   # 插件市场数据（97 个插件，见下方刷新方法）
+├── plugins/       # 每个插件一个静态详情页（由脚本生成，勿手改）
 ├── robots.txt     # 搜索引擎抓取规则 + sitemap 声明
-├── sitemap.xml    # 站点地图（首页 / 插件市场）
+├── sitemap.xml    # 站点地图（首页 / 插件市场 / 97 个插件详情页，自动生成）
 ├── scripts/
-│   └── update-plugins.py  # 一键刷新社区插件数据（GitHub API）
+│   ├── update-plugins.py        # 一键刷新社区插件数据 + 重新生成详情页（GitHub API）
+│   └── generate_plugin_pages.py # 从 plugins.json 生成详情页 + sitemap
 ├── assets/
 │   ├── og-image.png      # 社交分享图（1200×630）
 │   ├── og.svg            # OG 图的 SVG 源文件
@@ -65,6 +67,8 @@ dsher-site/
 ## 插件市场
 
 [plugins.html](plugins.html) 整合了 dsh 生态的插件：官方内置/示例、社区插件、生态索引，支持按名称/作者/标签搜索、按类型筛选、按 Star 排序，社区插件卡片带一键复制的安装命令（`dsh plugin add github:<owner>/<repo>`）。
+
+每个插件在 `plugins/<slug>.html` 有独立详情页（含 install 命令、仓库链接、同类型推荐、独立 SEO 元数据），列表卡片点击插件名即可进入。
 
 **刷新数据**（社区插件的 Star 和描述来自 GitHub，会过时）：
 

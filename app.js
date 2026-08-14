@@ -103,6 +103,13 @@
     "pl.howtoNote2Title": { zh: "安全提示：",  en: "Security:" },
     "pl.howtoNote2":   { zh: "安装会执行包代码，请只允许你信任的来源，并固定 commit。", en: "Installing executes package code on your machine — only allow sources you trust, and pin a commit." },
     "pl.howtoDoc":     { zh: "完整机制见官方文档：", en: "Full mechanics in the official docs:" },
+
+    /* ---- plugin detail pages ---- */
+    "pl.detail.more":   { zh: "更多插件",        en: "More plugins" },
+    "pl.detail.viewAll":{ zh: "查看全部 →",      en: "View all →" },
+    "pl.detail.repo":   { zh: "GitHub 仓库",     en: "GitHub repo" },
+    "pl.detail.back":   { zh: "返回插件市场",    en: "Back to marketplace" },
+    "pl.detail.installHint": { zh: "在 dsh 项目里执行此命令即可安装。", en: "Run this command in your dsh project to install." },
   };
 
   const LS_KEY = "dsher-lang";
@@ -136,11 +143,14 @@
       toggle.querySelector(".lang-next").textContent = lang === "zh" ? "EN" : "中文";
     }
     const isPluginsPage = !!document.getElementById("pl-grid");
-    document.title = isPluginsPage
-      ? (lang === "zh" ? "插件市场 — dsher" : "Plugin Marketplace — dsher")
-      : (lang === "zh"
-        ? "dsher — 玩转 DeepSeek Harness 的人"
-        : "dsher — people who play with DeepSeek Harness");
+    const isPluginDetail = !!document.querySelector(".plp-name");
+    if (!isPluginDetail) {
+      document.title = isPluginsPage
+        ? (lang === "zh" ? "插件市场 — dsher" : "Plugin Marketplace — dsher")
+        : (lang === "zh"
+          ? "dsher — 玩转 DeepSeek Harness 的人"
+          : "dsher — people who play with DeepSeek Harness");
+    }
     try { localStorage.setItem(LS_KEY, lang); } catch (e) { /* ignore */ }
     if (isPluginsPage && PLUGINS.length) {
       updateTabs();
@@ -310,8 +320,9 @@
     badge.className = "pl-badge pl-badge--" + p.type;
     badge.textContent = I18N["pl.filter" + p.type.charAt(0).toUpperCase() + p.type.slice(1)][lang];
 
-    const name = document.createElement("span");
+    const name = document.createElement("a");
     name.className = "pl-name";
+    name.href = "/plugins/" + (p.slug || p.id) + ".html";
     name.textContent = p.name;
     name.title = p.name;
 

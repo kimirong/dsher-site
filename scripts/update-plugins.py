@@ -136,6 +136,15 @@ def main():
     all_plugins.sort(key=lambda p: (order[p["type"]], 0 if p["type"] == "official" else -(p["stars"] or 0),
                                     p["name"] if p["type"] == "official" else ""))
 
+    # unique lowercase slug for detail-page filenames (filesystem-safe,
+    # case-insensitively unique: name, or author-name on collision)
+    from collections import Counter
+    lower_names = [p["name"].lower() for p in all_plugins]
+    name_counts = Counter(lower_names)
+    for p in all_plugins:
+        base = p["name"].lower().replace("/", "-")
+        p["slug"] = base if name_counts[base] == 1 else f"{p['author']}-{p['name']}".lower().replace("/", "-")
+
     out = {"updated": date.today().isoformat(), "source": "GitHub topic:dsh-plugin + deepseek-harness repo",
            "plugins": all_plugins}
     json.dump(out, open(REPO, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -143,6 +152,13 @@ def main():
           f"({sum(1 for p in all_plugins if p['type'] == 'official')} official, "
           f"{sum(1 for p in all_plugins if p['type'] == 'community')} community, "
           f"{sum(1 for p in all_plugins if p['type'] == 'index')} index)")
+
+    # regenerate static plugin detail pages + sitemap from the fresh data
+    try:
+        from generate_plugin_pages import main as gen_main
+        gen_main()
+    except Exception as e:
+        print(f"note: plugin pages not regenerated ({e}); run scripts/generate-plugin-pages.py manually")
 
 
 if __name__ == "__main__":

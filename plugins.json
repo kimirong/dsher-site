@@ -17,7 +17,8 @@
     "基础",
     "官方"
    ],
-   "install": "dsh plugin add @deepseek-ai/dsh-base"
+   "install": "dsh plugin add @deepseek-ai/dsh-base",
+   "slug": "@deepseek-ai-dsh-base"
   },
   {
    "id": "dsh-bash-local",
@@ -34,7 +35,8 @@
     "shell",
     "bash"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-bash-local"
   },
   {
    "id": "dsh-bash-sandbox",
@@ -51,7 +53,8 @@
     "shell",
     "沙箱"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-bash-sandbox"
   },
   {
    "id": "dsh-compaction",
@@ -68,7 +71,8 @@
     "compaction",
     "上下文"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-compaction"
   },
   {
    "id": "dsh-credentials-local",
@@ -85,7 +89,8 @@
     "credentials",
     "凭据"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-credentials-local"
   },
   {
    "id": "dsh-fs",
@@ -102,7 +107,8 @@
     "fs",
     "文件系统"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-fs"
   },
   {
    "id": "dsh-fs-observation-policy",
@@ -119,7 +125,8 @@
     "fs",
     "策略"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-fs-observation-policy"
   },
   {
    "id": "dsh-goal",
@@ -136,7 +143,8 @@
     "goal",
     "目标"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-goal"
   },
   {
    "id": "dsh-headless",
@@ -153,7 +161,8 @@
     "headless",
     "官方"
    ],
-   "install": "dsh plugin add @deepseek-ai/dsh-headless"
+   "install": "dsh plugin add @deepseek-ai/dsh-headless",
+   "slug": "@deepseek-ai-dsh-headless"
   },
   {
    "id": "dsh-hooks-claude-code",
@@ -170,7 +179,8 @@
     "hooks",
     "claude-code"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-hooks-claude-code"
   },
   {
    "id": "dsh-hooks-codex",
@@ -187,7 +197,8 @@
     "hooks",
     "codex"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-hooks-codex"
   },
   {
    "id": "dsh-llm-deepseek",
@@ -204,7 +215,8 @@
     "llm",
     "deepseek"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-llm-deepseek"
   },
   {
    "id": "dsh-lsp",
@@ -221,7 +233,8 @@
     "lsp",
     "语言服务器"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-lsp"
   },
   {
    "id": "dsh-lsp-stdio",
@@ -238,7 +251,8 @@
     "lsp",
     "语言服务器"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-lsp-stdio"
   },
   {
    "id": "dsh-mcp-client",
@@ -255,7 +269,8 @@
     "mcp",
     "桥接"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-mcp-client"
   },
   {
    "id": "dsh-plan-mode",
@@ -272,7 +287,8 @@
     "plan",
     "计划"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-plan-mode"
   },
   {
    "id": "dsh-sandbox",
@@ -289,7 +305,8 @@
     "沙箱",
     "安全"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-sandbox"
   },
   {
    "id": "dsh-schedule",
@@ -306,7 +323,8 @@
     "schedule",
     "定时"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-schedule"
   },
   {
    "id": "dsh-session-persistence-sqlite",
@@ -323,7 +341,8 @@
     "session",
     "存储"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-session-persistence-sqlite"
   },
   {
    "id": "dsh-session-query-sqlite",
@@ -340,7 +359,8 @@
     "session",
     "检索"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-session-query-sqlite"
   },
   {
    "id": "dsh-session-telemetry-otel",
@@ -357,7 +377,8 @@
     "telemetry",
     "otel"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-session-telemetry-otel"
   },
   {
    "id": "dsh-settings-file",
@@ -374,7 +395,8 @@
     "settings",
     "设置"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-settings-file"
   },
   {
    "id": "dsh-skill",
@@ -391,7 +413,8 @@
     "skill",
     "技能"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-skill"
   },
   {
    "id": "dsh-subagent",
@@ -408,7 +431,8 @@
     "subagent",
     "多智能体"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-subagent"
   },
   {
    "id": "dsh-subprocess",
@@ -425,7 +449,8 @@
     "subprocess",
     "进程"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-subprocess"
   },
   {
    "id": "dsh-terminal",
@@ -442,7 +467,8 @@
     "terminal",
     "pty"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-terminal"
   },
   {
    "id": "dsh-tool-todo",
@@ -459,7 +485,8 @@
     "todo",
     "工具"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-tool-todo"
   },
   {
    "id": "dsh-web",
@@ -476,7 +503,8 @@
     "web",
     "搜索"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-web"
   },
   {
    "id": "dsh-web-app",
@@ -493,7 +521,8 @@
     "web-ui",
     "官方"
    ],
-   "install": "dsh plugin add @deepseek-ai/dsh-web-app"
+   "install": "dsh plugin add @deepseek-ai/dsh-web-app",
+   "slug": "@deepseek-ai-dsh-web-app"
   },
   {
    "id": "dsh-web-search-deepseek",
@@ -510,7 +539,8 @@
     "web",
     "搜索"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-web-search-deepseek"
   },
   {
    "id": "dsh-workflow",
@@ -527,7 +557,8 @@
     "workflow",
     "编排"
    ],
-   "install": null
+   "install": null,
+   "slug": "@deepseek-ai-dsh-workflow"
   },
   {
    "id": "example-acp-agent",
@@ -544,7 +575,8 @@
     "示例",
     "acp"
    ],
-   "install": null
+   "install": null,
+   "slug": "examples-acp-agent"
   },
   {
    "id": "example-headless-agent",
@@ -561,7 +593,8 @@
     "示例",
     "headless"
    ],
-   "install": null
+   "install": null,
+   "slug": "examples-headless-agent"
   },
   {
    "id": "example-jsonrpc-agent",
@@ -578,7 +611,8 @@
     "示例",
     "sdk"
    ],
-   "install": null
+   "install": null,
+   "slug": "examples-jsonrpc-agent"
   },
   {
    "id": "example-mcp-memory",
@@ -595,7 +629,8 @@
     "示例",
     "mcp"
    ],
-   "install": null
+   "install": null,
+   "slug": "examples-mcp-memory"
   },
   {
    "id": "example-web-cordis",
@@ -612,7 +647,8 @@
     "示例",
     "web-ui"
    ],
-   "install": null
+   "install": null,
+   "slug": "examples-web-cordis"
   },
   {
    "id": "example-web-schedule",
@@ -629,7 +665,8 @@
     "示例",
     "定时"
    ],
-   "install": null
+   "install": null,
+   "slug": "examples-web-schedule"
   },
   {
    "id": "dsh-web-ui",
@@ -644,7 +681,8 @@
     "皮肤",
     "工具面板"
    ],
-   "install": "dsh plugin add github:zhu1090093659/dsh-web-ui"
+   "install": "dsh plugin add github:zhu1090093659/dsh-web-ui",
+   "slug": "dsh-web-ui"
   },
   {
    "id": "modlens",
@@ -658,7 +696,8 @@
     "视觉",
     "vision"
    ],
-   "install": "dsh plugin add github:liustack/modlens"
+   "install": "dsh plugin add github:liustack/modlens",
+   "slug": "modlens"
   },
   {
    "id": "dsh-TUI",
@@ -672,7 +711,8 @@
     "终端",
     "tui"
    ],
-   "install": "dsh plugin add github:ccch1mneyyy/dsh-TUI"
+   "install": "dsh plugin add github:ccch1mneyyy/dsh-TUI",
+   "slug": "dsh-tui"
   },
   {
    "id": "DSH-better-sidebar",
@@ -686,7 +726,8 @@
     "web-ui",
     "侧边栏"
    ],
-   "install": "dsh plugin add github:omdsh-dev/DSH-better-sidebar"
+   "install": "dsh plugin add github:omdsh-dev/DSH-better-sidebar",
+   "slug": "dsh-better-sidebar"
   },
   {
    "id": "deepseek-harness-desktop",
@@ -699,7 +740,8 @@
    "tags": [
     "桌面端"
    ],
-   "install": null
+   "install": null,
+   "slug": "anywhere-labs-deepseek-harness-desktop"
   },
   {
    "id": "MuseAI",
@@ -713,7 +755,8 @@
     "角色扮演",
     "ai"
    ],
-   "install": "dsh plugin add github:yejiming/MuseAI"
+   "install": "dsh plugin add github:yejiming/MuseAI",
+   "slug": "museai"
   },
   {
    "id": "dsh-deep-whale",
@@ -727,7 +770,8 @@
     "皮肤",
     "鲸鱼"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-deep-whale"
   },
   {
    "id": "dsh-vision-toolkit",
@@ -741,7 +785,8 @@
     "视觉",
     "ocr"
    ],
-   "install": "dsh plugin add github:Anionex/dsh-vision-toolkit"
+   "install": "dsh plugin add github:Anionex/dsh-vision-toolkit",
+   "slug": "dsh-vision-toolkit"
   },
   {
    "id": "dsh-ads",
@@ -755,7 +800,8 @@
     "趣味",
     "web-ui"
    ],
-   "install": "dsh plugin add github:Nagi-ovo/dsh-ads"
+   "install": "dsh plugin add github:Nagi-ovo/dsh-ads",
+   "slug": "dsh-ads"
   },
   {
    "id": "dsh-agent-teams",
@@ -768,7 +814,8 @@
    "tags": [
     "多智能体"
    ],
-   "install": "dsh plugin add github:NanmiCoder/dsh-agent-teams"
+   "install": "dsh plugin add github:NanmiCoder/dsh-agent-teams",
+   "slug": "dsh-agent-teams"
   },
   {
    "id": "oh-dsh",
@@ -781,7 +828,8 @@
    "tags": [
     "发行版"
    ],
-   "install": null
+   "install": null,
+   "slug": "oh-dsh"
   },
   {
    "id": "dsh-tianshu-tui",
@@ -795,7 +843,8 @@
     "终端",
     "workflow"
    ],
-   "install": "dsh plugin add github:huiliyi37/dsh-tianshu-tui"
+   "install": "dsh plugin add github:huiliyi37/dsh-tianshu-tui",
+   "slug": "dsh-tianshu-tui"
   },
   {
    "id": "whale-girl",
@@ -809,7 +858,8 @@
     "皮肤",
     "桌面宠物"
    ],
-   "install": null
+   "install": null,
+   "slug": "whale-girl"
   },
   {
    "id": "dsh-at-file",
@@ -823,7 +873,8 @@
     "编辑器",
     "@引用"
    ],
-   "install": "dsh plugin add github:omdsh-dev/dsh-at-file"
+   "install": "dsh plugin add github:omdsh-dev/dsh-at-file",
+   "slug": "dsh-at-file"
   },
   {
    "id": "modsearch",
@@ -837,7 +888,8 @@
     "搜索",
     "web"
    ],
-   "install": "dsh plugin add github:liustack/modsearch"
+   "install": "dsh plugin add github:liustack/modsearch",
+   "slug": "modsearch"
   },
   {
    "id": "dsh-browser",
@@ -851,7 +903,8 @@
     "浏览器",
     "自动化"
    ],
-   "install": "dsh plugin add github:Lum1104/dsh-browser"
+   "install": "dsh plugin add github:Lum1104/dsh-browser",
+   "slug": "dsh-browser"
   },
   {
    "id": "dsh-visualize",
@@ -864,7 +917,8 @@
    "tags": [
     "生成式ui"
    ],
-   "install": "dsh plugin add github:Nagi-ovo/dsh-visualize"
+   "install": "dsh plugin add github:Nagi-ovo/dsh-visualize",
+   "slug": "dsh-visualize"
   },
   {
    "id": "dsh-genui",
@@ -877,7 +931,8 @@
    "tags": [
     "生成式ui"
    ],
-   "install": "dsh plugin add github:omdsh-dev/dsh-genui"
+   "install": "dsh plugin add github:omdsh-dev/dsh-genui",
+   "slug": "dsh-genui"
   },
   {
    "id": "dsh-openpencil",
@@ -891,7 +946,8 @@
     "设计",
     "预览"
    ],
-   "install": "dsh plugin add github:ZSeven-W/dsh-openpencil"
+   "install": "dsh plugin add github:ZSeven-W/dsh-openpencil",
+   "slug": "dsh-openpencil"
   },
   {
    "id": "dsh-launcher",
@@ -905,7 +961,8 @@
     "windows",
     "启动器"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-launcher"
   },
   {
    "id": "dsh_workflow",
@@ -918,7 +975,8 @@
    "tags": [
     "workflow"
    ],
-   "install": "dsh plugin add github:icetomoyo/dsh_workflow"
+   "install": "dsh plugin add github:icetomoyo/dsh_workflow",
+   "slug": "dsh_workflow"
   },
   {
    "id": "dsh-open-in-vscode",
@@ -932,7 +990,8 @@
     "vscode",
     "开发"
    ],
-   "install": "dsh plugin add github:omdsh-dev/dsh-open-in-vscode"
+   "install": "dsh plugin add github:omdsh-dev/dsh-open-in-vscode",
+   "slug": "dsh-open-in-vscode"
   },
   {
    "id": "dsh-notification",
@@ -945,7 +1004,8 @@
    "tags": [
     "通知"
    ],
-   "install": "dsh plugin add github:omdsh-dev/dsh-notification"
+   "install": "dsh plugin add github:omdsh-dev/dsh-notification",
+   "slug": "dsh-notification"
   },
   {
    "id": "Deepseek-Harness-Desktop",
@@ -958,7 +1018,8 @@
    "tags": [
     "桌面端"
    ],
-   "install": null
+   "install": null,
+   "slug": "chisaalter-deepseek-harness-desktop"
   },
   {
    "id": "dsh-turn-rewind",
@@ -972,7 +1033,8 @@
     "回退",
     "状态"
    ],
-   "install": "dsh plugin add github:Anionex/dsh-turn-rewind"
+   "install": "dsh plugin add github:Anionex/dsh-turn-rewind",
+   "slug": "dsh-turn-rewind"
   },
   {
    "id": "dsh-memory-evolve",
@@ -986,7 +1048,8 @@
     "记忆",
     "进化"
    ],
-   "install": "dsh plugin add github:csyangwen/dsh-memory-evolve"
+   "install": "dsh plugin add github:csyangwen/dsh-memory-evolve",
+   "slug": "dsh-memory-evolve"
   },
   {
    "id": "dsh-annotation",
@@ -1000,7 +1063,8 @@
     "批注",
     "web-ui"
    ],
-   "install": "dsh plugin add github:omdsh-dev/dsh-annotation"
+   "install": "dsh plugin add github:omdsh-dev/dsh-annotation",
+   "slug": "dsh-annotation"
   },
   {
    "id": "dsh-multica-runtime",
@@ -1013,7 +1077,8 @@
    "tags": [
     "运行时"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-multica-runtime"
   },
   {
    "id": "dsh-ui-whale",
@@ -1027,7 +1092,8 @@
     "皮肤",
     "鲸鱼"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-ui-whale"
   },
   {
    "id": "dsh-automation",
@@ -1041,7 +1107,8 @@
     "自动化",
     "定时任务"
    ],
-   "install": "dsh plugin add github:titanwings/dsh-automation"
+   "install": "dsh plugin add github:titanwings/dsh-automation",
+   "slug": "dsh-automation"
   },
   {
    "id": "dsh-interconnect",
@@ -1055,7 +1122,8 @@
     "互联",
     "消息"
    ],
-   "install": "dsh plugin add github:Chinesezjc/dsh-interconnect"
+   "install": "dsh plugin add github:Chinesezjc/dsh-interconnect",
+   "slug": "dsh-interconnect"
   },
   {
    "id": "dsh-custom-tool",
@@ -1069,7 +1137,8 @@
     "工具",
     "开发"
    ],
-   "install": "dsh plugin add github:omdsh-dev/dsh-custom-tool"
+   "install": "dsh plugin add github:omdsh-dev/dsh-custom-tool",
+   "slug": "dsh-custom-tool"
   },
   {
    "id": "dsh-work",
@@ -1082,7 +1151,8 @@
    "tags": [
     "工作台"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-work"
   },
   {
    "id": "dsh-openbiliclaw",
@@ -1095,7 +1165,8 @@
    "tags": [
     "内容发现"
    ],
-   "install": "dsh plugin add github:whiteguo233/dsh-openbiliclaw"
+   "install": "dsh plugin add github:whiteguo233/dsh-openbiliclaw",
+   "slug": "dsh-openbiliclaw"
   },
   {
    "id": "dsh-desktop",
@@ -1108,7 +1179,8 @@
    "tags": [
     "桌面端"
    ],
-   "install": null
+   "install": null,
+   "slug": "iuikj-dsh-desktop"
   },
   {
    "id": "dsh-vision-router",
@@ -1121,7 +1193,8 @@
    "tags": [
     "视觉"
    ],
-   "install": "dsh plugin add github:ysr666/dsh-vision-router"
+   "install": "dsh plugin add github:ysr666/dsh-vision-router",
+   "slug": "dsh-vision-router"
   },
   {
    "id": "dsh-desktop",
@@ -1134,7 +1207,8 @@
    "tags": [
     "桌面端"
    ],
-   "install": null
+   "install": null,
+   "slug": "bruc3van-dsh-desktop"
   },
   {
    "id": "dsh-plugin-template",
@@ -1148,7 +1222,8 @@
     "开发",
     "模板"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-plugin-template"
   },
   {
    "id": "dsh-plugin-mineru",
@@ -1161,7 +1236,8 @@
    "tags": [
     "文档解析"
    ],
-   "install": "dsh plugin add github:HuanLinOTO/dsh-plugin-mineru"
+   "install": "dsh plugin add github:HuanLinOTO/dsh-plugin-mineru",
+   "slug": "dsh-plugin-mineru"
   },
   {
    "id": "dsh-plugin-product-subagents",
@@ -1174,7 +1250,8 @@
    "tags": [
     "多智能体"
    ],
-   "install": "dsh plugin add github:shaokeyibb/dsh-plugin-product-subagents"
+   "install": "dsh plugin add github:shaokeyibb/dsh-plugin-product-subagents",
+   "slug": "dsh-plugin-product-subagents"
   },
   {
    "id": "dsh-plugin-cc",
@@ -1188,7 +1265,8 @@
     "claude-code",
     "桥接"
    ],
-   "install": "dsh plugin add github:cpj-dev/dsh-plugin-cc"
+   "install": "dsh plugin add github:cpj-dev/dsh-plugin-cc",
+   "slug": "dsh-plugin-cc"
   },
   {
    "id": "dsh-plugin-background",
@@ -1202,7 +1280,8 @@
     "壁纸",
     "皮肤"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-plugin-background"
   },
   {
    "id": "awesome-dsh-plugins",
@@ -1216,7 +1295,8 @@
     "精选",
     "雷达"
    ],
-   "install": null
+   "install": null,
+   "slug": "awesome-dsh-plugins"
   },
   {
    "id": "awesome-dsh-plugin",
@@ -1229,7 +1309,8 @@
    "tags": [
     "精选"
    ],
-   "install": null
+   "install": null,
+   "slug": "awesome-dsh-plugin-awesome-dsh-plugin"
   },
   {
    "id": "awesome-deepseek-harness",
@@ -1243,7 +1324,8 @@
     "精选",
     "生态"
    ],
-   "install": null
+   "install": null,
+   "slug": "0xsline-awesome-deepseek-harness"
   },
   {
    "id": "dsh-handbook",
@@ -1256,7 +1338,8 @@
    "tags": [
     "手册"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-handbook"
   },
   {
    "id": "dsh-find-plugins",
@@ -1269,7 +1352,8 @@
    "tags": [
     "查找"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-find-plugins"
   },
   {
    "id": "awesome-dsh-plugin",
@@ -1283,7 +1367,8 @@
     "精选",
     "导购"
    ],
-   "install": null
+   "install": null,
+   "slug": "bruc3van-awesome-dsh-plugin"
   },
   {
    "id": "awesome-DSH-plugin",
@@ -1296,7 +1381,8 @@
    "tags": [
     "精选"
    ],
-   "install": null
+   "install": null,
+   "slug": "alex-yanggg-awesome-dsh-plugin"
   },
   {
    "id": "oh-my-dsh",
@@ -1310,7 +1396,8 @@
     "生态",
     "700+"
    ],
-   "install": null
+   "install": null,
+   "slug": "oh-my-dsh"
   },
   {
    "id": "dshfind",
@@ -1324,7 +1411,8 @@
     "市场",
     "教程"
    ],
-   "install": null
+   "install": null,
+   "slug": "dshfind"
   },
   {
    "id": "plugin-registry",
@@ -1338,7 +1426,8 @@
     "基建",
     "插件注册"
    ],
-   "install": null
+   "install": null,
+   "slug": "plugin-registry"
   },
   {
    "id": "awesome-deepseek-harness",
@@ -1352,7 +1441,8 @@
     "精选",
     "指南"
    ],
-   "install": null
+   "install": null,
+   "slug": "libukai-awesome-deepseek-harness"
   },
   {
    "id": "awesome-deepseek-harness",
@@ -1365,7 +1455,8 @@
    "tags": [
     "精选"
    ],
-   "install": null
+   "install": null,
+   "slug": "dominic789654-awesome-deepseek-harness"
   },
   {
    "id": "hello-dsh",
@@ -1379,7 +1470,8 @@
     "教程",
     "入门"
    ],
-   "install": null
+   "install": null,
+   "slug": "hello-dsh"
   },
   {
    "id": "DSH-Plugins-Marketplace",
@@ -1393,7 +1485,8 @@
     "市场",
     "web-ui"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-plugins-marketplace"
   },
   {
    "id": "dsh-plugin-check",
@@ -1407,7 +1500,8 @@
     "开发",
     "健康检查"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-plugin-check"
   },
   {
    "id": "dsh-plugin-dev",
@@ -1421,7 +1515,8 @@
     "开发",
     "文档"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-plugin-dev"
   },
   {
    "id": "dsh-plugins-store",
@@ -1435,7 +1530,8 @@
     "市场",
     "目录站"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-plugins-store"
   },
   {
    "id": "dsh-plugin-skills",
@@ -1449,7 +1545,8 @@
     "开发",
     "技能"
    ],
-   "install": null
+   "install": null,
+   "slug": "dsh-plugin-skills"
   }
  ]
 }

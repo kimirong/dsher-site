@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dsh-plugin-check — DeepSeek Harness 插件 | dsher.cn</title>
+  <meta name="description" content="DSH 插件健康检查工具：扫描插件仓库的清单协议 / patch 格式 / 构建陷阱 / hub 收录状态，零依赖只读，注册 plugin_check 工具" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#05070d" />
+  <link rel="canonical" href="https://dsher.cn/plugins/dsh-plugin-check.html" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="dsher.cn" />
+  <meta property="og:url" content="https://dsher.cn/plugins/dsh-plugin-check.html" />
+  <meta property="og:title" content="dsh-plugin-check — DeepSeek Harness 插件 | dsher.cn" />
+  <meta property="og:description" content="DSH 插件健康检查工具：扫描插件仓库的清单协议 / patch 格式 / 构建陷阱 / hub 收录状态，零依赖只读，注册 plugin_check 工具" />
+  <meta property="og:image" content="https://dsher.cn/assets/og-image.png" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="dsh-plugin-check — DeepSeek Harness 插件 | dsher.cn" />
+  <meta name="twitter:image" content="https://dsher.cn/assets/og-image.png" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"SoftwareApplication","name":"dsh-plugin-check","url":"https://github.com/omdsh-dev/dsh-plugin-check","description":"DSH 插件健康检查工具：扫描插件仓库的清单协议 / patch 格式 / 构建陷阱 / hub 收录状态，零依赖只读，注册 plugin_check 工具","applicationCategory":"DeveloperApplication","operatingSystem":"DeepSeek Harness (dsh)","author":{"@type":"Organization","name":"omdsh-dev"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"dsher.cn","item":"https://dsher.cn/"},{"@type":"ListItem","position":2,"name":"插件市场","item":"https://dsher.cn/plugins.html"},{"@type":"ListItem","position":3,"name":"dsh-plugin-check"}]}]}</script>
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/plugins.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow--a"></div>
+    <div class="bg-glow bg-glow--b"></div>
+  </div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true">&gt;_</span>
+        <span class="brand-name">dsher</span>
+      </a>
+      <nav class="nav-links" aria-label="main">
+        <a href="/#about" data-i18n="nav.about">关于</a>
+        <a href="/#features" data-i18n="nav.features">特性</a>
+        <a href="/#quickstart" data-i18n="nav.quickstart">快速上手</a>
+        <a href="/plugins.html" data-i18n="nav.plugins">插件市场</a>
+        <a href="/#community" data-i18n="nav.community">社区</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="切换语言">
+          <span class="lang-current">中文</span>
+          <span class="lang-arrow" aria-hidden="true">⇄</span>
+          <span class="lang-next">EN</span>
+        </button>
+        <a class="btn btn--ghost btn--sm" href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener">
+          <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          <span class="gh-label">GitHub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <nav class="plp-crumb" aria-label="breadcrumb">
+      <a href="/">dsher.cn</a> <span aria-hidden="true">/</span>
+      <a href="/plugins.html" data-i18n="nav.plugins">插件市场</a> <span aria-hidden="true">/</span>
+      <span class="plp-crumb-current">dsh-plugin-check</span>
+    </nav>
+
+    <section class="plp-hero">
+      <span class="pl-badge pl-badge--index">索引</span>
+      <h1 class="plp-name">dsh-plugin-check</h1>
+      <p class="plp-author">@<span>omdsh-dev</span><span class="plp-stars" title="GitHub stars">★ 14</span></p>
+      <p class="plp-desc">DSH 插件健康检查工具：扫描插件仓库的清单协议 / patch 格式 / 构建陷阱 / hub 收录状态，零依赖只读，注册 plugin_check 工具</p>
+      <div class="pl-tags"><span class="pl-tag">开发</span><span class="pl-tag">健康检查</span></div>
+    </section>
+
+    <section class="plp-section">
+
+    </section>
+
+    <section class="plp-actions">
+      <a class="btn btn--primary" href="https://github.com/omdsh-dev/dsh-plugin-check" target="_blank" rel="noopener" data-i18n="pl.detail.repo">GitHub 仓库</a>
+      <a class="btn btn--ghost" href="/plugins.html" data-i18n="pl.detail.back">返回插件市场</a>
+    </section>
+
+    <section class="plp-more">
+      <h2 data-i18n="pl.detail.more">更多插件</h2>
+      <div class="plp-more-grid"><a class="plp-more-item" href="/plugins/awesome-dsh-plugins.html"><span class="plp-more-name">awesome-dsh-plugins</span><span class="plp-more-stars">★ 655</span></a><a class="plp-more-item" href="/plugins/awesome-dsh-plugin-awesome-dsh-plugin.html"><span class="plp-more-name">awesome-dsh-plugin</span><span class="plp-more-stars">★ 587</span></a><a class="plp-more-item" href="/plugins/0xsline-awesome-deepseek-harness.html"><span class="plp-more-name">awesome-deepseek-harness</span><span class="plp-more-stars">★ 311</span></a>
+        <a class="plp-more-all" href="/plugins.html" data-i18n="pl.detail.viewAll">查看全部 →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-brand">dsher<span class="footer-dot" aria-hidden="true">.</span>cn</p>
+      <p class="footer-disclaimer" data-i18n="footer.disclaimer">本站是 dsher 社区的非官方页面，与 DeepSeek AI 无隶属关系。DeepSeek Harness (dsh) 是 DeepSeek AI 的 MIT 开源项目；文中商标归各自所有者所有。</p>
+      <p class="footer-meta">© <span id="year">2026</span> dsher.cn · <span data-i18n="footer.built">用 ❤ 和 dsh 搭的</span></p>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
