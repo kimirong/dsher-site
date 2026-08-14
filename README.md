@@ -24,7 +24,8 @@
 
 ## 特性
 
-- **纯静态，零构建** —— 站点本体仅 4 个文件，无框架、无依赖、无 `package.json`
+- **纯静态，零构建** —— 无框架、无依赖、无 `package.json`
+- **插件市场** —— 检索、安装 dsh 生态插件（官方/社区/索引，一键复制安装命令）
 - **中英双语** —— 右上角一键切换，选择存入 `localStorage`，默认跟随浏览器语言
 - **深色科技风** —— 与 dsh 开发者气质一致的终端美学（`$` 提示符、渐变青蓝、细网格）
 - **真实内容** —— 特性、命令、社区入口均来自 DeepSeek Harness 官方仓库
@@ -44,11 +45,26 @@ python3 -m http.server 8080
 
 ```
 dsher-site/
-├── index.html    # 页面结构（中英双语 data-i18n 属性）
-├── styles.css    # 深色科技风样式
-├── app.js        # 中英切换 / 复制按钮 / tab / 年份
-├── favicon.svg   # 站点图标
+├── index.html     # 页面结构（中英双语 data-i18n 属性）
+├── plugins.html   # 插件市场页（搜索 / 筛选 / 一键复制安装命令）
+├── styles.css     # 深色科技风样式
+├── plugins.css    # 插件市场样式
+├── app.js         # 中英切换 / 复制按钮 / tab / 插件市场渲染
+├── favicon.svg    # 站点图标
+├── plugins.json   # 插件市场数据（97 个插件，见下方刷新方法）
+├── scripts/
+│   └── update-plugins.py  # 一键刷新社区插件数据（GitHub API）
 └── assets/readme/ # README 视觉素材（hero.svg / preview.png）
+```
+
+## 插件市场
+
+[plugins.html](plugins.html) 整合了 dsh 生态的插件：官方内置/示例、社区插件、生态索引，支持按名称/作者/标签搜索、按类型筛选、按 Star 排序，社区插件卡片带一键复制的安装命令（`dsh plugin add github:<owner>/<repo>`）。
+
+**刷新数据**（社区插件的 Star 和描述来自 GitHub，会过时）：
+
+```sh
+python3 scripts/update-plugins.py   # 需要网络；走代理时先 export https_proxy
 ```
 
 ## 部署到 Cloudflare Pages

@@ -4,6 +4,10 @@
 (() => {
   "use strict";
 
+  /* Hoisted marketplace state — referenced by applyLang before module init. */
+  let PLUGINS = [];
+  let DATA_UPDATED = "";
+
   /* ---------- i18n dictionary ---------- */
   const I18N = {
     "nav.about":       { zh: "关于",            en: "About" },
@@ -65,8 +69,39 @@
     "community.c3.desc":{ zh: "和全球 dshers 实时聊", en: "Chat live with dshers worldwide" },
     "community.c4.name":{ zh: "dsh-plugin 生态", en: "dsh-plugin ecosystem" },
     "community.c4.desc":{ zh: "给插件仓库打上这个 topic", en: "Tag your plugin repos with this topic" },
+    "community.c5.name":{ zh: "插件市场",        en: "Plugin Marketplace" },
+    "community.c5.desc":{ zh: "检索、安装 dsh 生态插件", en: "Browse & install dsh ecosystem plugins" },
     "footer.disclaimer":{ zh: "本站是 dsher 社区的非官方页面，与 DeepSeek AI 无隶属关系。DeepSeek Harness (dsh) 是 DeepSeek AI 的 MIT 开源项目；文中商标归各自所有者所有。", en: "This is an unofficial community page for dshers, not affiliated with DeepSeek AI. DeepSeek Harness (dsh) is DeepSeek AI's MIT-licensed open-source project; trademarks belong to their owners." },
     "footer.built":    { zh: "用 ❤ 和 dsh 搭的", en: "Built with ❤ and dsh" },
+
+    /* ---- plugin marketplace ---- */
+    "nav.plugins":     { zh: "插件市场",        en: "Plugins" },
+    "pl.badge":        { zh: "DSH 插件市场",    en: "DSH Plugin Marketplace" },
+    "pl.title":        { zh: "插件市场",        en: "Plugin Marketplace" },
+    "pl.sub":          { zh: "检索、发现并安装 dsh 生态插件——官方、社区与索引一网打尽。", en: "Search, discover, and install plugins across the dsh ecosystem — official, community, and index." },
+    "pl.searchPlaceholder": { zh: "搜索插件名称 / 作者 / 标签…", en: "Search by name, author, or tag…" },
+    "pl.filterAll":    { zh: "全部",            en: "All" },
+    "pl.filterOfficial": { zh: "官方",          en: "Official" },
+    "pl.filterCommunity": { zh: "社区",         en: "Community" },
+    "pl.filterIndex":  { zh: "索引",            en: "Index" },
+    "pl.empty":        { zh: "没有找到匹配的插件", en: "No matching plugins" },
+    "pl.stats":        { zh: "{n} 个插件 · {o} 官方 · {c} 社区 · {i} 索引 · 更新于 {d}", en: "{n} plugins · {o} official · {c} community · {i} index · updated {d}" },
+    "pl.builtin":      { zh: "随 dsh 内置",     en: "Built into dsh" },
+    "pl.example":      { zh: "官方示例",        en: "Official example" },
+    "pl.repo":         { zh: "仓库",            en: "Repo" },
+    "pl.howtoEyebrow": { zh: "How to install", en: "How to install" },
+    "pl.howtoTitle":   { zh: "如何安装",        en: "How to install" },
+    "pl.howto1Title":  { zh: "安装到默认 profile", en: "Install to the default profile" },
+    "pl.howto1Desc":   { zh: "从 npm 安装插件包（bundle）。示例：<code>dsh plugin add @deepseek-ai/dsh-web-app</code>", en: "Install a plugin bundle from npm. E.g. <code>dsh plugin add @deepseek-ai/dsh-web-app</code>" },
+    "pl.howto2Title":  { zh: "从 GitHub 安装", en: "Install from GitHub" },
+    "pl.howto2Desc":   { zh: "无需发布到 npm，直接从仓库安装。建议固定提交：<code>github:owner/repo#&lt;sha&gt;</code>", en: "No npm publish needed — install straight from a repo. Pin a commit: <code>github:owner/repo#&lt;sha&gt;</code>" },
+    "pl.howto3Title":  { zh: "命名 profile",   en: "Named profile" },
+    "pl.howto3Desc":   { zh: "安装到指定 profile；首次使用会自动初始化（以 <code>@deepseek-ai/dsh-base</code> 为第一层）。", en: "Install into a named profile; first use initializes it with <code>@deepseek-ai/dsh-base</code> as the first layer." },
+    "pl.howtoNote1Title": { zh: "Git 安装须知：", en: "Git installs:" },
+    "pl.howtoNote1":   { zh: "从 Git 安装的是源码而非构建产物，仓库需提供 <code>prepare</code> 脚本；pnpm ≥10 会要求先在 profile 的 <code>pnpm-workspace.yaml</code> 中允许该包的构建（<code>allowBuilds</code>）。", en: "Git installs fetch sources, not built artifacts; the repo must ship a <code>prepare</code> script, and pnpm ≥10 requires allowlisting the package build (<code>allowBuilds</code>) in the profile's <code>pnpm-workspace.yaml</code>." },
+    "pl.howtoNote2Title": { zh: "安全提示：",  en: "Security:" },
+    "pl.howtoNote2":   { zh: "安装会执行包代码，请只允许你信任的来源，并固定 commit。", en: "Installing executes package code on your machine — only allow sources you trust, and pin a commit." },
+    "pl.howtoDoc":     { zh: "完整机制见官方文档：", en: "Full mechanics in the official docs:" },
   };
 
   const LS_KEY = "dsher-lang";
@@ -88,16 +123,28 @@
       const text = entry[lang];
       if (text !== undefined) el.innerHTML = text;
     });
+    document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+      const key = el.getAttribute("data-i18n-placeholder");
+      const entry = I18N[key];
+      if (entry && entry[lang] !== undefined) el.placeholder = entry[lang];
+    });
     docEl.lang = lang === "zh" ? "zh-CN" : "en";
     const toggle = document.getElementById("lang-toggle");
     if (toggle) {
       toggle.querySelector(".lang-current").textContent = lang === "zh" ? "中文" : "EN";
       toggle.querySelector(".lang-next").textContent = lang === "zh" ? "EN" : "中文";
     }
-    document.title = lang === "zh"
-      ? "dsher — 玩转 DeepSeek Harness 的人"
-      : "dsher — people who play with DeepSeek Harness";
+    const isPluginsPage = !!document.getElementById("pl-grid");
+    document.title = isPluginsPage
+      ? (lang === "zh" ? "插件市场 — dsher" : "Plugin Marketplace — dsher")
+      : (lang === "zh"
+        ? "dsher — 玩转 DeepSeek Harness 的人"
+        : "dsher — people who play with DeepSeek Harness");
     try { localStorage.setItem(LS_KEY, lang); } catch (e) { /* ignore */ }
+    if (isPluginsPage && PLUGINS.length) {
+      updateTabs();
+      renderPlugins();
+    }
   }
 
   let lang = detectLang();
@@ -168,6 +215,205 @@
     document.body.removeChild(ta);
     done();
   }
+
+  /* ---------- plugin marketplace ---------- */
+  const plApp = document.getElementById("pl-grid");
+  const plEmpty = document.getElementById("pl-empty");
+  const plStats = document.getElementById("pl-stats");
+  let plFilter = "all";
+  let plQuery = "";
+
+  function fmt(tpl, vals) {
+    return tpl.replace(/\{(\w+)\}/g, (_, k) => (vals[k] !== undefined ? vals[k] : ""));
+  }
+
+  function plText(p) {
+    const d = p.desc;
+    if (typeof d === "string") return d;
+    return (d && d[lang]) || "";
+  }
+
+  async function initPlugins() {
+    if (!plApp) return;
+    try {
+      const res = await fetch("plugins.json", { cache: "no-cache" });
+      if (!res.ok) throw new Error("plugins.json " + res.status);
+      const data = await res.json();
+      PLUGINS = data.plugins || [];
+      DATA_UPDATED = data.updated || "";
+    } catch (e) {
+      plApp.innerHTML = "<p class='pl-empty'>Failed to load plugins.json</p>";
+      return;
+    }
+    updateTabs();
+    renderPlugins();
+  }
+
+  function updateTabs() {
+    const count = (t) => PLUGINS.filter((p) => p.type === t).length;
+    document.querySelectorAll(".pl-tab").forEach((tab) => {
+      const f = tab.dataset.filter;
+      const n = f === "all" ? PLUGINS.length : count(f);
+      let span = tab.querySelector(".pl-count");
+      if (!span) {
+        span = document.createElement("span");
+        span.className = "pl-count";
+        tab.appendChild(span);
+      }
+      span.textContent = " " + n;
+    });
+    if (plStats && PLUGINS.length) {
+      plStats.textContent = fmt(I18N["pl.stats"][lang], {
+        n: PLUGINS.length,
+        o: count("official"),
+        c: count("community"),
+        i: count("index"),
+        d: DATA_UPDATED,
+      });
+    }
+  }
+
+  function renderPlugins() {
+    if (!plApp || !PLUGINS.length) return;
+    const q = plQuery.trim().toLowerCase();
+    let list = PLUGINS.filter((p) => plFilter === "all" || p.type === plFilter);
+    if (q) {
+      list = list.filter((p) =>
+        [p.name, p.author, (p.tags || []).join(" "), plText(p)].join(" ").toLowerCase().includes(q)
+      );
+    }
+    list.sort((a, b) => {
+      const ao = a.type === "official";
+      const bo = b.type === "official";
+      if (ao !== bo) return ao ? -1 : 1;
+      if (ao && bo) return a.name.localeCompare(b.name);
+      return (b.stars || 0) - (a.stars || 0);
+    });
+    plApp.innerHTML = "";
+    list.forEach((p) => plApp.appendChild(plCard(p)));
+    if (plEmpty) plEmpty.hidden = list.length > 0;
+  }
+
+  function plCard(p) {
+    const card = document.createElement("article");
+    card.className = "pl-card";
+
+    const head = document.createElement("div");
+    head.className = "pl-card-head";
+
+    const badge = document.createElement("span");
+    badge.className = "pl-badge pl-badge--" + p.type;
+    badge.textContent = I18N["pl.filter" + p.type.charAt(0).toUpperCase() + p.type.slice(1)][lang];
+
+    const name = document.createElement("span");
+    name.className = "pl-name";
+    name.textContent = p.name;
+    name.title = p.name;
+
+    head.appendChild(badge);
+    head.appendChild(name);
+
+    if (p.stars > 0) {
+      const stars = document.createElement("span");
+      stars.className = "pl-stars";
+      stars.textContent = "★ " + p.stars.toLocaleString();
+      stars.title = "GitHub stars";
+      head.appendChild(stars);
+    }
+    card.appendChild(head);
+
+    const author = document.createElement("div");
+    author.className = "pl-author";
+    author.textContent = "@" + p.author;
+    card.appendChild(author);
+
+    const desc = document.createElement("p");
+    desc.className = "pl-desc";
+    desc.textContent = plText(p);
+    card.appendChild(desc);
+
+    const tags = document.createElement("div");
+    tags.className = "pl-tags";
+    (p.tags || []).forEach((t) => {
+      const chip = document.createElement("span");
+      chip.className = "pl-tag";
+      chip.textContent = t;
+      tags.appendChild(chip);
+    });
+    card.appendChild(tags);
+
+    const foot = document.createElement("div");
+    foot.className = "pl-card-foot";
+
+    if (p.install) {
+      const row = document.createElement("div");
+      row.className = "pl-install";
+      const code = document.createElement("span");
+      code.className = "pl-install-code";
+      code.textContent = p.install;
+      code.title = p.install;
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "pl-copy-btn";
+      const label = document.createElement("span");
+      label.className = "pl-copy-label";
+      label.textContent = I18N["quickstart.copy"][lang];
+      btn.appendChild(label);
+      btn.addEventListener("click", () => {
+        const done = () => {
+          label.textContent = I18N["quickstart.copied"][lang];
+          btn.classList.add("copied");
+          setTimeout(() => {
+            label.textContent = I18N["quickstart.copy"][lang];
+            btn.classList.remove("copied");
+          }, 1600);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(p.install).then(done).catch(() => fallbackCopy(p.install, done));
+        } else {
+          fallbackCopy(p.install, done);
+        }
+      });
+      row.appendChild(code);
+      row.appendChild(btn);
+      foot.appendChild(row);
+    } else if (p.type === "official") {
+      const note = document.createElement("span");
+      note.className = "pl-builtin-note";
+      note.textContent = p.name.startsWith("examples/") ? I18N["pl.example"][lang] : I18N["pl.builtin"][lang];
+      foot.appendChild(note);
+    }
+
+    const repo = document.createElement("a");
+    repo.className = "pl-repo-btn";
+    repo.href = p.repo;
+    repo.target = "_blank";
+    repo.rel = "noopener";
+    repo.innerHTML = '<svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>'
+      + I18N["pl.repo"][lang];
+    foot.appendChild(repo);
+
+    card.appendChild(foot);
+    return card;
+  }
+
+  const plSearch = document.getElementById("pl-search");
+  if (plSearch) {
+    plSearch.addEventListener("input", () => {
+      plQuery = plSearch.value;
+      renderPlugins();
+    });
+  }
+  document.querySelectorAll(".pl-tab").forEach((tab) => {
+    tab.addEventListener("click", () => {
+      document.querySelectorAll(".pl-tab").forEach((t) => t.classList.remove("is-active"));
+      tab.classList.add("is-active");
+      plFilter = tab.dataset.filter;
+      renderPlugins();
+    });
+  });
+
+  initPlugins();
 
   /* ---------- footer year ---------- */
   const yearEl = document.getElementById("year");

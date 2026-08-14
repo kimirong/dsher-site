@@ -77,6 +77,7 @@ code, pre { font-family: var(--mono); }
 .nav-links { display: flex; gap: 22px; margin-left: 8px; }
 .nav-links a { color: var(--text-dim); font-size: 14.5px; transition: color 0.2s; }
 .nav-links a:hover { color: var(--text); text-decoration: none; }
+.nav-links a.is-active { color: var(--cyan); font-weight: 600; }
 .nav-actions { margin-left: auto; display: flex; align-items: center; gap: 12px; }
 
 .lang-toggle {
@@ -253,7 +254,7 @@ code, pre { font-family: var(--mono); }
 .qs-hint { margin: 20px 0 0; color: var(--text-faint); font-size: 14px; }
 
 /* ---------- community ---------- */
-.community-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.community-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 18px; }
 .c-card {
   display: flex; flex-direction: column; gap: 6px;
   border: 1px solid var(--border); border-radius: var(--radius);

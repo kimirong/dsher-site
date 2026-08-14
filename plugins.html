@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>插件市场 — dsher</title>
+  <meta name="description" content="dsher 插件市场：检索、发现并安装 DeepSeek Harness (dsh) 生态插件——官方、社区与索引一网打尽。" />
+  <meta name="theme-color" content="#05070d" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="plugins.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow--a"></div>
+    <div class="bg-glow bg-glow--b"></div>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">&gt;_</span>
+        <span class="brand-name">dsher</span>
+      </a>
+      <nav class="nav-links" aria-label="main">
+        <a href="index.html#about" data-i18n="nav.about">关于</a>
+        <a href="index.html#features" data-i18n="nav.features">特性</a>
+        <a href="index.html#quickstart" data-i18n="nav.quickstart">快速上手</a>
+        <a href="plugins.html" class="is-active" data-i18n="nav.plugins">插件市场</a>
+        <a href="index.html#community" data-i18n="nav.community">社区</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="lang-toggle" type="button" aria-label="切换语言">
+          <span class="lang-current">中文</span>
+          <span class="lang-arrow" aria-hidden="true">⇄</span>
+          <span class="lang-next">EN</span>
+        </button>
+        <a class="btn btn--ghost btn--sm" href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener">
+          <svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ MARKETPLACE HERO ============ -->
+    <section class="pl-hero">
+      <div class="pl-hero-inner">
+        <span class="badge"><span class="dot" aria-hidden="true"></span><span data-i18n="pl.badge">DSH 插件市场</span></span>
+        <h1 class="pl-title" data-i18n="pl.title">插件市场</h1>
+        <p class="pl-sub" data-i18n="pl.sub">检索、发现并安装 dsh 生态插件——官方、社区与索引一网打尽。</p>
+
+        <div class="pl-controls">
+          <div class="pl-search">
+            <svg class="pl-search-icon" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M11.7 10.3a6 6 0 1 0-1.4 1.4l3.5 3.5a1 1 0 0 0 1.4-1.4l-3.5-3.5ZM2.5 7a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0Z"/></svg>
+            <input type="search" id="pl-search" class="pl-search-input" data-i18n-placeholder="pl.searchPlaceholder" placeholder="搜索插件名称 / 作者 / 标签…" autocomplete="off" />
+          </div>
+          <div class="pl-stats" id="pl-stats" role="status"></div>
+        </div>
+
+        <div class="pl-tabs" role="tablist" aria-label="plugin filters">
+          <button class="pl-tab is-active" type="button" data-filter="all" data-i18n="pl.filterAll">全部</button>
+          <button class="pl-tab" type="button" data-filter="official" data-i18n="pl.filterOfficial">官方</button>
+          <button class="pl-tab" type="button" data-filter="community" data-i18n="pl.filterCommunity">社区</button>
+          <button class="pl-tab" type="button" data-filter="index" data-i18n="pl.filterIndex">索引</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PLUGIN GRID ============ -->
+    <section class="pl-section">
+      <div class="pl-grid" id="pl-grid" aria-live="polite"></div>
+      <p class="pl-empty" id="pl-empty" hidden data-i18n="pl.empty">没有找到匹配的插件</p>
+    </section>
+
+    <!-- ============ HOW TO INSTALL ============ -->
+    <section class="pl-howto">
+      <div class="section-inner">
+        <p class="eyebrow" data-i18n="pl.howtoEyebrow">How to install</p>
+        <h2 class="section-title" data-i18n="pl.howtoTitle">如何安装</h2>
+        <div class="pl-howto-grid">
+          <div class="pl-howto-card">
+            <h3 data-i18n="pl.howto1Title">安装到默认 profile</h3>
+            <pre class="pl-code"><code><span class="t-prompt">$ </span>dsh plugin add &lt;包名&gt;</code></pre>
+            <p data-i18n="pl.howto1Desc">从 npm 安装插件包（bundle）。示例：<code>dsh plugin add @deepseek-ai/dsh-web-app</code></p>
+          </div>
+          <div class="pl-howto-card">
+            <h3 data-i18n="pl.howto2Title">从 GitHub 安装</h3>
+            <pre class="pl-code"><code><span class="t-prompt">$ </span>dsh plugin add github:&lt;owner&gt;/&lt;repo&gt;</code></pre>
+            <p data-i18n="pl.howto2Desc">无需发布到 npm，直接从仓库安装。建议固定提交：<code>github:owner/repo#&lt;sha&gt;</code></p>
+          </div>
+          <div class="pl-howto-card">
+            <h3 data-i18n="pl.howto3Title">命名 profile</h3>
+            <pre class="pl-code"><code><span class="t-prompt">$ </span>dsh plugin --profile &lt;名字&gt; add &lt;包名&gt;</code></pre>
+            <p data-i18n="pl.howto3Desc">安装到指定 profile；首次使用会自动初始化（以 <code>@deepseek-ai/dsh-base</code> 为第一层）。</p>
+          </div>
+        </div>
+        <div class="pl-howto-note">
+          <p><strong data-i18n="pl.howtoNote1Title">Git 安装须知：</strong><span data-i18n="pl.howtoNote1">从 Git 安装的是源码而非构建产物，仓库需提供 <code>prepare</code> 脚本；pnpm ≥10 会要求先在 profile 的 <code>pnpm-workspace.yaml</code> 中允许该包的构建（<code>allowBuilds</code>）。</span></p>
+          <p><strong data-i18n="pl.howtoNote2Title">安全提示：</strong><span data-i18n="pl.howtoNote2">安装会执行包代码，请只允许你信任的来源，并固定 commit。</span></p>
+          <p class="pl-howto-doc"><span data-i18n="pl.howtoDoc">完整机制见官方文档：</span><a href="https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/publish.md" target="_blank" rel="noopener">Package and install a plugin</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-brand">dsher<span class="footer-dot" aria-hidden="true">.</span>cn</p>
+      <p class="footer-disclaimer" data-i18n="footer.disclaimer">本站是 dsher 社区的非官方页面，与 DeepSeek AI 无隶属关系。DeepSeek Harness (dsh) 是 DeepSeek AI 的 MIT 开源项目；文中商标归各自所有者所有。</p>
+      <p class="footer-meta">© <span id="year">2025</span> dsher.cn · <span data-i18n="footer.built">用 ❤ 和 dsh 搭的</span></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
