@@ -247,7 +247,7 @@
   async function initPlugins() {
     if (!plApp) return;
     try {
-      const res = await fetch("plugins.json", { cache: "no-cache" });
+      const res = await fetch("/plugins.json", { cache: "no-cache" });
       if (!res.ok) throw new Error("plugins.json " + res.status);
       const data = await res.json();
       PLUGINS = data.plugins || [];
@@ -322,7 +322,7 @@
 
     const name = document.createElement("a");
     name.className = "pl-name";
-    name.href = "/plugins/" + (p.slug || p.id) + ".html";
+    name.href = "/plugins/" + (p.slug || p.id);
     name.textContent = p.name;
     name.title = p.name;
 

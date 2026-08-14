@@ -80,7 +80,7 @@ NAV = """  <header class="nav">
         <a href="/#about" data-i18n="nav.about">关于</a>
         <a href="/#features" data-i18n="nav.features">特性</a>
         <a href="/#quickstart" data-i18n="nav.quickstart">快速上手</a>
-        <a href="/plugins.html" data-i18n="nav.plugins">插件市场</a>
+        <a href="/plugins" data-i18n="nav.plugins">插件市场</a>
         <a href="/#community" data-i18n="nav.community">社区</a>
       </nav>
       <div class="nav-actions">
@@ -125,7 +125,7 @@ def page_html(p, plugins):
     more_html = ""
     if more:
         items = "".join(
-            f'<a class="plp-more-item" href="/plugins/{escape(m["slug"])}.html">'
+            f'<a class="plp-more-item" href="/plugins/{escape(m["slug"])}">'
             f'<span class="plp-more-name">{escape(m["name"])}</span>'
             f'<span class="plp-more-stars">★ {m["stars"]:,}</span></a>'
             for m in more
@@ -134,7 +134,7 @@ def page_html(p, plugins):
     <section class="plp-more">
       <h2 data-i18n="pl.detail.more">更多插件</h2>
       <div class="plp-more-grid">{items}
-        <a class="plp-more-all" href="/plugins.html" data-i18n="pl.detail.viewAll">查看全部 →</a>
+        <a class="plp-more-all" href="/plugins" data-i18n="pl.detail.viewAll">查看全部 →</a>
       </div>
     </section>"""
 
@@ -163,11 +163,11 @@ def page_html(p, plugins):
   <meta name="description" content="{escape(meta_desc)}" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="theme-color" content="#05070d" />
-  <link rel="canonical" href="{SITE}/plugins/{escape(p['slug'])}.html" />
+  <link rel="canonical" href="{SITE}/plugins/{escape(p['slug'])}" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="dsher.cn" />
-  <meta property="og:url" content="{SITE}/plugins/{escape(p['slug'])}.html" />
+  <meta property="og:url" content="{SITE}/plugins/{escape(p['slug'])}" />
   <meta property="og:title" content="{escape(title)}" />
   <meta property="og:description" content="{escape(meta_desc)}" />
   <meta property="og:image" content="{SITE}/assets/og-image.png" />
@@ -191,7 +191,7 @@ def page_html(p, plugins):
   <main id="top">
     <nav class="plp-crumb" aria-label="breadcrumb">
       <a href="/">dsher.cn</a> <span aria-hidden="true">/</span>
-      <a href="/plugins.html" data-i18n="nav.plugins">插件市场</a> <span aria-hidden="true">/</span>
+      <a href="/plugins" data-i18n="nav.plugins">插件市场</a> <span aria-hidden="true">/</span>
       <span class="plp-crumb-current">{name}</span>
     </nav>
 
@@ -209,7 +209,7 @@ def page_html(p, plugins):
 
     <section class="plp-actions">
       <a class="btn btn--primary" href="{escape(p['repo'])}" target="_blank" rel="noopener" data-i18n="pl.detail.repo">GitHub 仓库</a>
-      <a class="btn btn--ghost" href="/plugins.html" data-i18n="pl.detail.back">返回插件市场</a>
+      <a class="btn btn--ghost" href="/plugins" data-i18n="pl.detail.back">返回插件市场</a>
     </section>
 {more_html}
   </main>
@@ -229,14 +229,14 @@ def sitemap_xml(plugins):
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>""", f"""  <url>
-    <loc>{SITE}/plugins.html</loc>
+    <loc>{SITE}/plugins</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>"""]
     for p in plugins:
         urls.append(f"""  <url>
-    <loc>{SITE}/plugins/{p['slug']}.html</loc>
+    <loc>{SITE}/plugins/{p['slug']}</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
