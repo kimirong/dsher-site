@@ -73,7 +73,7 @@
   box-shadow: 0 14px 34px rgba(0, 0, 0, 0.35), 0 0 22px rgba(77, 141, 255, 0.1);
 }
 
-.pl-card-head { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.pl-card-head { display: flex; align-items: flex-start; gap: 10px; min-width: 0; }
 .pl-badge {
   flex-shrink: 0;
   font-family: var(--mono); font-size: 11px; font-weight: 700;
@@ -86,10 +86,10 @@
 
 .pl-name {
   min-width: 0;
-  font-family: var(--mono); font-weight: 700; font-size: 15.5px;
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-family: var(--mono); font-weight: 700; font-size: 15.5px; line-height: 1.4;
+  white-space: normal; overflow-wrap: anywhere;
 }
-.pl-stars { margin-left: auto; flex-shrink: 0; font-family: var(--mono); font-size: 12.5px; color: #f5c26b; }
+.pl-stars { margin-left: auto; margin-top: 2px; flex-shrink: 0; font-family: var(--mono); font-size: 12.5px; color: #f5c26b; }
 .pl-author { font-family: var(--mono); font-size: 12px; color: var(--text-faint); margin-top: -4px; }
 .pl-desc {
   margin: 0; color: var(--text-dim); font-size: 13.5px; line-height: 1.6;
@@ -112,8 +112,8 @@
 }
 .pl-install-code {
   flex: 1; min-width: 0;
-  font-family: var(--mono); font-size: 12px; color: var(--cyan);
-  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-family: var(--mono); font-size: 12px; line-height: 1.55; color: var(--cyan);
+  white-space: normal; overflow-wrap: anywhere;
 }
 .pl-copy-btn {
   flex-shrink: 0;
@@ -189,4 +189,5 @@
 @media (max-width: 640px) {
   .pl-grid { grid-template-columns: 1fr; }
   .pl-hero { padding-top: 56px; }
+  .pl-desc { -webkit-line-clamp: 4; }
 }
