@@ -296,6 +296,13 @@ code, pre { font-family: var(--mono); }
   .terminal-body { font-size: 12.5px; padding: 18px 16px; }
   .code-card pre { font-size: 12.5px; }
 }
+@media (max-width: 400px) {
+  .nav-inner { padding: 14px 14px; gap: 12px; }
+  .nav-actions { gap: 8px; }
+  .lang-toggle { padding: 6px 10px; gap: 6px; }
+  .nav-actions .gh-label { display: none; }
+  .btn--sm { padding: 7px 10px; }
+}
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

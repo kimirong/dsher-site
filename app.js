@@ -249,11 +249,16 @@
     renderPlugins();
   }
 
+  function plMatches(p, q) {
+    return !q || [p.name, p.author, (p.tags || []).join(" "), plText(p)].join(" ").toLowerCase().includes(q);
+  }
+
   function updateTabs() {
-    const count = (t) => PLUGINS.filter((p) => p.type === t).length;
+    const q = plQuery.trim().toLowerCase();
+    const count = (t) => PLUGINS.filter((p) => (t === "all" ? true : p.type === t) && plMatches(p, q)).length;
     document.querySelectorAll(".pl-tab").forEach((tab) => {
       const f = tab.dataset.filter;
-      const n = f === "all" ? PLUGINS.length : count(f);
+      const n = count(f);
       let span = tab.querySelector(".pl-count");
       if (!span) {
         span = document.createElement("span");
@@ -275,12 +280,11 @@
 
   function renderPlugins() {
     if (!plApp || !PLUGINS.length) return;
+    updateTabs();
     const q = plQuery.trim().toLowerCase();
     let list = PLUGINS.filter((p) => plFilter === "all" || p.type === plFilter);
     if (q) {
-      list = list.filter((p) =>
-        [p.name, p.author, (p.tags || []).join(" "), plText(p)].join(" ").toLowerCase().includes(q)
-      );
+      list = list.filter((p) => plMatches(p, q));
     }
     list.sort((a, b) => {
       const ao = a.type === "official";
