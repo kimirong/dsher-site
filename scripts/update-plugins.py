@@ -82,20 +82,10 @@ CURATED = {
     "Electricitysheep/dsh-handbook": ("index", ["手册"], None),
 }
 
-# Repos not ranked in the topic-search top 100, fetched individually.
-# Keep every curated repo here (or in the top 100) so a search-ranking
-# shift never silently drops a curated plugin.
-EXTRAS = [
-    "HuanLinOTO/dsh-plugin-mineru", "shaokeyibb/dsh-plugin-product-subagents",
-    "cpj-dev/dsh-plugin-cc", "bugmaker2/dsh-plugin-template",
-    "gameswu/dsh-plugin-background", "ZASENJC/dsh-plugins-store",
-    "omdsh-dev/dsh-plugin-check", "omdsh-dev/dsh-plugin-dev",
-    "omdsh-dev/dsh-plugin-skills",
-    "bruc3van/dsh-desktop", "bradeGithub/DSH-Plugins-Marketplace",
-    "Chinesezjc/dsh-interconnect", "iuikj/dsh-desktop",
-    "omdsh-dev/dsh-custom-tool", "vibeinging/dsh-work",
-    "whiteguo233/dsh-openbiliclaw",
-]
+# The topic-search top 100 is only a metadata source and its ranking
+# boundary shifts between runs, so low-star curated repos can drop out.
+# Any curated repo missing from the search is therefore fetched directly
+# (see fetch_missing_curated) — curated entries never silently vanish.
 
 
 def get_json(url):
@@ -115,12 +105,14 @@ def main():
 
     items = get_json(API)["items"]
     by_name = {r["full_name"].lower(): r for r in items}
-    for repo in EXTRAS:
-        if repo.lower() not in by_name:
-            try:
-                by_name[repo.lower()] = get_json(f"https://api.github.com/repos/{repo}")
-            except Exception as e:
-                print(f"skip {repo}: {e}")
+    # Fetch any curated repo that the search slice missed, directly.
+    missing = [repo for repo in CURATED if repo.lower() not in by_name]
+    for repo in missing:
+        try:
+            by_name[repo.lower()] = get_json(f"https://api.github.com/repos/{repo}")
+            print(f"direct fetch: {repo}")
+        except Exception as e:
+            print(f"skip {repo}: {e}")
 
     fresh = []
     for repo, (typ, tags, install) in CURATED.items():
