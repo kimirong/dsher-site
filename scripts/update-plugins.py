@@ -148,7 +148,7 @@ def main():
     name_counts = Counter(lower_names)
     for p in all_plugins:
         base = p["name"].lower().replace("/", "-")
-        p["slug"] = base if name_counts[base] == 1 else f"{p['author']}-{p['name']}".lower().replace("/", "-")
+        p["slug"] = base if name_counts[p["name"].lower()] == 1 else f"{p['author']}-{p['name']}".lower().replace("/", "-")
 
     out = {"updated": date.today().isoformat(), "source": "GitHub topic:dsh-plugin + deepseek-harness repo",
            "plugins": all_plugins}

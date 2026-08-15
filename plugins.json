@@ -18,7 +18,7 @@
     "官方"
    ],
    "install": "dsh plugin add @deepseek-ai/dsh-base",
-   "slug": "deepseek-ai-@deepseek-ai-dsh-base"
+   "slug": "@deepseek-ai-dsh-base"
   },
   {
    "id": "dsh-bash-local",
@@ -36,7 +36,7 @@
     "bash"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-bash-local"
+   "slug": "@deepseek-ai-dsh-bash-local"
   },
   {
    "id": "dsh-bash-sandbox",
@@ -54,7 +54,7 @@
     "沙箱"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-bash-sandbox"
+   "slug": "@deepseek-ai-dsh-bash-sandbox"
   },
   {
    "id": "dsh-compaction",
@@ -72,7 +72,7 @@
     "上下文"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-compaction"
+   "slug": "@deepseek-ai-dsh-compaction"
   },
   {
    "id": "dsh-credentials-local",
@@ -90,7 +90,7 @@
     "凭据"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-credentials-local"
+   "slug": "@deepseek-ai-dsh-credentials-local"
   },
   {
    "id": "dsh-fs",
@@ -108,7 +108,7 @@
     "文件系统"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-fs"
+   "slug": "@deepseek-ai-dsh-fs"
   },
   {
    "id": "dsh-fs-observation-policy",
@@ -126,7 +126,7 @@
     "策略"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-fs-observation-policy"
+   "slug": "@deepseek-ai-dsh-fs-observation-policy"
   },
   {
    "id": "dsh-goal",
@@ -144,7 +144,7 @@
     "目标"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-goal"
+   "slug": "@deepseek-ai-dsh-goal"
   },
   {
    "id": "dsh-headless",
@@ -162,7 +162,7 @@
     "官方"
    ],
    "install": "dsh plugin add @deepseek-ai/dsh-headless",
-   "slug": "deepseek-ai-@deepseek-ai-dsh-headless"
+   "slug": "@deepseek-ai-dsh-headless"
   },
   {
    "id": "dsh-hooks-claude-code",
@@ -180,7 +180,7 @@
     "claude-code"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-hooks-claude-code"
+   "slug": "@deepseek-ai-dsh-hooks-claude-code"
   },
   {
    "id": "dsh-hooks-codex",
@@ -198,7 +198,7 @@
     "codex"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-hooks-codex"
+   "slug": "@deepseek-ai-dsh-hooks-codex"
   },
   {
    "id": "dsh-llm-deepseek",
@@ -216,7 +216,7 @@
     "deepseek"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-llm-deepseek"
+   "slug": "@deepseek-ai-dsh-llm-deepseek"
   },
   {
    "id": "dsh-lsp",
@@ -234,7 +234,7 @@
     "语言服务器"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-lsp"
+   "slug": "@deepseek-ai-dsh-lsp"
   },
   {
    "id": "dsh-lsp-stdio",
@@ -252,7 +252,7 @@
     "语言服务器"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-lsp-stdio"
+   "slug": "@deepseek-ai-dsh-lsp-stdio"
   },
   {
    "id": "dsh-mcp-client",
@@ -270,7 +270,7 @@
     "桥接"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-mcp-client"
+   "slug": "@deepseek-ai-dsh-mcp-client"
   },
   {
    "id": "dsh-plan-mode",
@@ -288,7 +288,7 @@
     "计划"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-plan-mode"
+   "slug": "@deepseek-ai-dsh-plan-mode"
   },
   {
    "id": "dsh-sandbox",
@@ -306,7 +306,7 @@
     "安全"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-sandbox"
+   "slug": "@deepseek-ai-dsh-sandbox"
   },
   {
    "id": "dsh-schedule",
@@ -324,7 +324,7 @@
     "定时"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-schedule"
+   "slug": "@deepseek-ai-dsh-schedule"
   },
   {
    "id": "dsh-session-persistence-sqlite",
@@ -342,7 +342,7 @@
     "存储"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-session-persistence-sqlite"
+   "slug": "@deepseek-ai-dsh-session-persistence-sqlite"
   },
   {
    "id": "dsh-session-query-sqlite",
@@ -360,7 +360,7 @@
     "检索"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-session-query-sqlite"
+   "slug": "@deepseek-ai-dsh-session-query-sqlite"
   },
   {
    "id": "dsh-session-telemetry-otel",
@@ -378,7 +378,7 @@
     "otel"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-session-telemetry-otel"
+   "slug": "@deepseek-ai-dsh-session-telemetry-otel"
   },
   {
    "id": "dsh-settings-file",
@@ -396,7 +396,7 @@
     "设置"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-settings-file"
+   "slug": "@deepseek-ai-dsh-settings-file"
   },
   {
    "id": "dsh-skill",
@@ -414,7 +414,7 @@
     "技能"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-skill"
+   "slug": "@deepseek-ai-dsh-skill"
   },
   {
    "id": "dsh-subagent",
@@ -432,7 +432,7 @@
     "多智能体"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-subagent"
+   "slug": "@deepseek-ai-dsh-subagent"
   },
   {
    "id": "dsh-subprocess",
@@ -450,7 +450,7 @@
     "进程"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-subprocess"
+   "slug": "@deepseek-ai-dsh-subprocess"
   },
   {
    "id": "dsh-terminal",
@@ -468,7 +468,7 @@
     "pty"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-terminal"
+   "slug": "@deepseek-ai-dsh-terminal"
   },
   {
    "id": "dsh-tool-todo",
@@ -486,7 +486,7 @@
     "工具"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-tool-todo"
+   "slug": "@deepseek-ai-dsh-tool-todo"
   },
   {
    "id": "dsh-web",
@@ -504,7 +504,7 @@
     "搜索"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-web"
+   "slug": "@deepseek-ai-dsh-web"
   },
   {
    "id": "dsh-web-app",
@@ -522,7 +522,7 @@
     "官方"
    ],
    "install": "dsh plugin add @deepseek-ai/dsh-web-app",
-   "slug": "deepseek-ai-@deepseek-ai-dsh-web-app"
+   "slug": "@deepseek-ai-dsh-web-app"
   },
   {
    "id": "dsh-web-search-deepseek",
@@ -540,7 +540,7 @@
     "搜索"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-web-search-deepseek"
+   "slug": "@deepseek-ai-dsh-web-search-deepseek"
   },
   {
    "id": "dsh-workflow",
@@ -558,7 +558,7 @@
     "编排"
    ],
    "install": null,
-   "slug": "deepseek-ai-@deepseek-ai-dsh-workflow"
+   "slug": "@deepseek-ai-dsh-workflow"
   },
   {
    "id": "example-acp-agent",
@@ -576,7 +576,7 @@
     "acp"
    ],
    "install": null,
-   "slug": "deepseek-ai-examples-acp-agent"
+   "slug": "examples-acp-agent"
   },
   {
    "id": "example-headless-agent",
@@ -594,7 +594,7 @@
     "headless"
    ],
    "install": null,
-   "slug": "deepseek-ai-examples-headless-agent"
+   "slug": "examples-headless-agent"
   },
   {
    "id": "example-jsonrpc-agent",
@@ -612,7 +612,7 @@
     "sdk"
    ],
    "install": null,
-   "slug": "deepseek-ai-examples-jsonrpc-agent"
+   "slug": "examples-jsonrpc-agent"
   },
   {
    "id": "example-mcp-memory",
@@ -630,7 +630,7 @@
     "mcp"
    ],
    "install": null,
-   "slug": "deepseek-ai-examples-mcp-memory"
+   "slug": "examples-mcp-memory"
   },
   {
    "id": "example-web-cordis",
@@ -648,7 +648,7 @@
     "web-ui"
    ],
    "install": null,
-   "slug": "deepseek-ai-examples-web-cordis"
+   "slug": "examples-web-cordis"
   },
   {
    "id": "example-web-schedule",
@@ -666,7 +666,7 @@
     "定时"
    ],
    "install": null,
-   "slug": "deepseek-ai-examples-web-schedule"
+   "slug": "examples-web-schedule"
   },
   {
    "id": "deepseek-harness-desktop",

@@ -13,223 +13,223 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-base</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-base</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-bash-local</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-bash-local</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-bash-sandbox</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-bash-sandbox</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-compaction</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-compaction</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-credentials-local</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-credentials-local</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-fs</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-fs</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-fs-observation-policy</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-fs-observation-policy</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-goal</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-goal</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-headless</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-headless</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-hooks-claude-code</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-hooks-claude-code</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-hooks-codex</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-hooks-codex</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-llm-deepseek</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-llm-deepseek</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-lsp</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-lsp</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-lsp-stdio</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-lsp-stdio</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-mcp-client</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-mcp-client</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-plan-mode</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-plan-mode</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-sandbox</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-sandbox</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-schedule</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-schedule</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-session-persistence-sqlite</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-session-persistence-sqlite</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-session-query-sqlite</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-session-query-sqlite</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-session-telemetry-otel</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-session-telemetry-otel</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-settings-file</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-settings-file</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-skill</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-skill</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-subagent</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-subagent</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-subprocess</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-subprocess</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-terminal</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-terminal</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-tool-todo</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-tool-todo</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-web</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-web</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-web-app</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-web-app</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-web-search-deepseek</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-web-search-deepseek</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-@deepseek-ai-dsh-workflow</loc>
+    <loc>https://dsher.cn/plugins/@deepseek-ai-dsh-workflow</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-examples-acp-agent</loc>
+    <loc>https://dsher.cn/plugins/examples-acp-agent</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-examples-headless-agent</loc>
+    <loc>https://dsher.cn/plugins/examples-headless-agent</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-examples-jsonrpc-agent</loc>
+    <loc>https://dsher.cn/plugins/examples-jsonrpc-agent</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-examples-mcp-memory</loc>
+    <loc>https://dsher.cn/plugins/examples-mcp-memory</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-examples-web-cordis</loc>
+    <loc>https://dsher.cn/plugins/examples-web-cordis</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-ai-examples-web-schedule</loc>
+    <loc>https://dsher.cn/plugins/examples-web-schedule</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
