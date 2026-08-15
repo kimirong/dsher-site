@@ -248,6 +248,10 @@ def main():
     data = json.load(open(DATA, encoding="utf-8"))
     plugins = data["plugins"]
     os.makedirs(OUT_DIR, exist_ok=True)
+    wanted = {f"{p['slug']}.html" for p in plugins}
+    for old in os.listdir(OUT_DIR):
+        if old not in wanted:
+            os.remove(os.path.join(OUT_DIR, old))
     for p in plugins:
         path = os.path.join(OUT_DIR, f"{p['slug']}.html")
         with open(path, "w", encoding="utf-8") as f:

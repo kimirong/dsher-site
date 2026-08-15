@@ -83,6 +83,8 @@ CURATED = {
 }
 
 # Repos not ranked in the topic-search top 100, fetched individually.
+# Keep every curated repo here (or in the top 100) so a search-ranking
+# shift never silently drops a curated plugin.
 EXTRAS = [
     "HuanLinOTO/dsh-plugin-mineru", "shaokeyibb/dsh-plugin-product-subagents",
     "cpj-dev/dsh-plugin-cc", "bugmaker2/dsh-plugin-template",
@@ -90,6 +92,9 @@ EXTRAS = [
     "omdsh-dev/dsh-plugin-check", "omdsh-dev/dsh-plugin-dev",
     "omdsh-dev/dsh-plugin-skills",
     "bruc3van/dsh-desktop", "bradeGithub/DSH-Plugins-Marketplace",
+    "Chinesezjc/dsh-interconnect", "iuikj/dsh-desktop",
+    "omdsh-dev/dsh-custom-tool", "vibeinging/dsh-work",
+    "whiteguo233/dsh-openbiliclaw",
 ]
 
 
