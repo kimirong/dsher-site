@@ -302,13 +302,9 @@
     if (q) {
       list = list.filter((p) => plMatches(p, q));
     }
-    list.sort((a, b) => {
-      const ao = a.type === "official";
-      const bo = b.type === "official";
-      if (ao !== bo) return ao ? -1 : 1;
-      if (ao && bo) return a.name.localeCompare(b.name);
-      return (b.stars || 0) - (a.stars || 0);
-    });
+    // stars desc everywhere; official entries (no stars) keep their
+    // alphabetical order at the bottom via stable sort
+    list.sort((a, b) => (b.stars || 0) - (a.stars || 0));
     plApp.innerHTML = "";
     list.forEach((p) => plApp.appendChild(plCard(p)));
     if (plEmpty) plEmpty.hidden = list.length > 0;

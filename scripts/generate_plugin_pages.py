@@ -127,7 +127,7 @@ def page_html(p, plugins):
         items = "".join(
             f'<a class="plp-more-item" href="/plugins/{escape(m["slug"])}">'
             f'<span class="plp-more-name">{escape(m["name"])}</span>'
-            f'<span class="plp-more-stars">★ {m["stars"]:,}</span></a>'
+            + (f'<span class="plp-more-stars">★ {m["stars"]:,}</span></a>' if m.get("stars") else "</a>")
             for m in more
         )
         more_html = f"""
