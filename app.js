@@ -20,6 +20,7 @@
     "hero.ctaStart":   { zh: "快速上手",        en: "Get started" },
     "hero.ctaPlugins": { zh: "插件市场",        en: "Plugin Marketplace" },
     "hero.ctaAbout":   { zh: "先看看是什么 →",  en: "What is dsh? →" },
+    "hero.community":  { zh: "加入 dsh 社区论坛", en: "Join the dsh community forum" },
     "term.cmd1":       { zh: "npx @deepseek-ai/dsh web", en: "npx @deepseek-ai/dsh web" },
     "term.line1":      { zh: "▶ DeepSeek Harness 已就绪", en: "▶ DeepSeek Harness is ready" },
     "term.line2":      { zh: "  Web UI → http://127.0.0.1:3080", en: "  Web UI → http://127.0.0.1:3080" },

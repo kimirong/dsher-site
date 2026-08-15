@@ -140,6 +140,24 @@ code, pre { font-family: var(--mono); }
 .hero-sub strong { color: var(--text); }
 .hero-cta { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
 
+.hero-community {
+  display: inline-flex; align-items: center; gap: 10px;
+  margin-top: 24px;
+  border: 1px solid var(--border-strong);
+  background: rgba(12, 19, 34, 0.7);
+  border-radius: 999px;
+  padding: 11px 22px;
+  color: var(--text); font-size: 14.5px; font-weight: 600;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+}
+.hero-community:hover {
+  border-color: var(--cyan); text-decoration: none;
+  box-shadow: 0 0 26px rgba(34, 211, 238, 0.22);
+  transform: translateY(-1px);
+}
+.hero-community-domain { font-family: var(--mono); font-size: 13px; font-weight: 400; color: var(--cyan); }
+.hero-community-arrow { color: var(--text-faint); font-weight: 400; }
+
 /* ---------- terminal ---------- */
 .terminal {
   max-width: 720px; margin: 64px auto 0; text-align: left;
