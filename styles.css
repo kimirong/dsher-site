@@ -254,6 +254,19 @@ code, pre { font-family: var(--mono); }
 .qs-hint { margin: 20px 0 0; color: var(--text-faint); font-size: 14px; }
 
 /* ---------- community ---------- */
+.forum-hero {
+  display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+  border: 1px solid var(--border-strong);
+  background: linear-gradient(120deg, rgba(77, 141, 255, 0.14), rgba(34, 211, 238, 0.07)), var(--surface);
+  border-radius: var(--radius);
+  padding: 26px 30px; margin-bottom: 22px;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.3);
+}
+.forum-hero-text { min-width: 0; }
+.forum-badge { font-family: var(--mono); font-size: 12px; color: var(--cyan); letter-spacing: 1px; }
+.forum-hero-title { margin: 8px 0 6px; font-size: 24px; font-weight: 800; }
+.forum-hero p { margin: 0; color: var(--text-dim); font-size: 14.5px; }
+.forum-hero .btn { flex-shrink: 0; }
 .community-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 18px; }
 .c-card {
   display: flex; flex-direction: column; gap: 6px;

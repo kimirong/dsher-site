@@ -81,7 +81,7 @@ NAV = """  <header class="nav">
         <a href="/#features" data-i18n="nav.features">特性</a>
         <a href="/#quickstart" data-i18n="nav.quickstart">快速上手</a>
         <a href="/plugins" data-i18n="nav.plugins">插件市场</a>
-        <a href="/#community" data-i18n="nav.community">社区</a>
+        <a href="https://bbs.dsher.cn" target="_blank" rel="noopener" data-i18n="nav.community">社区</a>
       </nav>
       <div class="nav-actions">
         <button class="lang-toggle" id="lang-toggle" type="button" aria-label="切换语言">

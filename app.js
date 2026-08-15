@@ -72,6 +72,10 @@
     "community.c4.desc":{ zh: "给插件仓库打上这个 topic", en: "Tag your plugin repos with this topic" },
     "community.c5.name":{ zh: "插件市场",        en: "Plugin Marketplace" },
     "community.c5.desc":{ zh: "检索、安装 dsh 生态插件", en: "Browse & install dsh ecosystem plugins" },
+    "community.forum.badge":{ zh: "💬 dsh 社区论坛",   en: "💬 dsh community forum" },
+    "community.forum.title":{ zh: "bbs.dsher.cn",       en: "bbs.dsher.cn" },
+    "community.forum.desc":{ zh: "提问、交流、晒作品、找同好——dshers 的根据地，随时来聊。", en: "Ask, share, show off, and find your people — the home base for dshers. Drop by anytime." },
+    "community.forum.cta":{ zh: "进入论坛 →",           en: "Visit the forum →" },
     "footer.disclaimer":{ zh: "本站是 dsher 社区的非官方页面，与 DeepSeek AI 无隶属关系。DeepSeek Harness (dsh) 是 DeepSeek AI 的 MIT 开源项目；文中商标归各自所有者所有。", en: "This is an unofficial community page for dshers, not affiliated with DeepSeek AI. DeepSeek Harness (dsh) is DeepSeek AI's MIT-licensed open-source project; trademarks belong to their owners." },
     "footer.built":    { zh: "用 ❤ 和 dsh 搭的", en: "Built with ❤ and dsh" },
 
