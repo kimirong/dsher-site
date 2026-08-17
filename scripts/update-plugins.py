@@ -10,6 +10,8 @@ Usage:
 import json
 import os
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import date
 
@@ -88,14 +90,22 @@ CURATED = {
 # (see fetch_missing_curated) — curated entries never silently vanish.
 
 
-def get_json(url):
+def get_json(url, retries=3):
     token = os.environ.get("GITHUB_TOKEN", "")
     headers = {"User-Agent": "dsher-marketplace", "Accept": "application/vnd.github+json"}
     if token:
         headers["Authorization"] = f"Bearer {token}"
     req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+    last = None
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.load(resp)
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError) as e:
+            last = e
+            if attempt < retries - 1:
+                time.sleep(2 * (attempt + 1))
+    raise last
 
 
 def main():
