@@ -89,7 +89,11 @@ CURATED = {
 
 
 def get_json(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "dsher-marketplace", "Accept": "application/vnd.github+json"})
+    token = os.environ.get("GITHUB_TOKEN", "")
+    headers = {"User-Agent": "dsher-marketplace", "Accept": "application/vnd.github+json"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.load(resp)
 

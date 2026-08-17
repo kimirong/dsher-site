@@ -3,6 +3,9 @@ set -e
 
 cd /root/dsher-site
 
+# Get GitHub token from gh config
+export GITHUB_TOKEN=$(grep "oauth_token:" ~/.config/gh/hosts.yml | head -1 | awk '{print $2}')
+
 # Run the update script
 python3 scripts/update-plugins.py
 
