@@ -91,10 +91,7 @@ CURATED = {
 
 
 def get_json(url, retries=3):
-    token = os.environ.get("GITHUB_TOKEN", "")
     headers = {"User-Agent": "dsher-marketplace", "Accept": "application/vnd.github+json"}
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
     req = urllib.request.Request(url, headers=headers)
     last = None
     for attempt in range(retries):
