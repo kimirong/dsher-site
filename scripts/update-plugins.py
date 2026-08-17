@@ -96,7 +96,7 @@ def get_json(url, retries=3):
     last = None
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
+            with urllib.request.urlopen(req, timeout=15) as resp:
                 return json.load(resp)
         except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError) as e:
             last = e
@@ -112,6 +112,7 @@ def main():
         sys.exit(f"plugins.json not found at {REPO}; run from the repo root")
 
     official = [p for p in existing["plugins"] if p["type"] == "official"]
+    existing_by_key = {(p["author"], p["name"]): p for p in existing["plugins"]}
     print(f"preserving {len(official)} official entries")
 
     items = get_json(API)["items"]
@@ -123,13 +124,20 @@ def main():
             by_name[repo.lower()] = get_json(f"https://api.github.com/repos/{repo}")
             print(f"direct fetch: {repo}")
         except Exception as e:
-            print(f"skip {repo}: {e}")
+            print(f"fetch failed: {repo}: {e}")
 
     fresh = []
     for repo, (typ, tags, install) in CURATED.items():
         r = by_name.get(repo.lower())
         if not r:
-            print(f"skip (not found): {repo}")
+            # transient fetch failure: keep the existing entry rather than
+            # silently shrinking the marketplace
+            old = existing_by_key.get((repo.split("/")[0], repo.split("/")[-1]))
+            if old and old["type"] == typ:
+                fresh.append(old)
+                print(f"kept existing entry (fetch failed): {repo}")
+            else:
+                print(f"skip (not found & no existing entry): {repo}")
             continue
         fresh.append({
             "id": repo.split("/")[-1], "name": repo.split("/")[-1],

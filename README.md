@@ -76,6 +76,8 @@ dsher-site/
 python3 scripts/update-plugins.py   # 需要网络；走代理时先 export https_proxy
 ```
 
+**自动更新**：仓库内置 GitHub Actions 工作流（`.github/workflows/auto-update-plugins.yml`），**每天北京时间 09:00 自动**刷新数据、重新生成详情页/sitemap 并提交推送，无需人工干预；也可在 Actions 页面手动触发（Run workflow）。抓取失败时会保留旧数据而不是丢条目。
+
 ## 部署到 Cloudflare Pages
 
 ### 方式 A：Git 集成（推荐，push 即部署）
