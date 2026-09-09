@@ -63,6 +63,30 @@ CURATED = {
     "anywhere-labs/deepseek-harness-desktop": ("community", ["桌面端"], None),
     "ChisaAlter/Deepseek-Harness-Desktop": ("community", ["桌面端"], None),
     "gameswu/dsh-plugin-background": ("community", ["壁纸", "皮肤"], None),
+    # community plugins (2026-09 additions)
+    "anywhere-labs/dsh-desktop": ("community", ["桌面端"], None),
+    "zhu1090093659/dsh-web": ("community", ["web-ui", "生态聚合"], "dsh plugin add github:zhu1090093659/dsh-web"),
+    "yjh051108/dsh-routing-suite": ("community", ["路由", "注入器"], "dsh plugin add github:yjh051108/dsh-routing-suite"),
+    "xiaobright/dsh-anchored-standard": ("community", ["预设", "preset"], None),
+    "dsh-market/dsh-market": ("community", ["插件市场", "web-ui"], "dsh plugin add github:dsh-market/dsh-market"),
+    "dsh-tauri-desk/deepseek-harness-desktop": ("community", ["桌面端"], None),
+    "AdamPlatin123/dsh-plugin-radar": ("community", ["雷达", "发现"], None),
+    "bowenliang123/dsh-context": ("community", ["上下文", "管理"], "dsh plugin add github:bowenliang123/dsh-context"),
+    "xmanrui/dsh-im": ("community", ["IM", "机器人"], "dsh plugin add github:xmanrui/dsh-im"),
+    "shaobeichen/dsh-pocket": ("community", ["手机访问", "远程"], None),
+    "whitelonng/dshcode": ("community", ["桌面端"], None),
+    "myYangyunfan/dsh_desktop": ("community", ["桌面端"], None),
+    "fufankeji/deepseek-harness-studio": ("community", ["桌面端", "零代码"], None),
+    "vibeinging/dsh-desktop": ("community", ["桌面端"], None),
+    "PC2005-cloud/dsh-pet": ("community", ["桌宠", "皮肤"], None),
+    "Aisland-SJL/dsh-worktable": ("community", ["工作台"], None),
+    "FSMargoo/dsh-at-file": ("community", ["编辑器", "@引用"], "dsh plugin add github:FSMargoo/dsh-at-file"),
+    "LivXue/dsh-plugin-shop": ("community", ["插件市场"], None),
+    "ningbainb/deepseek-harness-desktop": ("community", ["桌面端"], None),
+    "MeteorNOX/DeepSeek-Balance-Whale-Widget": ("community", ["小部件", "鲸鱼"], "dsh plugin add github:MeteorNOX/DeepSeek-Balance-Whale-Widget"),
+    # index / registry (2026-09 additions)
+    "Anil-matcha/awesome-dsh-plugin": ("index", ["精选"], None),
+    "Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins": ("index", ["精选"], None),
     # index / registry
     "AdamPlatin123/awesome-dsh-plugins": ("index", ["精选", "雷达"], None),
     "awesome-dsh-plugin/awesome-dsh-plugin": ("index", ["精选"], None),
@@ -89,6 +113,25 @@ CURATED = {
 # Any curated repo missing from the search is therefore fetched directly
 # (see fetch_missing_curated) — curated entries never silently vanish.
 
+# Auto-discovery: repos that carry a strong DSH signal are added without
+# hand curation. Both a name signal and a DSH topic are required so the
+# topic's spam tagging (unrelated repos tagging themselves dsh-plugin)
+# cannot leak into the marketplace.
+AUTO_MIN_STARS = 50
+AUTO_EXCLUDE = {
+    # jailbreak / red-team prompt tooling — not marketplace material
+    "Minglink/dsh-infinite-gen-3",
+    "YuJunZhiXue/dsh-purge",
+    "SeaOf0/dsh-redteam-model",
+    "howmp/dsh-pentest",
+    "Rain-kl/dsh-preset-plus",
+}
+GENERIC_TOPICS = {
+    "dsh", "dsh-plugin", "deepseek-harness", "deepseek", "cordis", "cordis-plugin",
+    "ai", "ai-agent", "ai-agents", "agent", "agents", "llm", "claude-code", "codex",
+    "typescript", "javascript", "python", "electron", "plugin", "plugins", "hacktoberfest",
+}
+
 
 def get_json(url, retries=3):
     headers = {"User-Agent": "dsher-marketplace", "Accept": "application/vnd.github+json"}
@@ -105,6 +148,39 @@ def get_json(url, retries=3):
     raise last
 
 
+def discover(items, taken, previous_auto):
+    """Auto-add repos with a strong DSH signal; keep earlier discoveries
+    that dropped out of the search slice."""
+    out = []
+    for r in items:
+        full = r["full_name"]
+        if full in taken or full in AUTO_EXCLUDE:
+            continue
+        if r.get("fork") or r.get("archived") or full == "deepseek-ai/deepseek-harness":
+            continue
+        name = full.split("/")[-1].lower()
+        topics = [t.lower() for t in r.get("topics", [])]
+        if not ("dsh" in name or "deepseek-harness" in full.lower()):
+            continue
+        if not any(t in ("dsh-plugin", "dsh", "deepseek-harness", "cordis-plugin") for t in topics):
+            continue
+        if (r.get("stargazers_count") or 0) < AUTO_MIN_STARS:
+            continue
+        out.append({
+            "id": full.split("/")[-1], "name": full.split("/")[-1], "author": full.split("/")[0],
+            "type": "community", "repo": r["html_url"], "stars": r["stargazers_count"],
+            "desc": (r.get("description") or "").strip(),
+            "tags": [t for t in r.get("topics", []) if t.lower() not in GENERIC_TOPICS][:4],
+            "install": None, "auto": True,
+        })
+    seen = {e["author"] + "/" + e["name"] for e in out}
+    for e in previous_auto:
+        key = e["author"] + "/" + e["name"]
+        if key not in seen and key not in taken and key not in AUTO_EXCLUDE:
+            out.append(e)
+    return out
+
+
 def main():
     try:
         existing = json.load(open(REPO, encoding="utf-8"))
@@ -113,9 +189,17 @@ def main():
 
     official = [p for p in existing["plugins"] if p["type"] == "official"]
     existing_by_key = {(p["author"], p["name"]): p for p in existing["plugins"]}
-    print(f"preserving {len(official)} official entries")
+    previous_auto = [p for p in existing["plugins"] if p.get("auto")]
+    print(f"preserving {len(official)} official entries, {len(previous_auto)} auto-discovered entries")
 
-    items = get_json(API)["items"]
+    # three search pages so discovery sees beyond the top 100
+    items = []
+    for page in (1, 2, 3):
+        try:
+            items += get_json(f"{API}&page={page}")["items"]
+        except Exception as e:
+            print(f"search page {page} failed: {e}")
+            break
     by_name = {r["full_name"].lower(): r for r in items}
     # Fetch any curated repo that the search slice missed, directly.
     missing = [repo for repo in CURATED if repo.lower() not in by_name]
@@ -139,16 +223,51 @@ def main():
             else:
                 print(f"skip (not found & no existing entry): {repo}")
             continue
+        # use the API's current full_name so a renamed repo keeps its real
+        # name instead of the stale key in CURATED
+        full = r["full_name"]
         fresh.append({
-            "id": repo.split("/")[-1], "name": repo.split("/")[-1],
-            "author": repo.split("/")[0], "type": typ, "repo": r["html_url"],
+            "id": full.split("/")[-1], "name": full.split("/")[-1],
+            "author": full.split("/")[0], "type": typ, "repo": r["html_url"],
             "stars": r["stargazers_count"],
             "desc": (r.get("description") or "").strip(),
             "tags": tags, "install": install,
         })
 
+    taken = {p["author"] + "/" + p["name"] for p in official + fresh}
+    auto = discover(items, taken, previous_auto)
+    if auto:
+        print(f"auto-discovered: {len(auto)} entries")
+
     order = {"official": 0, "community": 1, "index": 2}
-    all_plugins = official + fresh
+    all_plugins = official + fresh + auto
+
+    # a renamed repo resolves to the same html_url from both its curated
+    # old name and its discovered new name — keep the first occurrence.
+    # Official entries all point at the one harness repo, so they are exempt.
+    seen_urls = set()
+    deduped = []
+    for p in all_plugins:
+        if p["type"] == "official":
+            deduped.append(p)
+            continue
+        key = p["repo"].rstrip("/").lower()
+        if key in seen_urls:
+            print(f"duplicate repo dropped: {p['author']}/{p['name']}")
+            continue
+        seen_urls.add(key)
+        deduped.append(p)
+    all_plugins = deduped
+
+    # names follow the repo URL's current path, so a renamed repo never keeps
+    # a stale display name (official entries share one repo and are exempt)
+    for p in all_plugins:
+        if p["type"] == "official":
+            continue
+        parts = p["repo"].rstrip("/").split("/")
+        if len(parts) >= 2:
+            p["author"], p["name"], p["id"] = parts[-2], parts[-1], parts[-1]
+
     all_plugins.sort(key=lambda p: (order[p["type"]], 0 if p["type"] == "official" else -(p["stars"] or 0),
                                     p["name"] if p["type"] == "official" else ""))
 

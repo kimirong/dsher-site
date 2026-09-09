@@ -78,6 +78,8 @@ python3 scripts/update-plugins.py   # 需要网络；走代理时先 export http
 
 **自动更新**：仓库内置 GitHub Actions 工作流（`.github/workflows/auto-update-plugins.yml`），**每天北京时间 08:00 自动**刷新数据、重新生成详情页/sitemap 并提交推送，无需人工干预；也可在 Actions 页面手动触发（Run workflow）。抓取失败时会保留旧数据而不是丢条目。
 
+**新插件自动发现**：脚本每次运行会扫描 `topic:dsh-plugin` 的前 300 个仓库，满足**名字含 `dsh`/`deepseek-harness` + 带 dsh 系 topic + ≥50 star** 的仓库自动收录为社区插件（无安装命令，卡片走仓库链接，避免误标安装方式）；`AUTO_EXCLUDE` 用于排除越狱/红队等不适合收录的仓库。手工精编的条目在 `CURATED` 里维护，带人工标签和已验证的安装命令。重命名过的仓库按 URL 去重并自动更新显示名。
+
 ## 部署到 Cloudflare Pages
 
 ### 方式 A：Git 集成（推荐，push 即部署）
