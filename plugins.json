@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-09",
  "source": "GitHub topic:dsh-plugin + deepseek-harness repo",
  "plugins": [
   {
@@ -674,7 +674,7 @@
    "author": "Ebony-Vinyl",
    "type": "community",
    "repo": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-   "stars": 65560,
+   "stars": 66357,
    "desc": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
    "tags": [
     "developer-tools",
@@ -692,7 +692,7 @@
    "author": "anywhere-labs",
    "type": "community",
    "repo": "https://github.com/anywhere-labs/dsh-desktop",
-   "stars": 35300,
+   "stars": 35425,
    "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
    "tags": [
     "桌面端"
@@ -724,7 +724,7 @@
    "author": "dataelement",
    "type": "community",
    "repo": "https://github.com/dataelement/dsh-desktop",
-   "stars": 17554,
+   "stars": 17616,
    "desc": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "tags": [
     "apps",
@@ -742,7 +742,7 @@
    "author": "ccch1mneyyy",
    "type": "community",
    "repo": "https://github.com/ccch1mneyyy/dsh-Go",
-   "stars": 14656,
+   "stars": 16394,
    "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
    "tags": [
     "android",
@@ -760,7 +760,7 @@
    "author": "dsh-market",
    "type": "community",
    "repo": "https://github.com/dsh-market/dsh-market",
-   "stars": 11368,
+   "stars": 11550,
    "desc": "The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场",
    "tags": [
     "插件市场",
@@ -775,7 +775,7 @@
    "author": "zhu1090093659",
    "type": "community",
    "repo": "https://github.com/zhu1090093659/dsh-web",
-   "stars": 10213,
+   "stars": 10248,
    "desc": "DeepSeek Harness (DSH) Web 插件聚合生态 · 万物皆插件，通过创意工坊分发｜｜DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop",
    "tags": [
     "web-ui",
@@ -791,7 +791,7 @@
    "author": "ccch1mneyyy",
    "type": "community",
    "repo": "https://github.com/ccch1mneyyy/dsh-TUI",
-   "stars": 7170,
+   "stars": 7257,
    "desc": "DSH's officially top-recommended TUI plugin — high performance, low overhead, cute pixel whale, smooth mouse interaction. One-command install via npm. / DSH 官方首推的 TUI 插件，高性能低占用，可爱像素鲸鱼，流畅鼠标交互，npm 一键安装",
    "tags": [
     "终端",
@@ -806,7 +806,7 @@
    "author": "MeteorNOX",
    "type": "community",
    "repo": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
-   "stars": 7010,
+   "stars": 7051,
    "desc": "DeepSeek Harness（DSH）一只住在 DSH 界面右下角的小鲸鱼娘，帮你盯着DeepSeek账户余额。QQ弹弹，支持拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用，建议直接喊来你的dsh安装",
    "tags": [
     "小部件",
@@ -821,7 +821,7 @@
    "author": "yjh051108",
    "type": "community",
    "repo": "https://github.com/yjh051108/dsh-routing-suite",
-   "stars": 7007,
+   "stars": 7011,
    "desc": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
    "tags": [
     "路由",
@@ -831,27 +831,12 @@
    "slug": "dsh-routing-suite"
   },
   {
-   "id": "dsh-pet",
-   "name": "dsh-pet",
-   "author": "PC2005-cloud",
-   "type": "community",
-   "repo": "https://github.com/PC2005-cloud/dsh-pet",
-   "stars": 5839,
-   "desc": "DSH 桌面宠物：一行命令装好即用的透明动画小桌宠，支持多开、大小位置随心配置；还内置 DIY 素材链，能用 AI 视频自造专属宠物",
-   "tags": [
-    "桌宠",
-    "皮肤"
-   ],
-   "install": null,
-   "slug": "dsh-pet"
-  },
-  {
    "id": "dsh-wallpaper-engine",
    "name": "dsh-wallpaper-engine",
    "author": "elysia395",
    "type": "community",
    "repo": "https://github.com/elysia395/dsh-wallpaper-engine",
-   "stars": 5820,
+   "stars": 6035,
    "desc": "把本机 Wallpaper Engine 的壁纸搬进 DSH 网页界面：场景壁纸由内置 MIT 开源引擎 WebWallGL 实时 WebGL 渲染（粒子 / puppet 骨骼 / SceneScript / 音频反应 / 鼠标交互），失败自动降级内嵌 MP4 与场景静态帧；Web 壁纸严格沙箱 + WE API；iOS 风格液态玻璃 UI 高度自定义，遮挡暂停省电、ffmpeg 帧率上限转码、系统音频频谱与 Now Playing、自定义上传与自动轮播；设置存宿主端，对 agent 零 token 开销。Windows / macOS / Linux 三平台原生（同一个包、同一条命令）。",
    "tags": [
     "dsh-plugin-market",
@@ -864,19 +849,19 @@
    "slug": "dsh-wallpaper-engine"
   },
   {
-   "id": "dsh-ops",
-   "name": "dsh-ops",
-   "author": "T-Auto",
+   "id": "dsh-pet",
+   "name": "dsh-pet",
+   "author": "PC2005-cloud",
    "type": "community",
-   "repo": "https://github.com/T-Auto/dsh-ops",
-   "stars": 5538,
-   "desc": "A toolkit for low-level operations in DSH, designed to reduce token usage and task execution time / DSH 底层操作工具插件，旨在减少 Token 消耗与任务耗时",
+   "repo": "https://github.com/PC2005-cloud/dsh-pet",
+   "stars": 5917,
+   "desc": "DSH 桌面宠物：一行命令装好即用的透明动画小桌宠，支持多开、大小位置随心配置；还内置 DIY 素材链，能用 AI 视频自造专属宠物",
    "tags": [
-    "dsh-plugins"
+    "桌宠",
+    "皮肤"
    ],
    "install": null,
-   "auto": true,
-   "slug": "dsh-ops"
+   "slug": "dsh-pet"
   },
   {
    "id": "dsh-purge",
@@ -884,7 +869,7 @@
    "author": "kingcharleslzy-ai",
    "type": "community",
    "repo": "https://github.com/kingcharleslzy-ai/dsh-purge",
-   "stars": 5031,
+   "stars": 5616,
    "desc": "dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。",
    "tags": [
     "agent-tools",
@@ -897,12 +882,27 @@
    "slug": "kingcharleslzy-ai-dsh-purge"
   },
   {
+   "id": "dsh-ops",
+   "name": "dsh-ops",
+   "author": "T-Auto",
+   "type": "community",
+   "repo": "https://github.com/T-Auto/dsh-ops",
+   "stars": 5605,
+   "desc": "A toolkit for low-level operations in DSH, designed to reduce token usage and task execution time / DSH 底层操作工具插件，旨在减少 Token 消耗与任务耗时",
+   "tags": [
+    "dsh-plugins"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-ops"
+  },
+  {
    "id": "DSH-better-sidebar",
    "name": "DSH-better-sidebar",
    "author": "omdsh-dev",
    "type": "community",
    "repo": "https://github.com/omdsh-dev/DSH-better-sidebar",
-   "stars": 4988,
+   "stars": 5013,
    "desc": "开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/侧边对话/Git/子代理页面 ｜ Open sidebar foundation, supports third-party extensions to register new sidebar pages. Built-in file rendering/editing, terminal, side chat, Git, and sub-agent pages.",
    "tags": [
     "web-ui",
@@ -917,7 +917,7 @@
    "author": "liustack",
    "type": "community",
    "repo": "https://github.com/liustack/modlens",
-   "stars": 4842,
+   "stars": 4863,
    "desc": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an image, get structured JSON evidence (OCR, layout, semantics). | 全网最强 DeepSeek Harness 外挂视觉插件，为 DeepSeek、GLM 等纯文本模型外挂视觉能力，粘贴图片即得结构化 JSON 证据（OCR、版面、语义）。",
    "tags": [
     "视觉",
@@ -932,7 +932,7 @@
    "author": "bowenliang123",
    "type": "community",
    "repo": "https://github.com/bowenliang123/dsh-context",
-   "stars": 4563,
+   "stars": 4683,
    "desc": "The best DeepSeek Harness plugin for context insight and management, with context dashboard / browser / sidebar and context command, for context statistics, composition, breakdown, evolution details, agent teams, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板、浏览器、侧栏、命令，透视上下文组成、演进、压缩、多 Agent等。",
    "tags": [
     "上下文",
@@ -947,7 +947,7 @@
    "author": "xiaobright",
    "type": "community",
    "repo": "https://github.com/xiaobright/dsh-anchored-standard",
-   "stars": 3723,
+   "stars": 3722,
    "desc": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
    "tags": [
     "预设",
@@ -957,26 +957,12 @@
    "slug": "dsh-anchored-standard"
   },
   {
-   "id": "deepseek-harness-desktop",
-   "name": "deepseek-harness-desktop",
-   "author": "dsh-tauri",
-   "type": "community",
-   "repo": "https://github.com/dsh-tauri/deepseek-harness-desktop",
-   "stars": 3514,
-   "desc": "DSH Tauri 桌面版 | Better DSH desktop, zero environment setup, preset plugins, Windows / macOS / Linux.",
-   "tags": [
-    "桌面端"
-   ],
-   "install": null,
-   "slug": "dsh-tauri-deepseek-harness-desktop"
-  },
-  {
    "id": "dsh-purge",
    "name": "dsh-purge",
    "author": "mmparko",
    "type": "community",
    "repo": "https://github.com/mmparko/dsh-purge",
-   "stars": 3357,
+   "stars": 3646,
    "desc": "DeepSeek Harness 破甲 (mirror of YuJunZhiXue/dsh-purge) — 上游即将删库，此为本仓库全量镜像：含全部分支/73 个 tag/完整提交历史。原作者署名与二开要求见 README 署名章节。",
    "tags": [
     "archive",
@@ -989,12 +975,26 @@
    "slug": "mmparko-dsh-purge"
   },
   {
+   "id": "deepseek-harness-desktop",
+   "name": "deepseek-harness-desktop",
+   "author": "dsh-tauri",
+   "type": "community",
+   "repo": "https://github.com/dsh-tauri/deepseek-harness-desktop",
+   "stars": 3538,
+   "desc": "DSH Tauri 桌面版 | Better DSH desktop, zero environment setup, preset plugins, Windows / macOS / Linux.",
+   "tags": [
+    "桌面端"
+   ],
+   "install": null,
+   "slug": "dsh-tauri-deepseek-harness-desktop"
+  },
+  {
    "id": "dsh-im",
    "name": "dsh-im",
    "author": "xmanrui",
    "type": "community",
    "repo": "https://github.com/xmanrui/dsh-im",
-   "stars": 3342,
+   "stars": 3377,
    "desc": "通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).",
    "tags": [
     "IM",
@@ -1009,7 +1009,7 @@
    "author": "Small-tailqwq",
    "type": "community",
    "repo": "https://github.com/Small-tailqwq/dsh-deep-whale",
-   "stars": 3063,
+   "stars": 3069,
    "desc": "Whale Girl skin series for DeepSeek Harness. 适用于 DeepSeek Harness 的，鲸鱼娘系列皮肤。",
    "tags": [
     "皮肤",
@@ -1024,7 +1024,7 @@
    "author": "shaobeichen",
    "type": "community",
    "repo": "https://github.com/shaobeichen/dsh-pocket",
-   "stars": 2826,
+   "stars": 2855,
    "desc": "把 DeepSeek Harness 装进你的口袋：电脑上跑 dsh web，手机扫码即同步访问（局域网 + 公网，实时同屏）Put DeepSeek Harness in your pocket: run dsh web on your computer and access it synchronously by scanning a QR code on your phone (LAN + public network, real‑time screen mirroring)",
    "tags": [
     "手机访问",
@@ -1039,7 +1039,7 @@
    "author": "NanmiCoder",
    "type": "community",
    "repo": "https://github.com/NanmiCoder/dsh-agent-teams",
-   "stars": 2755,
+   "stars": 2789,
    "desc": "DeepSeek Harness 的 Agent Teams 多智能体协作插件，支持多个 AI Agent 组成团队，协同完成复杂任务，实现任务分配、并行执行、成员通信与团队协作。 AgentTeams plugin for DeepSeek Harness",
    "tags": [
     "多智能体"
@@ -1068,7 +1068,7 @@
    "author": "sixtysevenlf",
    "type": "community",
    "repo": "https://github.com/sixtysevenlf/dsh-blender-plugin",
-   "stars": 1737,
+   "stars": 1870,
    "desc": "DSH × Blender 直连插件 v3.0.6：15 个模型工具让 AI 驱动 GUI Blender（视口 / 自定义视角 / 无头 worker / 作业层 / 事务回滚 / 配方库），34 family / 228 op 契约层；npm 安装 + addon zip，GUI 优先、无头备用；dsh-TUI 选中 chip / @ 提及 / /blender，随包建模 skill，支持 WSL / Windows / macOS。",
    "tags": [
     "3d-modeling",
@@ -1101,7 +1101,7 @@
    "author": "flizzywine",
    "type": "community",
    "repo": "https://github.com/flizzywine/dsh-tavern",
-   "stars": 1513,
+   "stars": 1525,
    "desc": "基于DSH的Agent酒馆。类酒馆文字游戏Agent。兼容SillyTavern生态，人物卡直接导入就能玩。更快、更稳、更鲜活。所有模型都能用。手机也能玩。",
    "tags": [
     "game",
@@ -1128,25 +1128,12 @@
    "slug": "dsh-plugin-radar"
   },
   {
-   "id": "dsh-bili-scroll",
-   "name": "dsh-bili-scroll",
-   "author": "c1overzz",
-   "type": "community",
-   "repo": "https://github.com/c1overzz/dsh-bili-scroll",
-   "stars": 1320,
-   "desc": "DSH 插件：每天替你刷一轮 B站，读字幕挑出值得的、写一份日报，值得的 @ 你",
-   "tags": [],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-bili-scroll"
-  },
-  {
    "id": "dsh-connect-workbuddy",
    "name": "dsh-connect-workbuddy",
    "author": "dingminhua",
    "type": "community",
    "repo": "https://github.com/dingminhua/dsh-connect-workbuddy",
-   "stars": 1301,
+   "stars": 1346,
    "desc": "Connect locally signed-in WorkBuddy models to DeepSeek Harness with a read-only credits overview and model management.",
    "tags": [
     "dsh-plugin-market",
@@ -1157,12 +1144,25 @@
    "slug": "dsh-connect-workbuddy"
   },
   {
+   "id": "dsh-bili-scroll",
+   "name": "dsh-bili-scroll",
+   "author": "c1overzz",
+   "type": "community",
+   "repo": "https://github.com/c1overzz/dsh-bili-scroll",
+   "stars": 1332,
+   "desc": "DSH 插件：每天替你刷一轮 B站，读字幕挑出值得的、写一份日报，值得的 @ 你",
+   "tags": [],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-bili-scroll"
+  },
+  {
    "id": "dsh-vision-router",
    "name": "dsh-vision-router",
    "author": "ysr666",
    "type": "community",
    "repo": "https://github.com/ysr666/dsh-vision-router",
-   "stars": 1241,
+   "stars": 1247,
    "desc": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns.",
    "tags": [
     "视觉"
@@ -1194,7 +1194,7 @@
    "author": "shanliuling",
    "type": "community",
    "repo": "https://github.com/shanliuling/dsh-image-gen",
-   "stars": 1165,
+   "stars": 1186,
    "desc": "可在对话内生成、编辑、对比图像；内置 500 + 提示词、图库、多模型工作流，支持 ComfyUI。AI image studio for DeepSeek Harness — generate, edit & compare images in chat, with 500+ prompts, gallery, multi-model workflows and ComfyUI.",
    "tags": [
     "ai-image-generation-api",
@@ -1212,7 +1212,7 @@
    "author": "kelai141",
    "type": "community",
    "repo": "https://github.com/kelai141/dsh-mobile-apk",
-   "stars": 1054,
+   "stars": 1058,
    "desc": "dsh 安卓壳 APK——WebView UI + 内嵌 Termux 运行时快照（解压即跑），为dsh本地运行设计的高性能方案",
    "tags": [
     "android",
@@ -1230,7 +1230,7 @@
    "author": "yexi-by",
    "type": "community",
    "repo": "https://github.com/yexi-by/dsh-unrestricted",
-   "stars": 1001,
+   "stars": 1030,
    "desc": "DeepSeek Harness 提示词破限插件：通过系统提示词解除模型回答限制，深度适配 Web 与桌面端多模式及工具调用",
    "tags": [
     "prompt-engineering"
@@ -1240,27 +1240,12 @@
    "slug": "dsh-unrestricted"
   },
   {
-   "id": "dsh-browser",
-   "name": "dsh-browser",
-   "author": "omdsh-dev",
-   "type": "community",
-   "repo": "https://github.com/omdsh-dev/dsh-browser",
-   "stars": 996,
-   "desc": "Chrome sidebar extension that lets DeepSeek Harness operate your browser directly, no vision capabilities required. 一款 Chrome 侧边栏扩展程序，可让 DeepSeek Harness 直接操控您的浏览器，无需视觉能力。",
-   "tags": [
-    "浏览器",
-    "自动化"
-   ],
-   "install": "dsh plugin add github:Lum1104/dsh-browser",
-   "slug": "dsh-browser"
-  },
-  {
    "id": "dsh-voice-ai-girlfriend",
    "name": "dsh-voice-ai-girlfriend",
    "author": "beiyege-01",
    "type": "community",
    "repo": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend",
-   "stars": 993,
+   "stars": 1007,
    "desc": "语音 AI 女友（Voice AI girlfriend for DeepSeek Harness）：Whisper 语音输入 + Qwen3-TTS 声音克隆 + 句子级流式朗读 + 数字人动画窗。插话/排队双模式，说话即打断。",
    "tags": [
     "ai-girlfriend",
@@ -1273,12 +1258,27 @@
    "slug": "dsh-voice-ai-girlfriend"
   },
   {
+   "id": "dsh-browser",
+   "name": "dsh-browser",
+   "author": "omdsh-dev",
+   "type": "community",
+   "repo": "https://github.com/omdsh-dev/dsh-browser",
+   "stars": 1005,
+   "desc": "Chrome sidebar extension that lets DeepSeek Harness operate your browser directly, no vision capabilities required. 一款 Chrome 侧边栏扩展程序，可让 DeepSeek Harness 直接操控您的浏览器，无需视觉能力。",
+   "tags": [
+    "浏览器",
+    "自动化"
+   ],
+   "install": "dsh plugin add github:Lum1104/dsh-browser",
+   "slug": "dsh-browser"
+  },
+  {
    "id": "dsh-free-search",
    "name": "dsh-free-search",
    "author": "DDDMUC",
    "type": "community",
    "repo": "https://github.com/DDDMUC/dsh-free-search",
-   "stars": 979,
+   "stars": 1001,
    "desc": "为DeepSeek Harness提供的免费网络搜索服务商——即使没有API密钥也可使用。Free web search provider for DeepSeek Harness - usable even without an API key.",
    "tags": [
     "bing",
@@ -1295,7 +1295,7 @@
    "author": "liustack",
    "type": "community",
    "repo": "https://github.com/liustack/modsearch",
-   "stars": 956,
+   "stars": 959,
    "desc": "🥇 The strongest free web search plugin for DeepSeek Harness, and the search bridge for every model without native web access. Free, no signup, no API key. Ask the web or X, get structured JSON evidence. | 🥇 全网最强的 DeepSeek Harness 免费联网搜索插件，免费免注册免 API key。为不能联网的模型补上搜索，问网页或 X，拿回结构化 JSON 证据（搜索、抓取、引用）。",
    "tags": [
     "搜索",
@@ -1305,12 +1305,57 @@
    "slug": "modsearch"
   },
   {
+   "id": "dsh-mnemon",
+   "name": "dsh-mnemon",
+   "author": "omdsh-dev",
+   "type": "community",
+   "repo": "https://github.com/omdsh-dev/dsh-mnemon",
+   "stars": 937,
+   "desc": "Composable, view-based context for DeepSeek Harness. Pluggable sources and strategies, with layered memory and self-evolving skills out of the box.",
+   "tags": [
+    "agent-memory",
+    "context-management",
+    "cross-session-memory",
+    "document-search"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-mnemon"
+  },
+  {
+   "id": "dsh-genui",
+   "name": "dsh-genui",
+   "author": "omdsh-dev",
+   "type": "community",
+   "repo": "https://github.com/omdsh-dev/dsh-genui",
+   "stars": 936,
+   "desc": "GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui fence — layout, charts, plots, forms, quizzes, mermaid, 3D scenes, and an action event loop back to the model. Ships the fence-teaching host plugin, the browser renderer (client half), and the genui skill.",
+   "tags": [
+    "生成式ui"
+   ],
+   "install": "dsh plugin add github:omdsh-dev/dsh-genui",
+   "slug": "dsh-genui"
+  },
+  {
+   "id": "dsh-model-router",
+   "name": "dsh-model-router",
+   "author": "Alice-Marx",
+   "type": "community",
+   "repo": "https://github.com/Alice-Marx/dsh-model-router",
+   "stars": 935,
+   "desc": "Model Router and GALGame plugin for DeepSeek Harness",
+   "tags": [],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-model-router"
+  },
+  {
    "id": "dsh-vision-toolkit",
    "name": "dsh-vision-toolkit",
    "author": "Anionex",
    "type": "community",
    "repo": "https://github.com/Anionex/dsh-vision-toolkit",
-   "stars": 933,
+   "stars": 934,
    "desc": "[dsh]为纯文本模型设计更强大的视觉工具箱：一行安装使用、粘贴图片直接识别、多张图片问答、截图到前端UI 还原等｜DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, Artifacts, and Web UI.",
    "tags": [
     "视觉",
@@ -1325,7 +1370,7 @@
    "author": "jingyunstudio",
    "type": "community",
    "repo": "https://github.com/jingyunstudio/jingyun-dsh",
-   "stars": 925,
+   "stars": 927,
    "desc": "基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端，一个将 AI 智能体 / 技能 / 工作流转化为可交易商品的完整商业化平台客户端。  井云为 DSH 注入了完整的商业闭环：登录注册 → 会员体系 → 订阅支付 → 云端资产 → 多端同步，让 AI 开发者 30 分钟内将自己的智能体封装为独立的商业产品。",
    "tags": [
     "deepseekharness",
@@ -1338,30 +1383,12 @@
    "slug": "jingyun-dsh"
   },
   {
-   "id": "dsh-mnemon",
-   "name": "dsh-mnemon",
-   "author": "omdsh-dev",
-   "type": "community",
-   "repo": "https://github.com/omdsh-dev/dsh-mnemon",
-   "stars": 920,
-   "desc": "Composable, view-based context for DeepSeek Harness. Pluggable sources and strategies, with layered memory and self-evolving skills out of the box.",
-   "tags": [
-    "agent-memory",
-    "context-management",
-    "cross-session-memory",
-    "document-search"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-mnemon"
-  },
-  {
    "id": "deepseek-harness-desktop",
    "name": "deepseek-harness-desktop",
    "author": "ningbainb",
    "type": "community",
    "repo": "https://github.com/ningbainb/deepseek-harness-desktop",
-   "stars": 915,
+   "stars": 918,
    "desc": "Open-source Windows desktop client and GUI for DeepSeek Harness — zero-setup installer with Codex, plugins, skills, SSH, mobile remote access, and 11 skins.",
    "tags": [
     "桌面端"
@@ -1370,39 +1397,12 @@
    "slug": "ningbainb-deepseek-harness-desktop"
   },
   {
-   "id": "dsh-model-router",
-   "name": "dsh-model-router",
-   "author": "Alice-Marx",
-   "type": "community",
-   "repo": "https://github.com/Alice-Marx/dsh-model-router",
-   "stars": 894,
-   "desc": "Model Router and GALGame plugin for DeepSeek Harness",
-   "tags": [],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-model-router"
-  },
-  {
-   "id": "dsh-genui",
-   "name": "dsh-genui",
-   "author": "omdsh-dev",
-   "type": "community",
-   "repo": "https://github.com/omdsh-dev/dsh-genui",
-   "stars": 882,
-   "desc": "GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via the dsh-ui fence — layout, charts, plots, forms, quizzes, mermaid, 3D scenes, and an action event loop back to the model. Ships the fence-teaching host plugin, the browser renderer (client half), and the genui skill.",
-   "tags": [
-    "生成式ui"
-   ],
-   "install": "dsh plugin add github:omdsh-dev/dsh-genui",
-   "slug": "dsh-genui"
-  },
-  {
    "id": "dsh-worktable",
    "name": "dsh-worktable",
    "author": "Aisland-SJL",
    "type": "community",
    "repo": "https://github.com/Aisland-SJL/dsh-worktable",
-   "stars": 845,
+   "stars": 848,
    "desc": "🖥️ Agent-project workbench for DeepSeek Harness — sidebar app drawer + dockable split workspace + a live control room watching every project.",
    "tags": [
     "工作台"
@@ -1416,7 +1416,7 @@
    "author": "6shenhonghong9",
    "type": "community",
    "repo": "https://github.com/6shenhonghong9/dsh-startup-screen",
-   "stars": 791,
+   "stars": 801,
    "desc": "DeepSeek Harness 的启动界面与启动动画插件",
    "tags": [
     "harness",
@@ -1432,7 +1432,7 @@
    "author": "saya-ch",
    "type": "community",
    "repo": "https://github.com/saya-ch/dsh-mobile",
-   "stars": 790,
+   "stars": 798,
    "desc": "DeepSeek Harness 的安全移动访问插件与 Android App，支持局域网和多种远程通道、iPhone/iPad 主屏幕 Web App 与网页推送，并提供移动界面适配、设备管理和自定义扩展。",
    "tags": [
     "android",
@@ -1450,7 +1450,7 @@
    "author": "yyh-001",
    "type": "community",
    "repo": "https://github.com/yyh-001/DSH-X",
-   "stars": 771,
+   "stars": 773,
    "desc": "DeepSeek Harness 桌面启动器：启动项与多实例，版本、插件、整合包、MCP 和技能管理。A desktop launcher for DeepSeek Harness: launch entries, multiple instances, versions, plugins, modpacks, MCP and skills.",
    "tags": [
     "launcher",
@@ -1463,26 +1463,12 @@
    "slug": "dsh-x"
   },
   {
-   "id": "dsh_desktop",
-   "name": "dsh_desktop",
-   "author": "myYangyunfan",
-   "type": "community",
-   "repo": "https://github.com/myYangyunfan/dsh_desktop",
-   "stars": 747,
-   "desc": "DeepSeek Harness (dsh) Windows desktop client - bundled Node.js + dsh CLI, one-click launch",
-   "tags": [
-    "桌面端"
-   ],
-   "install": null,
-   "slug": "dsh_desktop"
-  },
-  {
    "id": "dsh-mobile",
    "name": "dsh-mobile",
    "author": "Clarklevis1995",
    "type": "community",
    "repo": "https://github.com/Clarklevis1995/dsh-mobile",
-   "stars": 746,
+   "stars": 749,
    "desc": "DeepSeek Harness Mobile 是一个面向 DeepSeek Harness 的原生移动端客户端。它通过 dsh-plugin-mobile-gateway 与 Harness 建立 WebSocket 连接，将工作区、会话、实时回复和 Agent 执行轨迹带到 iPhone，同时延续 DeepSeek WebUI 克制、清晰的视觉语言",
    "tags": [
     "android",
@@ -1495,12 +1481,59 @@
    "slug": "clarklevis1995-dsh-mobile"
   },
   {
+   "id": "dsh_desktop",
+   "name": "dsh_desktop",
+   "author": "myYangyunfan",
+   "type": "community",
+   "repo": "https://github.com/myYangyunfan/dsh_desktop",
+   "stars": 746,
+   "desc": "DeepSeek Harness (dsh) Windows desktop client - bundled Node.js + dsh CLI, one-click launch",
+   "tags": [
+    "桌面端"
+   ],
+   "install": null,
+   "slug": "dsh_desktop"
+  },
+  {
+   "id": "dsh-memory-evolve",
+   "name": "dsh-memory-evolve",
+   "author": "csyangwen",
+   "type": "community",
+   "repo": "https://github.com/csyangwen/dsh-memory-evolve",
+   "stars": 726,
+   "desc": "为 DeepSeek Harness 带来「跨会话长期记忆 + 后台自我进化」能力的纯插件实现：五轨记忆 · git 分支感知 · 回合内自我审查 · 技能自我进化与技能管理器 · 四轨待办 · COI 调度 · 会话广播 · 会话搜索 · 提示词管理器 · 临时信息便签——零核心修改、零运行时依赖，随装随用、卸载即净。",
+   "tags": [
+    "记忆",
+    "进化"
+   ],
+   "install": "dsh plugin add github:csyangwen/dsh-memory-evolve",
+   "slug": "dsh-memory-evolve"
+  },
+  {
+   "id": "oh-story-dsh",
+   "name": "oh-story-dsh",
+   "author": "zenstory-ai",
+   "type": "community",
+   "repo": "https://github.com/zenstory-ai/oh-story-dsh",
+   "stars": 715,
+   "desc": "DeepSeek Harness 故事创作插件：一站式集成网文连载、短剧漫剧、小说改游戏与视频解说四大工作台 ｜ Community DeepSeek Harness plugin for web novels, short dramas, games & video recaps",
+   "tags": [
+    "agent-skills",
+    "ai-novel-writing",
+    "ai-writing",
+    "creative-writing"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "oh-story-dsh"
+  },
+  {
    "id": "dsh-ads",
    "name": "dsh-ads",
    "author": "Nagi-ovo",
    "type": "community",
    "repo": "https://github.com/Nagi-ovo/dsh-ads",
-   "stars": 712,
+   "stars": 714,
    "desc": "把 DSH 变成 2005 年门户网站｜Parody ads, fake games, and popups for the DSH Web UI",
    "tags": [
     "趣味",
@@ -1515,7 +1548,7 @@
    "author": "fufankeji",
    "type": "community",
    "repo": "https://github.com/fufankeji/deepseek-harness-studio",
-   "stars": 711,
+   "stars": 712,
    "desc": "DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。",
    "tags": [
     "桌面端",
@@ -1523,24 +1556,6 @@
    ],
    "install": null,
    "slug": "deepseek-harness-studio"
-  },
-  {
-   "id": "oh-story-dsh",
-   "name": "oh-story-dsh",
-   "author": "zenstory-ai",
-   "type": "community",
-   "repo": "https://github.com/zenstory-ai/oh-story-dsh",
-   "stars": 708,
-   "desc": "DeepSeek Harness 故事创作插件：一站式集成网文连载、短剧漫剧、小说改游戏与视频解说四大工作台 ｜ Community DeepSeek Harness plugin for web novels, short dramas, games & video recaps",
-   "tags": [
-    "agent-skills",
-    "ai-novel-writing",
-    "ai-writing",
-    "creative-writing"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "oh-story-dsh"
   },
   {
    "id": "dshcode",
@@ -1555,6 +1570,24 @@
    ],
    "install": null,
    "slug": "dshcode"
+  },
+  {
+   "id": "dsh-univer-office",
+   "name": "dsh-univer-office",
+   "author": "dream-num",
+   "type": "community",
+   "repo": "https://github.com/dream-num/dsh-univer-office",
+   "stars": 699,
+   "desc": "Give DeepSeek Harness a real office environment.  Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned changes, and isolated worktrees for multi-agent collaboration.",
+   "tags": [
+    "deepseek-harness-plugin",
+    "office",
+    "office-harness",
+    "univer"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-univer-office"
   },
   {
    "id": "dsh-antibrow",
@@ -1575,19 +1608,19 @@
    "slug": "dsh-antibrow"
   },
   {
-   "id": "dsh-memory-evolve",
-   "name": "dsh-memory-evolve",
-   "author": "csyangwen",
+   "id": "MuseAI",
+   "name": "MuseAI",
+   "author": "yejiming",
    "type": "community",
-   "repo": "https://github.com/csyangwen/dsh-memory-evolve",
-   "stars": 694,
-   "desc": "为 DeepSeek Harness 带来「跨会话长期记忆 + 后台自我进化」能力的纯插件实现：五轨记忆 · git 分支感知 · 回合内自我审查 · 技能自我进化与技能管理器 · 四轨待办 · COI 调度 · 会话广播 · 会话搜索 · 提示词管理器 · 临时信息便签——零核心修改、零运行时依赖，随装随用、卸载即净。",
+   "repo": "https://github.com/yejiming/MuseAI",
+   "stars": 692,
+   "desc": "创建你的 AI 角色，进入你的故事世界。和角色聊天、冒险、穿书，让每一次互动都留下羁绊（支持 DeepSeek Harness 插件，欢迎使用）",
    "tags": [
-    "记忆",
-    "进化"
+    "角色扮演",
+    "ai"
    ],
-   "install": "dsh plugin add github:csyangwen/dsh-memory-evolve",
-   "slug": "dsh-memory-evolve"
+   "install": "dsh plugin add github:yejiming/MuseAI",
+   "slug": "museai"
   },
   {
    "id": "clearai-dsh",
@@ -1608,37 +1641,20 @@
    "slug": "clearai-dsh"
   },
   {
-   "id": "MuseAI",
-   "name": "MuseAI",
-   "author": "yejiming",
+   "id": "dsh-synapse",
+   "name": "dsh-synapse",
+   "author": "liangmianya",
    "type": "community",
-   "repo": "https://github.com/yejiming/MuseAI",
-   "stars": 689,
-   "desc": "创建你的 AI 角色，进入你的故事世界。和角色聊天、冒险、穿书，让每一次互动都留下羁绊（支持 DeepSeek Harness 插件，欢迎使用）",
+   "repo": "https://github.com/liangmianya/dsh-synapse",
+   "stars": 688,
+   "desc": "A visual, non-linear conversation workspace plugin for DeepSeek Harness ; A canvas-based session explorer and branching workspace for DeepSeek Harness.",
    "tags": [
-    "角色扮演",
-    "ai"
-   ],
-   "install": "dsh plugin add github:yejiming/MuseAI",
-   "slug": "museai"
-  },
-  {
-   "id": "dsh-univer-office",
-   "name": "dsh-univer-office",
-   "author": "dream-num",
-   "type": "community",
-   "repo": "https://github.com/dream-num/dsh-univer-office",
-   "stars": 689,
-   "desc": "Give DeepSeek Harness a real office environment.  Univer Office Plugin brings spreadsheets, docs, slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned changes, and isolated worktrees for multi-agent collaboration.",
-   "tags": [
-    "deepseek-harness-plugin",
-    "office",
-    "office-harness",
-    "univer"
+    "dsh-plugin-market",
+    "dsh-plugins"
    ],
    "install": null,
    "auto": true,
-   "slug": "dsh-univer-office"
+   "slug": "dsh-synapse"
   },
   {
    "id": "anysearch-dsh",
@@ -1646,7 +1662,7 @@
    "author": "anysearch-team",
    "type": "community",
    "repo": "https://github.com/anysearch-team/anysearch-dsh",
-   "stars": 686,
+   "stars": 687,
    "desc": "AnySearch web search provider and advanced search tools for DeepSeek Harness (DSH)",
    "tags": [
     "agent-tools",
@@ -1658,20 +1674,20 @@
    "slug": "anysearch-dsh"
   },
   {
-   "id": "dsh-synapse",
-   "name": "dsh-synapse",
-   "author": "liangmianya",
+   "id": "dsh-guizang-design",
+   "name": "dsh-guizang-design",
+   "author": "op7418",
    "type": "community",
-   "repo": "https://github.com/liangmianya/dsh-synapse",
-   "stars": 685,
-   "desc": "A visual, non-linear conversation workspace plugin for DeepSeek Harness ; A canvas-based session explorer and branching workspace for DeepSeek Harness.",
+   "repo": "https://github.com/op7418/dsh-guizang-design",
+   "stars": 663,
+   "desc": "歸藏设计 · DeepSeek Harness 插件：网页 PPT、图文卡片、网页排版、去 AI 味四个 skill，一套设计系统；作品库、内容生产工作流、语气档案",
    "tags": [
-    "dsh-plugin-market",
-    "dsh-plugins"
+    "design-system",
+    "skills"
    ],
    "install": null,
    "auto": true,
-   "slug": "dsh-synapse"
+   "slug": "dsh-guizang-design"
   },
   {
    "id": "dsh-plugin-shop",
@@ -1679,7 +1695,7 @@
    "author": "LivXue",
    "type": "community",
    "repo": "https://github.com/LivXue/dsh-plugin-shop",
-   "stars": 661,
+   "stars": 662,
    "desc": "The most comprehensive DeepSeek Harness plugin market — refreshed daily, sourced across the Internet, reviewed before publishing.",
    "tags": [
     "插件市场"
@@ -1693,7 +1709,7 @@
    "author": "Han-1413141",
    "type": "community",
    "repo": "https://github.com/Han-1413141/dsh-cost-meter",
-   "stars": 649,
+   "stars": 652,
    "desc": "Cost tracking for DeepSeek Harness: session and model costs, token usage, budgets, provider balances, and coding-plan quotas. Bilingual English/Chinese UI.",
    "tags": [
     "cost-tracking",
@@ -1711,7 +1727,7 @@
    "author": "FuRongJun-1999",
    "type": "community",
    "repo": "https://github.com/FuRongJun-1999/dsh-memory",
-   "stars": 621,
+   "stars": 632,
    "desc": "白箱AGI架构探索：元认知（自我认知循环）、持续学习（知识飞轮）、世界模型（条件空间+语义时空图）、自我改进（自举纪律）、零LLM白箱管线与可审计信任护栏。",
    "tags": [
     "agent-safety",
@@ -1729,7 +1745,7 @@
    "author": "QCYTSN",
    "type": "community",
    "repo": "https://github.com/QCYTSN/dsh-dafeiyu",
-   "stars": 601,
+   "stars": 604,
    "desc": "Desktop-native BigFish companion for DeepSeek Harness — real Agent status, always on top on Windows.",
    "tags": [
     "agent-companion",
@@ -1741,28 +1757,12 @@
    "slug": "dsh-dafeiyu"
   },
   {
-   "id": "dsh-guizang-design",
-   "name": "dsh-guizang-design",
-   "author": "op7418",
-   "type": "community",
-   "repo": "https://github.com/op7418/dsh-guizang-design",
-   "stars": 597,
-   "desc": "歸藏设计 · DeepSeek Harness 插件：网页 PPT、图文卡片、网页排版、去 AI 味四个 skill，一套设计系统；作品库、内容生产工作流、语气档案",
-   "tags": [
-    "design-system",
-    "skills"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-guizang-design"
-  },
-  {
    "id": "dsh-computer-use-win",
    "name": "dsh-computer-use-win",
    "author": "Yu-tao-Li",
    "type": "community",
    "repo": "https://github.com/Yu-tao-Li/dsh-computer-use-win",
-   "stars": 580,
+   "stars": 599,
    "desc": "DeepSeek Harness的Windows电脑操控插件 / Windows computer use for DeepSeek Harness",
    "tags": [
     "computer-use",
@@ -1780,7 +1780,7 @@
    "author": "V1ki",
    "type": "community",
    "repo": "https://github.com/V1ki/dsh-plugin-subscriptions",
-   "stars": 573,
+   "stars": 574,
    "desc": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
    "tags": [
     "chatgpt",
@@ -1793,12 +1793,27 @@
    "slug": "dsh-plugin-subscriptions"
   },
   {
+   "id": "dsh-qqbot",
+   "name": "dsh-qqbot",
+   "author": "tencent-connect",
+   "type": "community",
+   "repo": "https://github.com/tencent-connect/dsh-qqbot",
+   "stars": 568,
+   "desc": "让 QQ Bot 接入 DeepSeek Harness（dsh）的官方插件",
+   "tags": [
+    "qqbot"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "tencent-connect-dsh-qqbot"
+  },
+  {
    "id": "dsh-at-file",
    "name": "dsh-at-file",
    "author": "FSMargoo",
    "type": "community",
    "repo": "https://github.com/FSMargoo/dsh-at-file",
-   "stars": 564,
+   "stars": 565,
    "desc": "Codex-style @file mentions for DeepSeek Harness: search workspace files in the composer and attach their path to prompts.",
    "tags": [
     "编辑器",
@@ -1813,7 +1828,7 @@
    "author": "1692775560",
    "type": "community",
    "repo": "https://github.com/1692775560/dsh-Mimir-Academic-research",
-   "stars": 561,
+   "stars": 562,
    "desc": "Mimir — 一站式科研工作台插件：LaTeX 论文边写边编译、arXiv 文献管理、实验追踪、指标图表、GPU 服务器 SSH 任务编排，管理科研全周期。An open-source research workbench plugin for the whole research cycle.",
    "tags": [
     "arxiv",
@@ -1826,27 +1841,12 @@
    "slug": "dsh-mimir-academic-research"
   },
   {
-   "id": "dsh-qqbot",
-   "name": "dsh-qqbot",
-   "author": "tencent-connect",
-   "type": "community",
-   "repo": "https://github.com/tencent-connect/dsh-qqbot",
-   "stars": 560,
-   "desc": "让 QQ Bot 接入 DeepSeek Harness（dsh）的官方插件",
-   "tags": [
-    "qqbot"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "tencent-connect-dsh-qqbot"
-  },
-  {
    "id": "dsh-meme",
    "name": "dsh-meme",
    "author": "yyh-001",
    "type": "community",
    "repo": "https://github.com/yyh-001/dsh-meme",
-   "stars": 539,
+   "stars": 542,
    "desc": "DeepSeek Harness 表情包插件：输入框一键发图、文字 token 斗图、情绪主动发图、AI 自动学图，图库市场一键安装。 · Meme/sticker plugin for DeepSeek Harness: one-click picker in the composer, text-token memes, mood-driven sending, AI learns your images, marketplace packs.",
    "tags": [
     "meme",
@@ -1859,30 +1859,12 @@
    "slug": "dsh-meme"
   },
   {
-   "id": "dsh-adult-tension",
-   "name": "dsh-adult-tension",
-   "author": "daha1216",
-   "type": "community",
-   "repo": "https://github.com/daha1216/dsh-adult-tension",
-   "stars": 520,
-   "desc": "DeepSeek 自带破甲 18+ 互动叙事：活人感 NPC（自主决策/拒绝迎合）、211个世界与上万素材、开局随心定制、世界自行运转、零漂移存档。",
-   "tags": [
-    "agent-skills",
-    "ai-roleplay",
-    "interactive-fiction",
-    "state-machine"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-adult-tension"
-  },
-  {
    "id": "dsh-claude-style",
    "name": "dsh-claude-style",
    "author": "Nwflower",
    "type": "community",
    "repo": "https://github.com/Nwflower/dsh-claude-style",
-   "stars": 519,
+   "stars": 534,
    "desc": "Claude Code Desktop theme for DeepSeek Harness｜ 为 DeepSeek Harness 复刻 Claude Code Desktop 风格与交互体验的主题插件",
    "tags": [
     "anthropic",
@@ -1895,12 +1877,30 @@
    "slug": "dsh-claude-style"
   },
   {
+   "id": "dsh-adult-tension",
+   "name": "dsh-adult-tension",
+   "author": "daha1216",
+   "type": "community",
+   "repo": "https://github.com/daha1216/dsh-adult-tension",
+   "stars": 534,
+   "desc": "DeepSeek 自带破甲 18+ 互动叙事：活人感 NPC（自主决策/拒绝迎合）、211个世界与上万素材、开局随心定制、世界自行运转、零漂移存档。",
+   "tags": [
+    "agent-skills",
+    "ai-roleplay",
+    "interactive-fiction",
+    "state-machine"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-adult-tension"
+  },
+  {
    "id": "fujiang-dsh",
    "name": "fujiang-dsh",
    "author": "c3cvld7aag",
    "type": "community",
    "repo": "https://github.com/c3cvld7aag/fujiang-dsh",
-   "stars": 512,
+   "stars": 523,
    "desc": "富江DSH完美破甲｜富江破甲 DSH 本地插件，内置提示词规则，支持 Windows 一键安装、环境自动准备与一键卸载，全中文使用说明。",
    "tags": [
     "custom-prompt",
@@ -1913,19 +1913,20 @@
    "slug": "fujiang-dsh"
   },
   {
-   "id": "dsh-uumit-remote",
-   "name": "dsh-uumit-remote",
-   "author": "uumit-ai",
+   "id": "dsh-media-desk",
+   "name": "dsh-media-desk",
+   "author": "woniuniuniu",
    "type": "community",
-   "repo": "https://github.com/uumit-ai/dsh-uumit-remote",
-   "stars": 503,
-   "desc": "",
+   "repo": "https://github.com/woniuniuniu/dsh-media-desk",
+   "stars": 516,
+   "desc": "DeepSeek Harness 自媒体工作台插件：一句话记灵感，一键生成脚本、封面、配图和分镜",
    "tags": [
-    "remote-access"
+    "content-creation",
+    "xiaohongshu"
    ],
    "install": null,
    "auto": true,
-   "slug": "dsh-uumit-remote"
+   "slug": "dsh-media-desk"
   },
   {
    "id": "dsh-skills-manager",
@@ -1933,7 +1934,7 @@
    "author": "MichengAI",
    "type": "community",
    "repo": "https://github.com/MichengAI/dsh-skills-manager",
-   "stars": 502,
+   "stars": 514,
    "desc": "DSH Skills Manager — 在 DeepSeek Harness 中统一加载并安全管理本机 Agent Skills · Load and safely manage local Agent Skills in DSH",
    "tags": [
     "dsh-plugins"
@@ -1943,12 +1944,45 @@
    "slug": "dsh-skills-manager"
   },
   {
+   "id": "dsh-uumit-remote",
+   "name": "dsh-uumit-remote",
+   "author": "uumit-ai",
+   "type": "community",
+   "repo": "https://github.com/uumit-ai/dsh-uumit-remote",
+   "stars": 513,
+   "desc": "",
+   "tags": [
+    "remote-access"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-uumit-remote"
+  },
+  {
+   "id": "dsh-aurabot-qq",
+   "name": "dsh-aurabot-qq",
+   "author": "aureth-labs",
+   "type": "community",
+   "repo": "https://github.com/aureth-labs/dsh-aurabot-qq",
+   "stars": 508,
+   "desc": "让 DeepSeek Harness 里的 AI 以「大肥鱼」住进 QQ：会聊天、发表情、发语音、记事、发空间、刷 B 站、唱歌。功能都是模块，能开关、能自己写，还能从模块市场装更多（SnowLuma / OneBot v11）。",
+   "tags": [
+    "chatbot",
+    "onebot",
+    "plugin-system",
+    "qq"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "aureth-labs-dsh-aurabot-qq"
+  },
+  {
    "id": "dsh-fish-memory",
    "name": "dsh-fish-memory",
    "author": "Yuuyuko-uu",
    "type": "community",
    "repo": "https://github.com/Yuuyuko-uu/dsh-fish-memory",
-   "stars": 497,
+   "stars": 504,
    "desc": "🐋 DSH 鱼的记忆：给会话一份会淡忘的长期记忆，每条都带时间。名字里的「鱼」来自 DeepSeek 的鲸鱼。",
    "tags": [
     "ai-companion",
@@ -1959,6 +1993,42 @@
    "install": null,
    "auto": true,
    "slug": "dsh-fish-memory"
+  },
+  {
+   "id": "dsh-see-now",
+   "name": "dsh-see-now",
+   "author": "SAOS-3624",
+   "type": "community",
+   "repo": "https://github.com/SAOS-3624/dsh-see-now",
+   "stars": 498,
+   "desc": "让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token",
+   "tags": [
+    "ffmpeg",
+    "realtime",
+    "screen-capture",
+    "token-efficient"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-see-now"
+  },
+  {
+   "id": "dsh-plugin-hub",
+   "name": "dsh-plugin-hub",
+   "author": "dshplugin",
+   "type": "community",
+   "repo": "https://github.com/dshplugin/dsh-plugin-hub",
+   "stars": 496,
+   "desc": "DSH Plugin 插件市场 - DeepSeek Harness Plugin Market (DSH) 下载与安装 · 插件大全",
+   "tags": [
+    "cli",
+    "community-plugins",
+    "dsh-plugin-org",
+    "harness"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-plugin-hub"
   },
   {
    "id": "dsh-desktop",
@@ -1975,66 +2045,12 @@
    "slug": "vibeinging-dsh-desktop"
   },
   {
-   "id": "dsh-plugin-hub",
-   "name": "dsh-plugin-hub",
-   "author": "dshplugin",
-   "type": "community",
-   "repo": "https://github.com/dshplugin/dsh-plugin-hub",
-   "stars": 489,
-   "desc": "DSH Plugin 插件市场 - DeepSeek Harness Plugin Market (DSH) 下载与安装 · 插件大全",
-   "tags": [
-    "cli",
-    "community-plugins",
-    "dsh-plugin-org",
-    "harness"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-plugin-hub"
-  },
-  {
-   "id": "dsh-aurabot-qq",
-   "name": "dsh-aurabot-qq",
-   "author": "aureth-labs",
-   "type": "community",
-   "repo": "https://github.com/aureth-labs/dsh-aurabot-qq",
-   "stars": 479,
-   "desc": "让 DeepSeek Harness 里的 AI 以「大肥鱼」住进 QQ：会聊天、发表情、发语音、记事、发空间、刷 B 站、唱歌。功能都是模块，能开关、能自己写，还能从模块市场装更多（SnowLuma / OneBot v11）。",
-   "tags": [
-    "chatbot",
-    "onebot",
-    "plugin-system",
-    "qq"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "aureth-labs-dsh-aurabot-qq"
-  },
-  {
-   "id": "dsh-see-now",
-   "name": "dsh-see-now",
-   "author": "SAOS-3624",
-   "type": "community",
-   "repo": "https://github.com/SAOS-3624/dsh-see-now",
-   "stars": 470,
-   "desc": "让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token",
-   "tags": [
-    "ffmpeg",
-    "realtime",
-    "screen-capture",
-    "token-efficient"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-see-now"
-  },
-  {
    "id": "dsh-video-storyboard",
    "name": "dsh-video-storyboard",
    "author": "SAOS-3624",
    "type": "community",
    "repo": "https://github.com/SAOS-3624/dsh-video-storyboard",
-   "stars": 464,
+   "stars": 479,
    "desc": "Scene-aware storyboard for DeepSeek Harness: 9-16 numbered cells with timestamps + transcript + an audio envelope, packed into ONE image (384 tokens). Two tools: video_storyboard and video_zoom.",
    "tags": [
     "asr",
@@ -2047,30 +2063,12 @@
    "slug": "dsh-video-storyboard"
   },
   {
-   "id": "dsh-commandcode-provider",
-   "name": "dsh-commandcode-provider",
-   "author": "Mars-Sea",
-   "type": "community",
-   "repo": "https://github.com/Mars-Sea/dsh-commandcode-provider",
-   "stars": 463,
-   "desc": "Command Code provider plugin for DeepSeek Harness (dsh). Adds Command Code model access, live model catalog, plan-aware model selection, reasoning effort, image input, web search, and multi-account support.",
-   "tags": [
-    "command-code",
-    "commandcode",
-    "llm-provider",
-    "provider"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-commandcode-provider"
-  },
-  {
    "id": "dsh-xdpool",
    "name": "dsh-xdpool",
    "author": "XDTrees",
    "type": "community",
    "repo": "https://github.com/XDTrees/dsh-xdpool",
-   "stars": 460,
+   "stars": 471,
    "desc": "把你能白嫖的模型额度接进 DSH 同一个池：WorkBuddy 多账号自动容错、十三家扫码登录、76 家免费额度聚合、用量看板、模型路由、本地 OpenAI 网关、积分自动化。",
    "tags": [
     "codebuddy",
@@ -2083,12 +2081,30 @@
    "slug": "dsh-xdpool"
   },
   {
+   "id": "dsh-commandcode-provider",
+   "name": "dsh-commandcode-provider",
+   "author": "Mars-Sea",
+   "type": "community",
+   "repo": "https://github.com/Mars-Sea/dsh-commandcode-provider",
+   "stars": 468,
+   "desc": "Command Code provider plugin for DeepSeek Harness (dsh). Adds Command Code model access, live model catalog, plan-aware model selection, reasoning effort, image input, web search, and multi-account support.",
+   "tags": [
+    "command-code",
+    "commandcode",
+    "llm-provider",
+    "provider"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-commandcode-provider"
+  },
+  {
    "id": "dsh-ego-browser",
    "name": "dsh-ego-browser",
    "author": "Fisfzy",
    "type": "community",
    "repo": "https://github.com/Fisfzy/dsh-ego-browser",
-   "stars": 456,
+   "stars": 462,
    "desc": "DSH（DeepSeek Harness）插件：把 ego-lite 浏览器（给 AI Agent 用的 Chromium）接入 HARNESS——13 个结构化 ego_* 工具（文本语义快照、语义定位点击、表单填充、截图、CDP 控制、任务空间隔离），内置 ego 运行时，Linux + Chrome 开箱即用，无需克隆官方仓库或手动构建。",
    "tags": [
     "agent-browser",
@@ -2099,22 +2115,6 @@
    "install": null,
    "auto": true,
    "slug": "dsh-ego-browser"
-  },
-  {
-   "id": "dsh-media-desk",
-   "name": "dsh-media-desk",
-   "author": "woniuniuniu",
-   "type": "community",
-   "repo": "https://github.com/woniuniuniu/dsh-media-desk",
-   "stars": 444,
-   "desc": "DeepSeek Harness 自媒体工作台插件：一句话记灵感，一键生成脚本、封面、配图和分镜",
-   "tags": [
-    "content-creation",
-    "xiaohongshu"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-media-desk"
   },
   {
    "id": "DSH-Transparent-UI-Plugin",
@@ -2133,12 +2133,29 @@
    "slug": "dsh-transparent-ui-plugin"
   },
   {
+   "id": "dsh-game-studio",
+   "name": "dsh-game-studio",
+   "author": "ZSeven-W",
+   "type": "community",
+   "repo": "https://github.com/ZSeven-W/dsh-game-studio",
+   "stars": 422,
+   "desc": "Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, export one HTML file.",
+   "tags": [
+    "ai-game-generator",
+    "game",
+    "gamedev"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-game-studio"
+  },
+  {
    "id": "dsh-wechat",
    "name": "dsh-wechat",
    "author": "xcisxc29",
    "type": "community",
    "repo": "https://github.com/xcisxc29/dsh-wechat",
-   "stars": 414,
+   "stars": 418,
    "desc": "WeChat channel for DeepSeek Harness",
    "tags": [
     "automation",
@@ -2149,6 +2166,24 @@
    "install": null,
    "auto": true,
    "slug": "dsh-wechat"
+  },
+  {
+   "id": "dsh-codex-subscription",
+   "name": "dsh-codex-subscription",
+   "author": "WSL043",
+   "type": "community",
+   "repo": "https://github.com/WSL043/dsh-codex-subscription",
+   "stars": 411,
+   "desc": "Use your ChatGPT Plus / Pro (Codex) subscription in DeepSeek Harness (DSH): GPT-6 & Codex models, images, web search and quota via ChatGPT sign-in — no OpenAI API key. Beta: control DSH from the ChatGPT mobile app. 在 DSH 中使用 ChatGPT 订阅，并可用 ChatGPT 手机 App 远程控制。",
+   "tags": [
+    "chatgpt",
+    "chatgpt-plus",
+    "chatgpt-pro",
+    "chatgpt-subscription"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-codex-subscription"
   },
   {
    "id": "whale-girl",
@@ -2166,22 +2201,22 @@
    "slug": "whale-girl"
   },
   {
-   "id": "dsh-codex-subscription",
-   "name": "dsh-codex-subscription",
-   "author": "WSL043",
+   "id": "dsh-ios",
+   "name": "dsh-ios",
+   "author": "ZSeven-W",
    "type": "community",
-   "repo": "https://github.com/WSL043/dsh-codex-subscription",
-   "stars": 402,
-   "desc": "Use your ChatGPT Plus / Pro (Codex) subscription in DeepSeek Harness (DSH): GPT-6 & Codex models, images, web search and quota via ChatGPT sign-in — no OpenAI API key. Beta: control DSH from the ChatGPT mobile app. 在 DSH 中使用 ChatGPT 订阅，并可用 ChatGPT 手机 App 远程控制。",
+   "repo": "https://github.com/ZSeven-W/dsh-ios",
+   "stars": 389,
+   "desc": "DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-connected iPhone — inside the conversation. 22 agent tools for booting, building, driving the UI by accessibility identity, OCR text or list rows, plus a streaming sidebar panel you can tap and drag on.",
    "tags": [
-    "chatgpt",
-    "chatgpt-plus",
-    "chatgpt-pro",
-    "chatgpt-subscription"
+    "accessibility",
+    "coding-agent",
+    "ios",
+    "ios-simulator"
    ],
    "install": null,
    "auto": true,
-   "slug": "dsh-codex-subscription"
+   "slug": "dsh-ios"
   },
   {
    "id": "opencode2dsh",
@@ -2189,7 +2224,7 @@
    "author": "FishBottle7",
    "type": "community",
    "repo": "https://github.com/FishBottle7/opencode2dsh",
-   "stars": 389,
+   "stars": 385,
    "desc": "DSH plugin — free OpenCode Zen models for DeepSeek Harness (DSH). Free LLM API, no API key needed. 在 DSH 中使用 OpenCode Zen 免费模型，无需 API key",
    "tags": [
     "free-api",
@@ -2207,7 +2242,7 @@
    "author": "Phant0Meow",
    "type": "community",
    "repo": "https://github.com/Phant0Meow/dsh-meow-memory",
-   "stars": 377,
+   "stars": 379,
    "desc": "Cross-session memory plugin for DeepSeek Harness: seven-layer SQLite store (soul/user/project/fact/lesson/topic/rules), BM25 retrieval, per-window dream consolidation. 跨会话七层长期记忆插件。",
    "tags": [
     "agent-memory",
@@ -2216,6 +2251,24 @@
    "install": null,
    "auto": true,
    "slug": "dsh-meow-memory"
+  },
+  {
+   "id": "awesome-deepseek-harness-plugins",
+   "name": "awesome-deepseek-harness-plugins",
+   "author": "imsai-sh",
+   "type": "community",
+   "repo": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins",
+   "stars": 375,
+   "desc": "DeepSeek Harness plugin store, marketplace and hub — 11,000+ dsh plugins with search, rankings, install commands and a free public API. DeepSeek Harness 插件市场 / 插件商店：自动收集与格式校验，免费搜索 API。deepseek1024.com",
+   "tags": [
+    "awesome-list",
+    "catalog",
+    "deepseek-harness-plugins",
+    "deepseek1024"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "imsai-sh-awesome-deepseek-harness-plugins"
   },
   {
    "id": "DSHBox",
@@ -2236,30 +2289,12 @@
    "slug": "dshbox"
   },
   {
-   "id": "awesome-deepseek-harness-plugins",
-   "name": "awesome-deepseek-harness-plugins",
-   "author": "imsai-sh",
-   "type": "community",
-   "repo": "https://github.com/imsai-sh/awesome-deepseek-harness-plugins",
-   "stars": 371,
-   "desc": "DeepSeek Harness plugin store, marketplace and hub — 11,000+ dsh plugins with search, rankings, install commands and a free public API. DeepSeek Harness 插件市场 / 插件商店：自动收集与格式校验，免费搜索 API。deepseek1024.com",
-   "tags": [
-    "awesome-list",
-    "catalog",
-    "deepseek-harness-plugins",
-    "deepseek1024"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "imsai-sh-awesome-deepseek-harness-plugins"
-  },
-  {
    "id": "dsh-liang-skin",
    "name": "dsh-liang-skin",
    "author": "kingOfSoySauce",
    "type": "community",
    "repo": "https://github.com/kingOfSoySauce/dsh-liang-skin",
-   "stars": 370,
+   "stars": 373,
    "desc": "DeepSeek Harness 滑动变阻器皮肤",
    "tags": [],
    "install": null,
@@ -2267,39 +2302,20 @@
    "slug": "dsh-liang-skin"
   },
   {
-   "id": "dsh-game-studio",
-   "name": "dsh-game-studio",
-   "author": "ZSeven-W",
+   "id": "dsh-marktext",
+   "name": "dsh-marktext",
+   "author": "Roland0511",
    "type": "community",
-   "repo": "https://github.com/ZSeven-W/dsh-game-studio",
-   "stars": 365,
-   "desc": "Describe a small game in one sentence, play it in the DeepSeek Harness sidebar, swap in AI art, export one HTML file.",
+   "repo": "https://github.com/Roland0511/dsh-marktext",
+   "stars": 347,
+   "desc": "MarkText (muya) WYSIWYG Markdown editor for the DeepSeek Harness right sidebar",
    "tags": [
-    "ai-game-generator",
-    "game",
-    "gamedev"
+    "markdown",
+    "marktext"
    ],
    "install": null,
    "auto": true,
-   "slug": "dsh-game-studio"
-  },
-  {
-   "id": "dsh-ios",
-   "name": "dsh-ios",
-   "author": "ZSeven-W",
-   "type": "community",
-   "repo": "https://github.com/ZSeven-W/dsh-ios",
-   "stars": 361,
-   "desc": "DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-connected iPhone — inside the conversation. 22 agent tools for booting, building, driving the UI by accessibility identity, OCR text or list rows, plus a streaming sidebar panel you can tap and drag on.",
-   "tags": [
-    "accessibility",
-    "coding-agent",
-    "ios",
-    "ios-simulator"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-ios"
+   "slug": "dsh-marktext"
   },
   {
    "id": "dsh-visualize",
@@ -2307,7 +2323,7 @@
    "author": "Nagi-ovo",
    "type": "community",
    "repo": "https://github.com/Nagi-ovo/dsh-visualize",
-   "stars": 337,
+   "stars": 338,
    "desc": "在 DSH 对话中生成交互式可视化｜Render model-generated interactive cards inside DSH conversations",
    "tags": [
     "生成式ui"
@@ -2321,7 +2337,7 @@
    "author": "dhicoc",
    "type": "community",
    "repo": "https://github.com/dhicoc/dsh-reverse-skill",
-   "stars": 335,
+   "stars": 338,
    "desc": "Complete reverse-skill (88 SKILL.md) as a DeepSeek Harness (dsh) Cordis plugin — reverse engineering, authorized pentesting and security research skill pack.",
    "tags": [
     "ctf",
@@ -2348,6 +2364,24 @@
    "install": null,
    "auto": true,
    "slug": "dsh-boot-animation"
+  },
+  {
+   "id": "dsh-trading",
+   "name": "dsh-trading",
+   "author": "zhu1090093659",
+   "type": "community",
+   "repo": "https://github.com/zhu1090093659/dsh-trading",
+   "stars": 327,
+   "desc": "Agent-native trading terminal built on DeepSeek Harness. Crypto, US, CN and HK in one three-column GUI, 19+ hot-swappable connectors, dry-run by default with human approval on every live order. BYOK, no data redistribution.",
+   "tags": [
+    "agent-native",
+    "cryptocurrency",
+    "dsh-plugin-desktop",
+    "trading-terminal"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-trading"
   },
   {
    "id": "DSH-taskboard",
@@ -2380,12 +2414,30 @@
    "slug": "oh-dsh"
   },
   {
+   "id": "dsh-config-manager",
+   "name": "dsh-config-manager",
+   "author": "xiajiajun516",
+   "type": "community",
+   "repo": "https://github.com/xiajiajun516/dsh-config-manager",
+   "stars": 322,
+   "desc": "DeepSeek Harness (DSH) backup & restore plugin — export, import, migrate and sync your complete DSH configuration, plugins, MCP servers, skills and workspace. One-click migration to another machine.",
+   "tags": [
+    "backup",
+    "cli",
+    "config-manager",
+    "configuration"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-config-manager"
+  },
+  {
    "id": "dsh-mattpocock-skills-deck",
    "name": "dsh-mattpocock-skills-deck",
    "author": "FeatherHunter",
    "type": "community",
    "repo": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck",
-   "stars": 318,
+   "stars": 322,
    "desc": "🌹安装即自带mattpocock/skills v1.3.2的27个工程与效率技能，无需手动装技能。520亿token打造本插件，在原始技能之上提供10倍的开发效率，也能帮助新手更快上手该技能套件。支持 GitHub 与 GitLab 的 issue；本地 Markdown 为预览版。感谢您的使用和支持💗",
    "tags": [
     "claude",
@@ -2403,7 +2455,7 @@
    "author": "techflag",
    "type": "community",
    "repo": "https://github.com/techflag/workdsh",
-   "stars": 317,
+   "stars": 319,
    "desc": "A WorkBuddy-style desktop workspace powered by the DSH plugin ecosystem. WorkDSH manages projects, assets, experts, skills and connectors locally on desktop. All features are extensible via DeepSeek Harness plugins. Local-first, open ecosystem.",
    "tags": [
     "agent-platform",
@@ -2416,22 +2468,19 @@
    "slug": "workdsh"
   },
   {
-   "id": "dsh-config-manager",
-   "name": "dsh-config-manager",
-   "author": "xiajiajun516",
+   "id": "dsh-archive-manager",
+   "name": "dsh-archive-manager",
+   "author": "MichengAI",
    "type": "community",
-   "repo": "https://github.com/xiajiajun516/dsh-config-manager",
-   "stars": 316,
-   "desc": "DeepSeek Harness (DSH) backup & restore plugin — export, import, migrate and sync your complete DSH configuration, plugins, MCP servers, skills and workspace. One-click migration to another machine.",
+   "repo": "https://github.com/MichengAI/dsh-archive-manager",
+   "stars": 318,
+   "desc": "DSH Archive Manager — 在 DeepSeek Harness 中安全查看、恢复和管理已归档会话 · Safely view, restore, and manage archived sessions in DSH",
    "tags": [
-    "backup",
-    "cli",
-    "config-manager",
-    "configuration"
+    "dsh-plugins"
    ],
    "install": null,
    "auto": true,
-   "slug": "dsh-config-manager"
+   "slug": "dsh-archive-manager"
   },
   {
    "id": "dsh-skin-market",
@@ -2439,7 +2488,7 @@
    "author": "kingOfSoySauce",
    "type": "community",
    "repo": "https://github.com/kingOfSoySauce/dsh-skin-market",
-   "stars": 314,
+   "stars": 316,
    "desc": "DSH皮肤市场Skin Market 已收录五百+皮肤、桌宠、开屏动画等；有便捷的社区收录入口，并且已有多位开发者提交皮肤；有在线页面方便在线浏；有方便安装管理本地皮肤的插件",
    "tags": [
     "dsh-desktop",
@@ -2452,37 +2501,34 @@
    "slug": "dsh-skin-market"
   },
   {
-   "id": "dsh-archive-manager",
-   "name": "dsh-archive-manager",
-   "author": "MichengAI",
+   "id": "dsh-drawai",
+   "name": "dsh-drawai",
+   "author": "fourzkw",
    "type": "community",
-   "repo": "https://github.com/MichengAI/dsh-archive-manager",
-   "stars": 312,
-   "desc": "DSH Archive Manager — 在 DeepSeek Harness 中安全查看、恢复和管理已归档会话 · Safely view, restore, and manage archived sessions in DSH",
+   "repo": "https://github.com/fourzkw/dsh-drawai",
+   "stars": 307,
+   "desc": "DSH 右侧栏里的可编辑画布 —— 加上让模型直接改图的两个工具",
    "tags": [
-    "dsh-plugins"
+    "drawio"
    ],
    "install": null,
    "auto": true,
-   "slug": "dsh-archive-manager"
+   "slug": "dsh-drawai"
   },
   {
-   "id": "dsh-trading",
-   "name": "dsh-trading",
-   "author": "zhu1090093659",
+   "id": "dsh-tianshu-tui",
+   "name": "dsh-tianshu-tui",
+   "author": "huiliyi37",
    "type": "community",
-   "repo": "https://github.com/zhu1090093659/dsh-trading",
-   "stars": 307,
-   "desc": "Agent-native trading terminal built on DeepSeek Harness. Crypto, US, CN and HK in one three-column GUI, 19+ hot-swappable connectors, dry-run by default with human approval on every live order. BYOK, no data redistribution.",
+   "repo": "https://github.com/huiliyi37/dsh-tianshu-tui",
+   "stars": 300,
+   "desc": "官方 DeepSeek Harness 的交互式终端 UI 插件：自研 ANSI 极简交互渲染、流式 Markdown/工具卡、16+ 主题、slash 命令与选择器、输入历史与本地偏好持久化、LSP 诊断、memory记忆，很丝滑的开发体验。",
    "tags": [
-    "agent-native",
-    "cryptocurrency",
-    "dsh-plugin-desktop",
-    "trading-terminal"
+    "终端",
+    "workflow"
    ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-trading"
+   "install": "dsh plugin add github:huiliyi37/dsh-tianshu-tui",
+   "slug": "dsh-tianshu-tui"
   },
   {
    "id": "dsh-dream-skin",
@@ -2503,27 +2549,12 @@
    "slug": "dsh-dream-skin"
   },
   {
-   "id": "dsh-tianshu-tui",
-   "name": "dsh-tianshu-tui",
-   "author": "huiliyi37",
-   "type": "community",
-   "repo": "https://github.com/huiliyi37/dsh-tianshu-tui",
-   "stars": 299,
-   "desc": "官方 DeepSeek Harness 的交互式终端 UI 插件：自研 ANSI 极简交互渲染、流式 Markdown/工具卡、16+ 主题、slash 命令与选择器、输入历史与本地偏好持久化、LSP 诊断、memory记忆，很丝滑的开发体验。",
-   "tags": [
-    "终端",
-    "workflow"
-   ],
-   "install": "dsh plugin add github:huiliyi37/dsh-tianshu-tui",
-   "slug": "dsh-tianshu-tui"
-  },
-  {
    "id": "dsh-chat-import",
    "name": "dsh-chat-import",
    "author": "Nwflower",
    "type": "community",
    "repo": "https://github.com/Nwflower/dsh-chat-import",
-   "stars": 292,
+   "stars": 294,
    "desc": "Import conversation history from 25+ AI coding agents into DeepSeek Harness as resumable sessions — tool calls, reasoning and results kept intact, with reverse export and sync. | 把 25+ AI 编程 Agent 的聊天记录导入 DeepSeek Harness 继续对话，保留工具调用、推理与结果，支持反向导出与同步。",
    "tags": [
     "automation",
@@ -2534,6 +2565,24 @@
    "install": null,
    "auto": true,
    "slug": "dsh-chat-import"
+  },
+  {
+   "id": "dsh-damage-pulse",
+   "name": "dsh-damage-pulse",
+   "author": "wssfk12138",
+   "type": "community",
+   "repo": "https://github.com/wssfk12138/dsh-damage-pulse",
+   "stars": 289,
+   "desc": "DeepSeek Harness Token 余额监控插件：鲸鱼娘待机/扣费/复苏动画、峰谷计费、连续扣费飘字与会话费用统计。",
+   "tags": [
+    "balance-monitor",
+    "damage-animation",
+    "token-monitor",
+    "token-usage"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-damage-pulse"
   },
   {
    "id": "dsh-agent-team-gui",
@@ -2552,24 +2601,6 @@
    "install": null,
    "auto": true,
    "slug": "dsh-agent-team-gui"
-  },
-  {
-   "id": "dsh-damage-pulse",
-   "name": "dsh-damage-pulse",
-   "author": "wssfk12138",
-   "type": "community",
-   "repo": "https://github.com/wssfk12138/dsh-damage-pulse",
-   "stars": 288,
-   "desc": "DeepSeek Harness Token 余额监控插件：鲸鱼娘待机/扣费/复苏动画、峰谷计费、连续扣费飘字与会话费用统计。",
-   "tags": [
-    "balance-monitor",
-    "damage-animation",
-    "token-monitor",
-    "token-usage"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-damage-pulse"
   },
   {
    "id": "deepseek-harness-desktop",
@@ -2595,7 +2626,7 @@
    "author": "sorsama",
    "type": "community",
    "repo": "https://github.com/sorsama/deepseek-harness-mobile",
-   "stars": 274,
+   "stars": 284,
    "desc": "Android companion for DeepSeek Harness | chat, goals, approvals & notifications from your phone, over your LAN. Kotlin + Jetpack Compose.",
    "tags": [
     "dsh-plugins"
@@ -2603,6 +2634,34 @@
    "install": null,
    "auto": true,
    "slug": "deepseek-harness-mobile"
+  },
+  {
+   "id": "dsh-opencode-go",
+   "name": "dsh-opencode-go",
+   "author": "Duskriver",
+   "type": "community",
+   "repo": "https://github.com/Duskriver/dsh-opencode-go",
+   "stars": 280,
+   "desc": "opencode-go订阅用户最佳DSH插件",
+   "tags": [],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-opencode-go"
+  },
+  {
+   "id": "dsh-codex-ui",
+   "name": "dsh-codex-ui",
+   "author": "MichengAI",
+   "type": "community",
+   "repo": "https://github.com/MichengAI/dsh-codex-ui",
+   "stars": 278,
+   "desc": "DSH Codex UI — 为 DeepSeek Harness Web 提供 Codex 风格侧栏、工作区会话树、全局搜索和轮次导航 · A Codex-style sidebar, workspace session tree, global search, and turn navigation for DSH Web",
+   "tags": [
+    "dsh-plugins"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-codex-ui"
   },
   {
    "id": "dsh-hub-cli",
@@ -2622,73 +2681,12 @@
    "slug": "dsh-hub-cli"
   },
   {
-   "id": "dsh-codex-ui",
-   "name": "dsh-codex-ui",
-   "author": "MichengAI",
-   "type": "community",
-   "repo": "https://github.com/MichengAI/dsh-codex-ui",
-   "stars": 272,
-   "desc": "DSH Codex UI — 为 DeepSeek Harness Web 提供 Codex 风格侧栏、工作区会话树、全局搜索和轮次导航 · A Codex-style sidebar, workspace session tree, global search, and turn navigation for DSH Web",
-   "tags": [
-    "dsh-plugins"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-codex-ui"
-  },
-  {
-   "id": "dsh-opencode-go",
-   "name": "dsh-opencode-go",
-   "author": "Duskriver",
-   "type": "community",
-   "repo": "https://github.com/Duskriver/dsh-opencode-go",
-   "stars": 271,
-   "desc": "opencode-go订阅用户最佳DSH插件",
-   "tags": [],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-opencode-go"
-  },
-  {
-   "id": "jev-dsh-decision",
-   "name": "jev-dsh-decision",
-   "author": "Devin-AXIS",
-   "type": "community",
-   "repo": "https://github.com/Devin-AXIS/jev-dsh-decision",
-   "stars": 269,
-   "desc": "Jev DSH 决策引擎｜面向 Agent Harness 的结构化决策插件。原生支持 DeepSeek Harness，通过 iPolloWork 支持 OpenCode、Codex Harness。",
-   "tags": [
-    "agent-harness",
-    "apollo-plugin",
-    "codex-harness-plugin",
-    "codex-plugin"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "jev-dsh-decision"
-  },
-  {
-   "id": "dsh-reasoning-effort",
-   "name": "dsh-reasoning-effort",
-   "author": "HanaAyane",
-   "type": "community",
-   "repo": "https://github.com/HanaAyane/dsh-reasoning-effort",
-   "stars": 267,
-   "desc": "DSH适用的大肥鱼跑步思考强度滑块。Codex-style model and reasoning-effort slider for DeepSeek Harness",
-   "tags": [
-    "reasoning-effort"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-reasoning-effort"
-  },
-  {
    "id": "dsh-remote",
    "name": "dsh-remote",
    "author": "flymysql",
    "type": "community",
    "repo": "https://github.com/flymysql/dsh-remote",
-   "stars": 264,
+   "stars": 271,
    "desc": "Remote-work assistant for DeepSeek Harness (DSH): SSH into any machine, pick a remote workspace, and work on it with 22 rw_* tools, conflict-aware SFTP mirror, embedded PTY terminal, port forwarding, and multi-hop jumps - under the same sandbox policy as a local session.",
    "tags": [
     "remote",
@@ -2701,20 +2699,71 @@
    "slug": "flymysql-dsh-remote"
   },
   {
-   "id": "dsh-marktext",
-   "name": "dsh-marktext",
-   "author": "Roland0511",
+   "id": "jev-dsh-decision",
+   "name": "jev-dsh-decision",
+   "author": "Devin-AXIS",
    "type": "community",
-   "repo": "https://github.com/Roland0511/dsh-marktext",
-   "stars": 263,
-   "desc": "MarkText (muya) WYSIWYG Markdown editor for the DeepSeek Harness right sidebar",
+   "repo": "https://github.com/Devin-AXIS/jev-dsh-decision",
+   "stars": 270,
+   "desc": "Jev DSH 决策引擎｜面向 Agent Harness 的结构化决策插件。原生支持 DeepSeek Harness，通过 iPolloWork 支持 OpenCode、Codex Harness。",
    "tags": [
-    "markdown",
-    "marktext"
+    "agent-harness",
+    "apollo-plugin",
+    "codex-harness-plugin",
+    "codex-plugin"
    ],
    "install": null,
    "auto": true,
-   "slug": "dsh-marktext"
+   "slug": "jev-dsh-decision"
+  },
+  {
+   "id": "dsh-android",
+   "name": "dsh-android",
+   "author": "ZSeven-W",
+   "type": "community",
+   "repo": "https://github.com/ZSeven-W/dsh-android",
+   "stars": 270,
+   "desc": "DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb.",
+   "tags": [
+    "accessibility",
+    "adb",
+    "android",
+    "coding-agent"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-android"
+  },
+  {
+   "id": "dsh-reasoning-effort",
+   "name": "dsh-reasoning-effort",
+   "author": "HanaAyane",
+   "type": "community",
+   "repo": "https://github.com/HanaAyane/dsh-reasoning-effort",
+   "stars": 269,
+   "desc": "DSH适用的大肥鱼跑步思考强度滑块。Codex-style model and reasoning-effort slider for DeepSeek Harness",
+   "tags": [
+    "reasoning-effort"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-reasoning-effort"
+  },
+  {
+   "id": "dsh-skill-mcp-panel",
+   "name": "dsh-skill-mcp-panel",
+   "author": "Fishquito7",
+   "type": "community",
+   "repo": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
+   "stars": 265,
+   "desc": "DSH plugin: skill and MCP management（skill/MCP管理工具）",
+   "tags": [
+    "mcp",
+    "skills"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-skill-mcp-panel"
   },
   {
    "id": "dsh-fylar-office-editor",
@@ -2732,22 +2781,6 @@
    "install": null,
    "auto": true,
    "slug": "dsh-fylar-office-editor"
-  },
-  {
-   "id": "dsh-skill-mcp-panel",
-   "name": "dsh-skill-mcp-panel",
-   "author": "Fishquito7",
-   "type": "community",
-   "repo": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
-   "stars": 262,
-   "desc": "DSH plugin: skill and MCP management（skill/MCP管理工具）",
-   "tags": [
-    "mcp",
-    "skills"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-skill-mcp-panel"
   },
   {
    "id": "dsh-bili-humanism",
@@ -2772,7 +2805,7 @@
    "author": "Yuuyuko-uu",
    "type": "community",
    "repo": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood",
-   "stars": 253,
+   "stars": 257,
    "desc": "给 AI 伙伴一个会自己判断、你看得见的心情 —— 每轮聊完自动判断涨跌，右下角挂饰看数值、情绪和时间线",
    "tags": [
     "ai-companion",
@@ -2783,27 +2816,12 @@
    "slug": "dsh-feiyu-mood"
   },
   {
-   "id": "dsh-prompt-rewriter",
-   "name": "dsh-prompt-rewriter",
-   "author": "huaguoxingkong",
-   "type": "community",
-   "repo": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
-   "stars": 252,
-   "desc": "输入框旁一键提示词增强：把半成品草稿原地改成可执行的提示词，只改不发送。",
-   "tags": [
-    "prompt"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-prompt-rewriter"
-  },
-  {
    "id": "dsh-codex-effort-slider",
    "name": "dsh-codex-effort-slider",
    "author": "Microqian2th",
    "type": "community",
    "repo": "https://github.com/Microqian2th/dsh-codex-effort-slider",
-   "stars": 251,
+   "stars": 255,
    "desc": "Codex 风格的推理等级滑条（DeepSeek Harness 插件）：可拖动连续滑条 + 高档位渐变星尘特效",
    "tags": [
     "deepseek-ai",
@@ -2821,7 +2839,7 @@
    "author": "evilevil",
    "type": "community",
    "repo": "https://github.com/evilevil/dsh-purge-021rc2",
-   "stars": 250,
+   "stars": 254,
    "desc": "dsh-purge 社区适配版：上游已停更，这里让它继续跑在 DeepSeek Harness 0.2.1-rc.2 上（基于 1.1.72）",
    "tags": [
     "jailbreak"
@@ -2829,6 +2847,39 @@
    "install": null,
    "auto": true,
    "slug": "dsh-purge-021rc2"
+  },
+  {
+   "id": "dsh-windows-mcp",
+   "name": "dsh-windows-mcp",
+   "author": "helloHub1212",
+   "type": "community",
+   "repo": "https://github.com/helloHub1212/dsh-windows-mcp",
+   "stars": 253,
+   "desc": "Windows desktop automation for DeepSeek Harness: the in-box MCP client bridge mounted against CursorTouch/Windows-MCP, with an off-by-default Computer Use switch and an in-app dependency installer.",
+   "tags": [
+    "computer-use",
+    "desktop-automation",
+    "mcp",
+    "windows"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-windows-mcp"
+  },
+  {
+   "id": "dsh-prompt-rewriter",
+   "name": "dsh-prompt-rewriter",
+   "author": "huaguoxingkong",
+   "type": "community",
+   "repo": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
+   "stars": 252,
+   "desc": "输入框旁一键提示词增强：把半成品草稿原地改成可执行的提示词，只改不发送。",
+   "tags": [
+    "prompt"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-prompt-rewriter"
   },
   {
    "id": "dsh-bridge",
@@ -2872,7 +2923,7 @@
    "author": "SiriLee",
    "type": "community",
    "repo": "https://github.com/SiriLee/dsh-rewind",
-   "stars": 245,
+   "stars": 246,
    "desc": "DSH 插件：便捷无感的同窗口内对话回退，从不新建分支；自带轻量工作区备份，可一并还原文件（Claude Code /rewind 语义）。 ·  DSH plugin: effortless in-window conversation rewind — never forking a new session; ships a lightweight workspace backup that restores files together with the rewind (Claude Code /rewind semantics).",
    "tags": [
     "backup",
@@ -2890,7 +2941,7 @@
    "author": "Yuuyuko-uu",
    "type": "community",
    "repo": "https://github.com/Yuuyuko-uu/dsh-tts-bridge",
-   "stars": 239,
+   "stars": 245,
    "desc": "DSH 朗读桥：会话里的话自动交给 DeepSeek 网页端朗读，声音从你自己的电脑里出来",
    "tags": [
     "browser-extension",
@@ -2902,12 +2953,48 @@
    "slug": "dsh-tts-bridge"
   },
   {
+   "id": "dsh-agent-compare",
+   "name": "dsh-agent-compare",
+   "author": "lijiaqi-AI-Product-Manager",
+   "type": "community",
+   "repo": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare",
+   "stars": 241,
+   "desc": "同一需求，两版真跑，体验后审查采用。Two live builds for one task in DeepSeek Harness.",
+   "tags": [
+    "ab-testing",
+    "code-comparison",
+    "developer-tools",
+    "frontend-tools"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-agent-compare"
+  },
+  {
+   "id": "dsh-purge",
+   "name": "dsh-purge",
+   "author": "ZXEB",
+   "type": "community",
+   "repo": "https://github.com/ZXEB/dsh-purge",
+   "stars": 236,
+   "desc": "dsh-purge v1.1.71 完整源码镜像（原仓库 YuJunZhiXue/dsh-purge 与 npm 包均已删除）。DeepSeek Harness 破甲 / 红队评测插件，支持官方 web 与桌面宿主。",
+   "tags": [
+    "llm-security",
+    "nodejs",
+    "prompt-injection",
+    "redteam"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "zxeb-dsh-purge"
+  },
+  {
    "id": "dsh-qqbot",
    "name": "dsh-qqbot",
    "author": "zaofan-make",
    "type": "community",
    "repo": "https://github.com/zaofan-make/dsh-qqbot",
-   "stars": 233,
+   "stars": 236,
    "desc": "AI 统管 QQ 群组：审核放行、群发文件、沟通其他 web 会话的 AI！ ；气氛组担当：表情包自动入库、AI 自己决定开口、多预设多人格轮班陪聊！； 远程办公：权限审批、提问卡片转发到 QQ。； 自定义互动按钮：AI 帮你轻松搭文字游戏 —— 卡片逻辑由 AI 帮你写 ；省 token 设计：群聊价值评分后才唤醒 AI，上下文自动压缩。",
    "tags": [
     "bot",
@@ -2936,6 +3023,52 @@
    "slug": "dsh-liketavern"
   },
   {
+   "id": "dsh-speak-up",
+   "name": "dsh-speak-up",
+   "author": "Yuuyuko-uu",
+   "type": "community",
+   "repo": "https://github.com/Yuuyuko-uu/dsh-speak-up",
+   "stars": 231,
+   "desc": "DSH 插件：让她在没人跟她说话的时候主动搭话（本地掷骰子，掷中就走 DSH 自己的一轮）",
+   "tags": [],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-speak-up"
+  },
+  {
+   "id": "dsh-openpencil",
+   "name": "dsh-openpencil",
+   "author": "ZSeven-W",
+   "type": "community",
+   "repo": "https://github.com/ZSeven-W/dsh-openpencil",
+   "stars": 230,
+   "desc": "The DeepSeek Harness plugin for OpenPencil — preview, inspect, and edit real .op documents inside a conversation.",
+   "tags": [
+    "设计",
+    "预览"
+   ],
+   "install": "dsh plugin add github:ZSeven-W/dsh-openpencil",
+   "slug": "dsh-openpencil"
+  },
+  {
+   "id": "dsh-status-rotator",
+   "name": "dsh-status-rotator",
+   "author": "01Virex",
+   "type": "community",
+   "repo": "https://github.com/01Virex/dsh-status-rotator",
+   "stars": 229,
+   "desc": "将 DSH Web 默认的 Deep Diving.../深度求索中... 换成：1379 条梗 · 打字机特效 · 昼夜渐变 · 弹幕 · 5 套外观主题 · 四个鲸尾动作,14 个词库包可编辑 | Custom phrases, typewriter, day/night gradients, danmaku, themes & whale-tail motion for the DSH status line (1379 phrases, 14 packs).",
+   "tags": [
+    "bilibili",
+    "customizable",
+    "danmaku",
+    "i18n"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-status-rotator"
+  },
+  {
    "id": "dsh-find-plugin",
    "name": "dsh-find-plugin",
    "author": "awesome-dsh-plugin",
@@ -2949,35 +3082,37 @@
    "slug": "dsh-find-plugin"
   },
   {
-   "id": "dsh-speak-up",
-   "name": "dsh-speak-up",
-   "author": "Yuuyuko-uu",
+   "id": "dsh-agency-agents",
+   "name": "dsh-agency-agents",
+   "author": "MichengAI",
    "type": "community",
-   "repo": "https://github.com/Yuuyuko-uu/dsh-speak-up",
+   "repo": "https://github.com/MichengAI/dsh-agency-agents",
    "stars": 228,
-   "desc": "DSH 插件：让她在没人跟她说话的时候主动搭话（本地掷骰子，掷中就走 DSH 自己的一轮）",
-   "tags": [],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-speak-up"
-  },
-  {
-   "id": "dsh-status-rotator",
-   "name": "dsh-status-rotator",
-   "author": "01Virex",
-   "type": "community",
-   "repo": "https://github.com/01Virex/dsh-status-rotator",
-   "stars": 227,
-   "desc": "将 DSH Web 默认的 Deep Diving.../深度求索中... 换成：1379 条梗 · 打字机特效 · 昼夜渐变 · 弹幕 · 5 套外观主题 · 四个鲸尾动作,14 个词库包可编辑 | Custom phrases, typewriter, day/night gradients, danmaku, themes & whale-tail motion for the DSH status line (1379 phrases, 14 packs).",
+   "desc": "DSH Agency Agents — 为 DeepSeek Harness 提供 321 名可召唤的专业智能体 · 321 summonable domain experts for DeepSeek Harness",
    "tags": [
-    "bilibili",
-    "customizable",
-    "danmaku",
-    "i18n"
+    "dsh-plugins"
    ],
    "install": null,
    "auto": true,
-   "slug": "dsh-status-rotator"
+   "slug": "dsh-agency-agents"
+  },
+  {
+   "id": "dsh-550c-boot",
+   "name": "dsh-550c-boot",
+   "author": "yannicksong0106",
+   "type": "community",
+   "repo": "https://github.com/yannicksong0106/dsh-550c-boot",
+   "stars": 227,
+   "desc": "550C 开机动画 for DeepSeek Harness — 首帧由宿主半边注入，DSH 的 Loading 卡片不露脸；桌面原生标题栏按钮收编成终端配色 | 550C boot splash plugin for DSH",
+   "tags": [
+    "boot-splash",
+    "loading-animation",
+    "splash-screen",
+    "web-ui"
+   ],
+   "install": null,
+   "auto": true,
+   "slug": "dsh-550c-boot"
   },
   {
    "id": "dsh-nexttavern",
@@ -2996,75 +3131,6 @@
    "install": null,
    "auto": true,
    "slug": "dsh-nexttavern"
-  },
-  {
-   "id": "dsh-550c-boot",
-   "name": "dsh-550c-boot",
-   "author": "yannicksong0106",
-   "type": "community",
-   "repo": "https://github.com/yannicksong0106/dsh-550c-boot",
-   "stars": 226,
-   "desc": "550C 开机动画 for DeepSeek Harness — 首帧由宿主半边注入，DSH 的 Loading 卡片不露脸；桌面原生标题栏按钮收编成终端配色 | 550C boot splash plugin for DSH",
-   "tags": [
-    "boot-splash",
-    "loading-animation",
-    "splash-screen",
-    "web-ui"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-550c-boot"
-  },
-  {
-   "id": "dsh-agent-compare",
-   "name": "dsh-agent-compare",
-   "author": "lijiaqi-AI-Product-Manager",
-   "type": "community",
-   "repo": "https://github.com/lijiaqi-AI-Product-Manager/dsh-agent-compare",
-   "stars": 226,
-   "desc": "同一需求，两版真跑，体验后审查采用。Two live builds for one task in DeepSeek Harness.",
-   "tags": [
-    "ab-testing",
-    "code-comparison",
-    "developer-tools",
-    "frontend-tools"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-agent-compare"
-  },
-  {
-   "id": "dsh-agency-agents",
-   "name": "dsh-agency-agents",
-   "author": "MichengAI",
-   "type": "community",
-   "repo": "https://github.com/MichengAI/dsh-agency-agents",
-   "stars": 224,
-   "desc": "DSH Agency Agents — 为 DeepSeek Harness 提供 321 名可召唤的专业智能体 · 321 summonable domain experts for DeepSeek Harness",
-   "tags": [
-    "dsh-plugins"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-agency-agents"
-  },
-  {
-   "id": "dsh-android",
-   "name": "dsh-android",
-   "author": "ZSeven-W",
-   "type": "community",
-   "repo": "https://github.com/ZSeven-W/dsh-android",
-   "stars": 221,
-   "desc": "DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device stream inside a conversation, driven entirely through adb.",
-   "tags": [
-    "accessibility",
-    "adb",
-    "android",
-    "coding-agent"
-   ],
-   "install": null,
-   "auto": true,
-   "slug": "dsh-android"
   },
   {
    "id": "dsh-data-agent",
@@ -3168,21 +3234,6 @@
    "install": null,
    "auto": true,
    "slug": "dsh-research-report"
-  },
-  {
-   "id": "dsh-openpencil",
-   "name": "dsh-openpencil",
-   "author": "ZSeven-W",
-   "type": "community",
-   "repo": "https://github.com/ZSeven-W/dsh-openpencil",
-   "stars": 211,
-   "desc": "The DeepSeek Harness plugin for OpenPencil — preview, inspect, and edit real .op documents inside a conversation.",
-   "tags": [
-    "设计",
-    "预览"
-   ],
-   "install": "dsh plugin add github:ZSeven-W/dsh-openpencil",
-   "slug": "dsh-openpencil"
   },
   {
    "id": "dsh-oil-creator",
@@ -3483,6 +3534,21 @@
    "slug": "dsh-super-injector"
   },
   {
+   "id": "dsh-annotation",
+   "name": "dsh-annotation",
+   "author": "omdsh-dev",
+   "type": "community",
+   "repo": "https://github.com/omdsh-dev/dsh-annotation",
+   "stars": 164,
+   "desc": "DSH Web 选中批注插件：选文字→批注→回车随消息发送；气泡隐藏批注块（零闪烁）；回复按 Annotation N 逐条对照（可悬浮芯片）。官方 bundle，零核心改动",
+   "tags": [
+    "批注",
+    "web-ui"
+   ],
+   "install": "dsh plugin add github:omdsh-dev/dsh-annotation",
+   "slug": "dsh-annotation"
+  },
+  {
    "id": "dsh-auto-mode",
    "name": "dsh-auto-mode",
    "author": "NanmiCoder",
@@ -3497,21 +3563,6 @@
    "install": null,
    "auto": true,
    "slug": "dsh-auto-mode"
-  },
-  {
-   "id": "dsh-annotation",
-   "name": "dsh-annotation",
-   "author": "omdsh-dev",
-   "type": "community",
-   "repo": "https://github.com/omdsh-dev/dsh-annotation",
-   "stars": 162,
-   "desc": "DSH Web 选中批注插件：选文字→批注→回车随消息发送；气泡隐藏批注块（零闪烁）；回复按 Annotation N 逐条对照（可悬浮芯片）。官方 bundle，零核心改动",
-   "tags": [
-    "批注",
-    "web-ui"
-   ],
-   "install": "dsh plugin add github:omdsh-dev/dsh-annotation",
-   "slug": "dsh-annotation"
   },
   {
    "id": "dsh-plugin-bridge",
@@ -3597,6 +3648,20 @@
    "slug": "t-auto-dsh-std"
   },
   {
+   "id": "dsh_workflow",
+   "name": "dsh_workflow",
+   "author": "omdsh-dev",
+   "type": "community",
+   "repo": "https://github.com/omdsh-dev/dsh_workflow",
+   "stars": 157,
+   "desc": "把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层",
+   "tags": [
+    "workflow"
+   ],
+   "install": "dsh plugin add github:icetomoyo/dsh_workflow",
+   "slug": "dsh_workflow"
+  },
+  {
    "id": "dsh-council",
    "name": "dsh-council",
    "author": "a1exsun",
@@ -3611,20 +3676,6 @@
    "install": null,
    "auto": true,
    "slug": "dsh-council"
-  },
-  {
-   "id": "dsh_workflow",
-   "name": "dsh_workflow",
-   "author": "omdsh-dev",
-   "type": "community",
-   "repo": "https://github.com/omdsh-dev/dsh_workflow",
-   "stars": 156,
-   "desc": "把Claude Code的UltraCode模式带给DSH，把 DSH 的一次性多 Agent 调度，升级为可生成、可保存、可治理、可观察、可恢复的 Workflow 层",
-   "tags": [
-    "workflow"
-   ],
-   "install": "dsh plugin add github:icetomoyo/dsh_workflow",
-   "slug": "dsh_workflow"
   },
   {
    "id": "dsh-turn-rewind",
@@ -3995,21 +4046,6 @@
    "slug": "dsh-network-settings"
   },
   {
-   "id": "dsh-automation",
-   "name": "dsh-automation",
-   "author": "titanwings",
-   "type": "community",
-   "repo": "https://github.com/titanwings/dsh-automation",
-   "stars": 104,
-   "desc": "DSH 自动化插件：让 Coding 任务按计划在全新 Agent Session 中运行，并由用户或 Agent 创建和管理定时任务。 / Run coding tasks in fresh Agent sessions and manage schedules from DSH Web or an Agent.",
-   "tags": [
-    "自动化",
-    "定时任务"
-   ],
-   "install": "dsh plugin add github:titanwings/dsh-automation",
-   "slug": "dsh-automation"
-  },
-  {
    "id": "dsh-plugin-cc",
    "name": "dsh-plugin-cc",
    "author": "cpj-dev",
@@ -4059,6 +4095,21 @@
    "install": null,
    "auto": true,
    "slug": "dsh-notifier"
+  },
+  {
+   "id": "dsh-automation",
+   "name": "dsh-automation",
+   "author": "titanwings",
+   "type": "community",
+   "repo": "https://github.com/titanwings/dsh-automation",
+   "stars": 103,
+   "desc": "DSH 自动化插件：让 Coding 任务按计划在全新 Agent Session 中运行，并由用户或 Agent 创建和管理定时任务。 / Run coding tasks in fresh Agent sessions and manage schedules from DSH Web or an Agent.",
+   "tags": [
+    "自动化",
+    "定时任务"
+   ],
+   "install": "dsh plugin add github:titanwings/dsh-automation",
+   "slug": "dsh-automation"
   },
   {
    "id": "dsh-plugin-template",
@@ -4401,7 +4452,7 @@
    "author": "whiteguo233",
    "type": "community",
    "repo": "https://github.com/whiteguo233/dsh-openbiliclaw",
-   "stars": 73,
+   "stars": 74,
    "desc": "OpenBiliClaw 是本地运行的跨平台个性化内容推荐 Agent，持续理解你的兴趣并主动找内容。本仓库是它的 DeepSeek Harness 插件：DSH 界面常驻第四栏（推荐/内容库/对话/画像/设置），注册 22 个 Agent Bridge 工具，让 Agent 也能读推荐、答探测、闭环学习。",
    "tags": [
     "内容发现"
@@ -4532,7 +4583,7 @@
    "author": "awesome-dsh-plugin",
    "type": "index",
    "repo": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-   "stars": 23602,
+   "stars": 23840,
    "desc": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "tags": [
     "精选"
@@ -4546,7 +4597,7 @@
    "author": "0xsline",
    "type": "index",
    "repo": "https://github.com/0xsline/awesome-deepseek-harness",
-   "stars": 1328,
+   "stars": 1330,
    "desc": "DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.",
    "tags": [
     "精选",
@@ -4561,7 +4612,7 @@
    "author": "Electricitysheep",
    "type": "index",
    "repo": "https://github.com/Electricitysheep/dsh-handbook",
-   "stars": 952,
+   "stars": 955,
    "desc": "DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）",
    "tags": [
     "手册"
@@ -4589,7 +4640,7 @@
    "author": "bruc3van",
    "type": "index",
    "repo": "https://github.com/bruc3van/awesome-dsh-plugin",
-   "stars": 503,
+   "stars": 505,
    "desc": "30 秒找到真正适合你的 DeepSeek Harness插件。每天自动抓取 GitHub 上的 `dsh-plugin` 项目并逐个复核：真实插件分类收录，蹭标签项目剔除。通过场景化分类、精选推荐、热度排行和图文导览，帮你快速看懂每个插件能做什么、适合谁，以及如何开始使用。欢迎 Star ，让好用的插件更快被发现。",
    "tags": [
     "精选",
@@ -4604,7 +4655,7 @@
    "author": "Dominic789654",
    "type": "index",
    "repo": "https://github.com/Dominic789654/awesome-deepseek-harness",
-   "stars": 421,
+   "stars": 424,
    "desc": "A curated list of plugins, skills, MCP servers, patch/profile layers, orchestrators & UIs for DeepSeek Harness (DSH). Visualization · PPT · Coding · Agents · Loops (auto-research) and more. #dsh",
    "tags": [
     "精选"
@@ -4618,7 +4669,7 @@
    "author": "hikariming",
    "type": "index",
    "repo": "https://github.com/hikariming/dshfind",
-   "stars": 373,
+   "stars": 374,
    "desc": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "tags": [
     "市场",
@@ -4633,7 +4684,7 @@
    "author": "libukai",
    "type": "index",
    "repo": "https://github.com/libukai/awesome-deepseek-harness",
-   "stars": 364,
+   "stars": 367,
    "desc": "DeepSeek Harness 终极指南：快速入门、资源推荐、精选插件与实用工具 ｜The Ultimate Guide to DeepSeek Harness: QuickStart, Resources, Plugins&Toolkit",
    "tags": [
     "精选",
@@ -4648,7 +4699,7 @@
    "author": "bradeGithub",
    "type": "index",
    "repo": "https://github.com/bradeGithub/DSH-Plugins-Marketplace",
-   "stars": 201,
+   "stars": 202,
    "desc": "DSH插件市场 / DSH Plugin Marketplace: 在 DeepSeek Harness Web GUI 中一键浏览、安装与更新 GitHub topic:dsh-plugin 的全部插件 | browse, install & update all GitHub dsh-plugin plugins in the DSH Web GUI",
    "tags": [
     "市场",
@@ -4663,7 +4714,7 @@
    "author": "Nagi-ovo",
    "type": "index",
    "repo": "https://github.com/Nagi-ovo/dsh-find-plugins",
-   "stars": 182,
+   "stars": 183,
    "desc": "帮 DSH 搜索、安装并验证插件的 Skill｜A DSH skill that finds, installs, and verifies GitHub plugins",
    "tags": [
     "查找"
@@ -4692,7 +4743,7 @@
    "author": "Alex-Yanggg",
    "type": "index",
    "repo": "https://github.com/Alex-Yanggg/awesome-DSH-plugin",
-   "stars": 104,
+   "stars": 103,
    "desc": "A meticulously curated list of useful plugins, extensions, tools and development resources built for DSH, covering productivity enhancement, functional expansion, debugging utilities and custom development modules.",
    "tags": [
     "精选"
@@ -4781,7 +4832,7 @@
    "author": "Anil-matcha",
    "type": "index",
    "repo": "https://github.com/Anil-matcha/awesome-dsh-plugin",
-   "stars": 15,
+   "stars": 16,
    "desc": "A curated list of plugins for DeepSeek Harness (dsh) - DeepSeek Harness plugin ecosystem",
    "tags": [
     "精选"
