@@ -271,13 +271,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-web</loc>
+    <loc>https://dsher.cn/plugins/kingcharleslzy-ai-dsh-purge</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/kingcharleslzy-ai-dsh-purge</loc>
+    <loc>https://dsher.cn/plugins/dsh-web</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -343,13 +343,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-anchored-standard</loc>
+    <loc>https://dsher.cn/plugins/dsh-im</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-im</loc>
+    <loc>https://dsher.cn/plugins/dsh-anchored-standard</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -391,13 +391,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-connect-workbuddy</loc>
+    <loc>https://dsher.cn/plugins/dsh-windows-mcp</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-windows-mcp</loc>
+    <loc>https://dsher.cn/plugins/dsh-connect-workbuddy</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -415,13 +415,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-workbuddy-connect</loc>
+    <loc>https://dsher.cn/plugins/dsh-media-desk</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-media-desk</loc>
+    <loc>https://dsher.cn/plugins/dsh-workbuddy-connect</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -433,25 +433,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-bili-scroll</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://dsher.cn/plugins/dsh-free-search</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-vision-router</loc>
+    <loc>https://dsher.cn/plugins/dsh-bili-scroll</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dsher.cn/plugins/dsh-unrestricted</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dsher.cn/plugins/dsh-vision-router</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -529,13 +529,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-worktable</loc>
+    <loc>https://dsher.cn/plugins/saya-ch-dsh-mobile</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/saya-ch-dsh-mobile</loc>
+    <loc>https://dsher.cn/plugins/dsh-worktable</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -583,6 +583,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://dsher.cn/plugins/dsh-drawai</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://dsher.cn/plugins/dsh_desktop</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -590,12 +596,6 @@
   </url>
   <url>
     <loc>https://dsher.cn/plugins/dsh-univer-office</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dsher.cn/plugins/dsh-drawai</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -613,13 +613,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-harness-studio</loc>
+    <loc>https://dsher.cn/plugins/dsh-cost-meter</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-cost-meter</loc>
+    <loc>https://dsher.cn/plugins/deepseek-harness-studio</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -649,6 +649,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://dsher.cn/plugins/fujiang-dsh</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://dsher.cn/plugins/anysearch-dsh</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -661,19 +667,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-antibrow</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dsher.cn/plugins/fujiang-dsh</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://dsher.cn/plugins/aureth-labs-dsh-aurabot-qq</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dsher.cn/plugins/dsh-antibrow</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -691,19 +691,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-dafeiyu</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://dsher.cn/plugins/dsh-plugin-subscriptions</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/tencent-connect-dsh-qqbot</loc>
+    <loc>https://dsher.cn/plugins/dsh-dafeiyu</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -715,7 +709,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-meme</loc>
+    <loc>https://dsher.cn/plugins/tencent-connect-dsh-qqbot</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -733,19 +727,13 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://dsher.cn/plugins/dsh-meme</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://dsher.cn/plugins/dsh-video-storyboard</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dsher.cn/plugins/dsh-mimir-academic-research</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dsher.cn/plugins/dsh-at-file</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -757,13 +745,37 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://dsher.cn/plugins/dsh-at-file</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dsher.cn/plugins/dsh-mimir-academic-research</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://dsher.cn/plugins/dsh-ego-browser</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://dsher.cn/plugins/zxeb-dsh-purge</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://dsher.cn/plugins/dsh-plugin-hub</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dsher.cn/plugins/dsh-purge-safe</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -776,12 +788,6 @@
   </url>
   <url>
     <loc>https://dsher.cn/plugins/dsh-uumit-remote</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dsher.cn/plugins/zxeb-dsh-purge</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -847,6 +853,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://dsher.cn/plugins/dsh-spicy</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://dsher.cn/plugins/dsh-liang-skin</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -877,12 +889,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-spicy</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://dsher.cn/plugins/dsh-config-manager</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -901,19 +907,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-reverse-skill</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://dsher.cn/plugins/dsh-boot-animation</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-visualize</loc>
+    <loc>https://dsher.cn/plugins/dsh-reverse-skill</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -925,13 +925,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-opencode-go</loc>
+    <loc>https://dsher.cn/plugins/deepseek-harness-mobile</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/deepseek-harness-mobile</loc>
+    <loc>https://dsher.cn/plugins/dsh-visualize</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dsher.cn/plugins/dsh-opencode-go</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -949,13 +955,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-taskboard</loc>
+    <loc>https://dsher.cn/plugins/flymysql-dsh-remote</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/flymysql-dsh-remote</loc>
+    <loc>https://dsher.cn/plugins/dsh-taskboard</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -991,19 +997,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-dream-skin</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://dsher.cn/plugins/dsh-bloom-theme</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dsher.cn/plugins/dsh-workflow-lite</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1015,7 +1009,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-damage-pulse</loc>
+    <loc>https://dsher.cn/plugins/dsh-dream-skin</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dsher.cn/plugins/dsh-workflow-lite</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1027,13 +1027,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-agent-team-gui</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dsher.cn/plugins/dsh-purge-safe</loc>
+    <loc>https://dsher.cn/plugins/dsh-damage-pulse</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1045,7 +1039,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://dsher.cn/plugins/dsh-agent-team-gui</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dsher.cn/plugins/dsh-plugin-index</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://dsher.cn/plugins/chokwinlee-deepseek-harness-desktop</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dsher.cn/plugins/dsh-jailbreak</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1063,19 +1075,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-plugin-index</loc>
+    <loc>https://dsher.cn/plugins/dsh-codex-effort-slider</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dsher.cn/plugins/dsh-purge-021rc2</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dsher.cn/plugins/dsh-codex-effort-slider</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1099,12 +1105,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dsher.cn/plugins/dsh-jailbreak</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://dsher.cn/plugins/dsh-feiyu-mood</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -1112,6 +1112,12 @@
   </url>
   <url>
     <loc>https://dsher.cn/plugins/dsh-agency-agents</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dsher.cn/plugins/dsh-connect-trae</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1136,12 +1142,6 @@
   </url>
   <url>
     <loc>https://dsher.cn/plugins/dsh-fylar-office-editor</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dsher.cn/plugins/dsh-connect-trae</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
